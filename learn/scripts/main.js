@@ -10,15 +10,15 @@ let units = JSON.parse(localStorage.getItem('units')) || [
                 type: "theory"
             }, {
                 name: "Luyện tập dạng 1 (Trắc nghiệm lựa chọn)",
-                isDone: 'not-done',
+                isDone: 'notdone',
                 type: "ex1"
             }, {
                 name: "Luyện tập dạng 1 (Trắc nghiệm đúng sai)",
-                isDone: 'not-done',
+                isDone: 'notdone',
                 type: "ex2"
             }, {
                 name: "Luyện tập dạng 1 (Tự luận trả lời ngắn)",
-                isDone: 'not-done',
+                isDone: 'notdone',
                 type: "ex3"
             }, {
                 name: "Dạng 2. Tính chất hóa học",
@@ -26,15 +26,15 @@ let units = JSON.parse(localStorage.getItem('units')) || [
                 type: "theory"
             }, {
                 name: "Luyện tập dạng 2 (Trắc nghiệm lựa chọn)",
-                isDone: 'not-done',
+                isDone: 'notdone',
                 type: "ex1"
             }, {
                 name: "Luyện tập dạng 2 (Trắc nghiệm đúng sai)",
-                isDone: 'not-done',
+                isDone: 'notdone',
                 type: "ex2"
             }, {
                 name: "Luyện tập dạng 2 (Tự luận trả lời ngắn)",
-                isDone: 'not-done',
+                isDone: 'notdone',
                 type: "ex3"
             }, {
                 name: "Dạng 3. Ứng dụng, Điều chế",
@@ -42,15 +42,15 @@ let units = JSON.parse(localStorage.getItem('units')) || [
                 type: "theory"
             }, {
                 name: "Luyện tập dạng 3 (Trắc nghiệm lựa chọn)",
-                isDone: 'not-done',
+                isDone: 'notdone',
                 type: "ex1"
             }, {
                 name: "Luyện tập dạng 3 (Trắc nghiệm đúng sai)",
-                isDone: 'not-done',
+                isDone: 'notdone',
                 type: "ex2"
             }, {
                 name: "Luyện tập dạng 3 (Tự luận trả lời ngắn)",
-                isDone: 'not-done',
+                isDone: 'notdone',
                 type: "ex3"
             },
             

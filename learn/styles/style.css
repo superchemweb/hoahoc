@@ -118,20 +118,17 @@ nav img {
     background-position: center;
     cursor: pointer;
     transition: transform 0.2s ease;
-}
-
-.level-logo {
-    width: 40px;
-}
-
-.level-btn.not-done-level {
     background-color: rgb(220, 220, 220);
     font-size: 30px;
     text-align: center;
     line-height: 70px;
 }
 
-.level-btn.done-level {
+.level-logo {
+    width: 40px;
+}
+
+.done-level {
     background-color: rgb(2, 218, 146);
     color: white;
     font-weight: 700;
