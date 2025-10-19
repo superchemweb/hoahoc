@@ -8,7 +8,7 @@ function submitData() {
 }
 
 function openHistoryExam(index) {
-    const targetUrl = `history-exams/index.html?index=${encodeURIComponent(index)}`;
+    const targetUrl = `history/history.html?index=${encodeURIComponent(index)}`;
     window.location.href = targetUrl;
 }
 
@@ -36,10 +36,10 @@ timeInput.addEventListener('keypress', (event) => {
 });
 
 function renderHistoryExams() {
-    let exams = JSON.parse(localStorage.getItem('history_exams')) || [];
+    let exams = JSON.parse(localStorage.getItem('history-exam-data')) || [];
     console.log(exams);
     let html = '';
-    exams.reverse().forEach((exam, index) => {
+    exams.forEach((exam, index) => {
         let name = exam.name;
         html += `
             <div class="exam-container">
@@ -59,7 +59,7 @@ function renderHistoryExams() {
     document.querySelectorAll('.delete-exam').forEach((btn, index) => {
         btn.addEventListener('click', () => {
             exams.splice(index, 1);
-            localStorage.setItem('history_exams', JSON.stringify(exams));
+            localStorage.setItem('history-exam-data', JSON.stringify(exams));
             renderHistoryExams();
         })
     });

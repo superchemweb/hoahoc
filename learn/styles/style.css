@@ -17,48 +17,110 @@ body {
 }
 
 /* Default nav styles */
+/* ======== LIGHT-TECH NAV (Hiện đại – sáng – hợp theme tối) ======== */
 nav {
-    width: 200px;
-    height: 100%; /* Chiều cao mặc định */
-    padding: 0 20px;
-    background-color: rgb(245, 245, 245);
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+    width: 220px;
+    height: 100vh;
+    padding: 25px 20px;
+    background: rgba(255, 255, 255, 0.08); /* Trong suốt nhẹ trên nền tối */
+    backdrop-filter: blur(14px);
+    border-right: 1px solid rgba(0, 255, 200, 0.25);
+    box-shadow: 6px 0 20px rgba(0, 255, 200, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
-/* Style for each div in nav */
+/* Nav items */
 nav > div {
     display: flex;
     align-items: center;
+    gap: 10px;
     cursor: pointer;
-    padding: 10px;
-    transition: background-color 0.3s ease;
-    margin-top: 20px;
+    padding: 12px 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    color: #e8f8f5;
+    font-weight: 500;
+    transition: all 0.3s ease;
 }
 
 nav > div:hover {
-    background-color: #c8e6c9; /* Light green hover effect */
-    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 10px rgba(0, 255, 200, 0.2);
+    transform: translateX(5px);
 }
 
+/* Active item */
+nav > div.active {
+    background: linear-gradient(90deg, rgba(0, 255, 200, 0.25), rgba(0, 150, 255, 0.25));
+    border-left: 3px solid #00ffc8;
+    color: #00ffc8;
+}
+
+/* Icon */
 nav img {
-    width: 30px;
-    height: 30px;
-    margin-right: 5px;
+    width: 28px;
+    height: 28px;
+    filter: drop-shadow(0 0 6px rgba(0, 255, 200, 0.5));
 }
 
+/* Logo title */
 .logo-title {
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 600;
-    color: #388e3c; /* Dark green */
+    color: #009171ab;
+    letter-spacing: 0.5px;
+    text-shadow: 0 0 8px rgba(0, 255, 200, 0.3);
 }
 
-/* Mid-section */
+/* Divider line */
+nav::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: rgba(0, 255, 200, 0.25);
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+
+
+/* ======== MAIN SECTION ======== */
 .mid-section {
-    flex: 1; /* Chiếm không gian còn lại */
-    padding: 20px;
-    background-color: #ffffff;
+    flex: 1;
+    padding: 25px;
+    background: radial-gradient(circle at top left, #e1f8ff, #f788df1f);
     overflow-y: auto;
-    box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+    color: var(--text-light);
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    box-shadow: inset 0 0 20px rgba(0, 255, 200, 0.05);
+}
+
+/* ======== SCROLLBAR CUSTOM ======== */
+.mid-section::-webkit-scrollbar {
+    width: 8px;
+}
+.mid-section::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+}
+.mid-section::-webkit-scrollbar-thumb {
+    background: var(--accent);
+    border-radius: 10px;
+}
+.mid-section::-webkit-scrollbar-thumb:hover {
+    background: #00cfa0;
+}
+
+/* ======== TEXT COLORS ======== */
+.mid-section p {
+    color: var(--text-muted);
+}
+.mid-section h1, 
+.mid-section h2, 
+.mid-section h3 {
+    color: var(--accent);
+    text-shadow: 0 0 10px rgba(0, 255, 200, 0.3);
 }
 
 /* Right-section */
@@ -73,25 +135,89 @@ nav img {
 /* Styling for unit line */
 .unit-line {
     text-align: center;
-    margin: 30px 0;
+    margin: 50px 0;
+    position: relative;
 }
 
+/* Hiệu ứng tiêu đề chính giữa */
 .unit-name {
-    display: flex;
+    position: relative;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
-    font-size: 26px;
-    font-weight: bold;
-    color: #388e3c; /* Dark green color */
+    padding: 12px 30px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff; /* Neon green */
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(0, 255, 128, 0.4);
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 255, 128, 0.3),
+                inset 0 0 8px rgba(0, 255, 128, 0.2);
+    backdrop-filter: blur(6px);
+    animation: glowPulse 3s infinite alternate;
+    overflow: hidden;
 }
 
-.unit-name::before,
-.unit-name::after {
+/* Tạo đường viền gradient động */
+.unit-name::before {
     content: "";
-    flex: 1;
-    border-top: 2px solid #c8e6c9; /* Light green border */
-    margin: 0 20px;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    background: linear-gradient(120deg, 
+        #00bcd4, 
+        #3683f7, 
+        #db80ff, 
+        #00bcd4);
+    background-size: 300% 300%;
+    z-index: -1;
+    border-radius: 14px;
+    filter: blur(3px);
+    animation: borderflow 4s linear infinite;
 }
+
+/* Hiệu ứng gạch mờ hai bên */
+.unit-line::before,
+.unit-line::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #00ffc6, transparent);
+    transform: translateY(-50%);
+    filter: blur(1px);
+}
+
+.unit-line::before {
+    left: 0;
+}
+
+.unit-line::after {
+    right: 0;
+}
+
+/* Animation viền chuyển màu */
+@keyframes borderflow {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 200% 50%; }
+}
+
+/* Nhịp sáng nhẹ cho text */
+@keyframes glowPulse {
+    0% {
+        text-shadow: 0 0 5px #00e676, 0 0 10px #00ff99;
+    }
+    100% {
+        text-shadow: 0 0 15px #00ff99, 0 0 30px #00e5ff;
+    }
+}
+
 
 .unit-levels {
     display: flex;
@@ -107,46 +233,87 @@ nav img {
 }
 
 /* Level button styles */
+/* ===================== LEVEL BUTTON ===================== */
 .level-btn {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
-    background-size: contain;
-    background-position: center;
     cursor: pointer;
-    transition: transform 0.2s ease;
-    background-color: rgb(220, 220, 220);
-    font-size: 30px;
-    text-align: center;
-    line-height: 70px;
+    font-size: 28px;
+    color: #00ffc6; /* Neon green text */
+    background: radial-gradient(circle at 30% 30%, #5a5a5a, #2b2b2b);
+    border: 2px solid rgba(0, 255, 198, 0.3);
+    box-shadow:
+        0 0 10px rgba(0, 255, 198, 0.3),
+        inset 0 0 12px rgba(0, 255, 198, 0.15);
+    transition: all 0.25s ease;
+    position: relative;
+    overflow: hidden;
 }
 
+/* Hiệu ứng glow mờ phía trong */
+.level-btn::before {
+    content: "";
+    position: absolute;
+    inset: -2px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #00ffc6, #00b4ff, #0077ff, #00ffc6);
+    background-size: 300% 300%;
+    filter: blur(6px);
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 0.3s ease;
+}
+
+/* Khi hover: sáng lên, phóng to nhẹ */
+.level-btn:hover {
+    transform: scale(1.12);
+    color: #fff;
+    border-color: rgba(0, 255, 198, 0.7);
+    box-shadow:
+        0 0 15px rgba(0, 255, 198, 0.6),
+        0 0 40px rgba(0, 255, 198, 0.2);
+}
+
+.level-btn:hover::before {
+    opacity: 1;
+    animation: rotateGlow 4s linear infinite;
+}
+
+/* Level đã hoàn thành */
+.done-level {
+    background: linear-gradient(145deg, #00b894, #00cec9);
+    color: #ffffff;
+    font-weight: 700;
+    border: 2px solid #00ffc6;
+    box-shadow:
+        0 0 20px rgba(0, 255, 198, 0.7),
+        inset 0 0 10px rgba(0, 255, 198, 0.4);
+}
+
+/* Logo trong level (nếu có) */
 .level-logo {
     width: 40px;
+    filter: drop-shadow(0 0 6px rgba(0, 255, 198, 0.4));
 }
 
-.done-level {
-    background-color: rgb(2, 218, 146);
-    color: white;
-    font-weight: 700;
-    font-size: 30px;
-    text-align: center;
-}
-
-.level-btn:hover {
-    transform: scale(1.1);
-}
-
+/* Vị trí ziczac như cũ */
 .level:nth-child(odd) {
     margin-left: -50px;
 }
-
 .level:nth-child(even) {
     margin-left: 50px;
 }
+
+/* Hiệu ứng chuyển động ánh sáng quanh nút */
+@keyframes rotateGlow {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 200% 50%; }
+}
+
 
 /* Intro level */
 .intro-level {
@@ -268,15 +435,15 @@ nav img {
 .part-name {
     position: relative;
     display: inline-block;
-    color: #00b0bd;
+    color: #597bad;
     font-size: 26px;
     font-weight: 700;
     letter-spacing: 1px;
     padding: 10px 24px;
     border-radius: 12px;
     margin: 25px 0 35px 0;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.15), rgba(0, 128, 255, 0.05));
-    border: 3px solid rgba(0, 200, 255, 0.6);
+    background: linear-gradient(135deg, rgb(255, 255, 255), rgb(226, 241, 255));
+    border: 5px solid rgba(0, 200, 255, 0.6);
     box-shadow: 0 0 15px rgba(0, 200, 255, 0.3), inset 0 0 8px rgba(0, 200, 255, 0.2);
     backdrop-filter: blur(6px);
     transition: all 0.3s ease;

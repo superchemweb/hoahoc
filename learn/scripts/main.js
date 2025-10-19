@@ -1,5 +1,5 @@
-let units = JSON.parse(localStorage.getItem('units')) || [
-// let units = [
+// let units = JSON.parse(localStorage.getItem('units')) || [
+let units = [
     {
         id: 1,
         name: "Ester",
@@ -50,6 +50,38 @@ let units = JSON.parse(localStorage.getItem('units')) || [
                 type: "ex2"
             }, {
                 name: "Luyện tập dạng 3 (Tự luận trả lời ngắn)",
+                isDone: 'notdone',
+                type: "ex3"
+            }, {
+                name: "Phần Lipiq",
+                isDone: 'done',
+                type: "theory"
+            }, {
+                name: "Luyện tập phần Lipid (Trắc nghiệm lựa chọn)",
+                isDone: 'notdone',
+                type: "ex1"
+            }, {
+                name: "Luyện tập phần Lipid (Trắc nghiệm đúng sai)",
+                isDone: 'notdone',
+                type: "ex2"
+            }, {
+                name: "Luyện tập phần Lipid (Tự luận trả lời ngắn)",
+                isDone: 'notdone',
+                type: "ex3"
+            }, {
+                name: "Lý thuyết xà phòng và chất giặt rửa",
+                isDone: 'done',
+                type: "theory"
+            }, {
+                name: "Luyện tập (Trắc nghiệm lựa chọn)",
+                isDone: 'notdone',
+                type: "ex1"
+            }, {
+                name: "Luyện tập (Trắc nghiệm đúng sai)",
+                isDone: 'notdone',
+                type: "ex2"
+            }, {
+                name: "Luyện tập (Tự luận trả lời ngắn)",
                 isDone: 'notdone',
                 type: "ex3"
             },

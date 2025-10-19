@@ -199,18 +199,18 @@ function submitExam() {
 
             if (!user) {
                 if (letter === correct) {
-                    parent.style.backgroundColor = '#cfcc00ff'; 
+                    parent.style.backgroundColor = '#a09f4fff'; 
                     result.textContent = '?';
                     result.style.color = 'white';
                 }
             } else {
                 if (letter === correct) {
-                    parent.style.backgroundColor = '#4CAF50'; 
+                    parent.style.backgroundColor = '#239427ff'; 
                     result.textContent = '✓';
                     result.style.color = 'white';
                 }
                 if (user === letter && user !== correct) {
-                    parent.style.backgroundColor = '#F44336'; 
+                    parent.style.backgroundColor = '#f4433698'; 
                     result.textContent = '✗';
                     result.style.color = 'white';
                 }
@@ -345,10 +345,11 @@ function submitExam() {
     `;
     totalDiv.style.padding = '12px';
     totalDiv.style.marginTop = '16px';
-    totalDiv.style.border = '2px solid #2196F3';
+    totalDiv.style.border = '2px solid #ffffffff';
     totalDiv.style.borderRadius = '8px';
-    totalDiv.style.backgroundColor = '#1976D2';
+    totalDiv.style.backgroundColor = '#f700ff1a';
     totalDiv.style.color = 'white';
+    totalDiv.style.marginBottom = '30px';
 
     // Hiển thị phần giải thích cho tất cả câu
     document.querySelectorAll('.explain').forEach(div => {
@@ -358,6 +359,13 @@ function submitExam() {
     // Cuộn lên đầu trang
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
+    // ======== Lưu lịch sử làm bài ===========
+    const examData = document.querySelector('.exam').innerHTML;
+    const currentTime = getCurrentTime();
+    const doingTime = time - time2;
+    var historyData = JSON.parse(localStorage.getItem('history-exam-data')) || [];
+    historyData = [...[{name: currentTime, data: examData, doingTime}], ...historyData];
+    localStorage.setItem('history-exam-data', JSON.stringify(historyData));
 }
 
 // -------------------- TIMER --------------------
@@ -374,6 +382,31 @@ function setupTime() {
         document.querySelector('.time').innerHTML = `${h}:${m}:${s}`;
     }, 1000));
 }
+
+function getCurrentTime() {
+    const now = new Date();
+
+    // Tạo thời gian theo múi giờ Việt Nam
+    const options = {
+        timeZone: 'Asia/Ho_Chi_Minh',
+        hour12: false,
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit'
+    };
+
+    // Lấy chuỗi "dd/mm/yyyy, hh:mm:ss"
+    const localTime = now.toLocaleString('en-GB', options);
+
+    // Chuyển sang định dạng yyyy-mm-dd hh:mm:ss
+    const [datePart, timePart] = localTime.split(', ');
+    const [day, month, year] = datePart.split('/');
+    return `${year}-${month}-${day} ${timePart}`;
+}
+
 
 // -------------------- POPUP XÁC NHẬN --------------------
 function showAskForSubmit() {

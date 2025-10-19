@@ -203,11 +203,13 @@ if (type === 'theory') {
     let point = 0;
     let lessonQueue = [...questions]; // queue để xoay các câu sai
 
+    // Cập nhật thanh tiến trình
     function updateProgressBar(current, total) {
         const progressBar = document.querySelector('.progress-bar');
         progressBar.style.width = `${(current / total) * 100}%`;
     }
 
+    // Hiển thị từng câu hỏi
     function displayQuestion() {
         if (lessonQueue.length === 0) {
             alert("Bạn đã hoàn thành tất cả câu hỏi!");
@@ -224,11 +226,12 @@ if (type === 'theory') {
         explain.innerHTML = '';
         continueButton.classList.add('hide');
 
-        // Ảnh minh họa
-        const imgHTML = q.img && q.img !== 'none' ? 
-            `<img src="${q.img}" alt="image" class="question-img">` : '';
+        // Ảnh minh họa (nếu có)
+        const imgHTML = q.img && q.img !== 'none' 
+            ? `<img src="../../assets/learn-assets/ques-img/${q.img}" alt="image" class="question-img">`
+            : '';
 
-        // Bảng đúng/sai
+        // Tạo bảng đúng/sai
         let rows = '';
         q.ideas.forEach((idea, i) => {
             rows += `
@@ -255,7 +258,7 @@ if (type === 'theory') {
             </table>
         `;
 
-        // Chọn đáp án
+        // Lắng nghe chọn nút đúng/sai
         const rowsEl = block.querySelectorAll('tbody tr');
         rowsEl.forEach(row => {
             const buttons = row.querySelectorAll('.btn-tf');
@@ -273,22 +276,31 @@ if (type === 'theory') {
 
         newCheckBtn.addEventListener('click', () => {
             let allAnswered = true;
-            let isAllCorrect = true; // để kiểm tra toàn bộ ý đúng
+            let isAllCorrect = true;
+
             rowsEl.forEach((row, i) => {
                 const selected = row.querySelector('.btn-tf.selected');
                 const correctAnswer = q.answers[i];
+
+                // Nếu người dùng chưa chọn
                 if (!selected) {
                     allAnswered = false;
                     return;
                 }
 
+                // Kiểm tra chính xác
                 const isCorrect = selected.dataset.choice === correctAnswer;
                 selected.classList.add(isCorrect ? 'correct' : 'wrong');
 
+                // Nếu sai, tô màu đáp án đúng (có kiểm tra null)
                 if (!isCorrect) {
                     isAllCorrect = false;
-                    // highlight đáp án đúng
-                    row.querySelector(`[data-choice="${correctAnswer}"]`).classList.add('highlight-correct');
+                    const correctBtn = row.querySelector(`[data-choice="${correctAnswer}"]`);
+                    if (correctBtn) {
+                        correctBtn.classList.add('highlight-correct');
+                    } else {
+                        console.warn("⚠️ Không tìm thấy nút đúng/sai tương ứng cho:", correctAnswer);
+                    }
                 }
             });
 
@@ -297,8 +309,8 @@ if (type === 'theory') {
                 return;
             }
 
-            // Nếu tất cả đúng → cộng điểm và loại bỏ câu ra khỏi queue
-            // Nếu không → đẩy câu về cuối queue, không cộng điểm
+            // Nếu tất cả đúng → cộng điểm và bỏ khỏi queue
+            // Nếu không → đẩy về cuối queue
             if (isAllCorrect) {
                 point++;
                 lessonQueue.shift();
@@ -309,10 +321,14 @@ if (type === 'theory') {
 
             updateProgressBar(maxPoint - lessonQueue.length, maxPoint);
 
-            // Giải thích
+            // Hiển thị giải thích
             explain.innerHTML = `<div class="explain-text">${q.explain}</div>`;
 
-            // Hiện nút tiếp tục
+            // Âm thanh đúng/sai tổng thể
+            const audio = new Audio(`../../assets/sounds/${isAllCorrect ? 'true' : 'false'}.mp3`);
+            audio.play();
+
+            // Mở nút tiếp tục
             continueButton.classList.remove('hide');
         });
     }
@@ -321,7 +337,7 @@ if (type === 'theory') {
     const continueButton = document.querySelector('.continue-btn');
     continueButton.addEventListener('click', displayQuestion);
 
-    // Khởi chạy câu đầu
+    // Bắt đầu
     displayQuestion();
 } else if (type === 'ex3') {
     const screen = document.querySelector('.screen');
