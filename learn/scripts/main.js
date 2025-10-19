@@ -88,7 +88,7 @@ function displayUnits() {
                 <div class="level">
                     ${level.type === "theory" ? `<div class="part-name">${level.name}</div>` : ""}
                     <div class="level-btn ${level.isDone}-level">
-                        <img src="../../assets/images/${level.type}-logo.svg" class="level-logo">
+                        <img src="../assets/images/${level.type}-logo.svg" class="level-logo">
                     </div>
                     <div class="intro-level">
                         <span class="level-name">${level.name}</span>
