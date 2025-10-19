@@ -1,0 +1,234 @@
+/* ===================== RESET + GLOBAL ===================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    transition: all 0.25s ease;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at top left, #101820, #0a0f14 60%);
+    color: #f1f1f1;
+    overflow-x: hidden;
+}
+
+/* ===================== HEADER ===================== */
+.top-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(20, 20, 20, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(0, 255, 255, 0.2);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+    z-index: 100;
+    padding: 0 30px;
+}
+
+.turn-back {
+    position: absolute;
+    left: 30px;
+    font-size: 18px;
+    color: #0ef;
+    cursor: pointer;
+    text-shadow: 0 0 8px rgba(0, 255, 255, 0.8);
+}
+.turn-back:hover {
+    color: #fff;
+    text-shadow: 0 0 15px #0ef;
+}
+
+.time {
+    position: relative;
+    text-align: center;
+    color: #0ef;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 0 0 8px #0ef;
+}
+
+.header-submit {
+    position: absolute;
+    right: 30px;
+    background: linear-gradient(135deg, #0ef, #00aaff);
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+.header-submit:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #00ffff, #0099ff);
+}
+
+/* ===================== SUBMIT BUTTON ===================== */
+.submit-btn {
+    position: fixed;
+    right: 30px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    background: linear-gradient(135deg, #0ef, #00aaff);
+    color: #fff;
+    box-shadow: 0 0 20px rgba(0, 238, 255, 0.6);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit-btn img {
+    margin-right: 5px;
+}
+.submit-btn:hover {
+    background: linear-gradient(135deg, #00ffff, #0099ff);
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.9);
+}
+
+/* ===================== CONTAINER ===================== */
+.exam {
+    background: rgba(25, 25, 25, 0.95);
+    border: 1px solid rgba(0, 255, 255, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.05);
+    width: 85%;
+    margin: 90px auto 50px;
+    padding: 30px 40px;
+}
+
+.part-title, .part2-title, .part3-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0ef;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+    margin-bottom: 20px;
+}
+.part2-title, .part3-title { margin-top: 60px; }
+
+/* ===================== QUESTIONS ===================== */
+.line { border-top: 1px solid rgba(0, 255, 255, 0.2); margin: 40px 0; }
+.question-id { color: #0ef; font-size: 18px; font-weight: 700; margin-right: 10px; }
+.question-name { font-size: 19px; font-weight: 500; color: #f8f8f8; }
+
+/* ===================== MULTI-CHOICE ===================== */
+.btn-group { display: flex; flex-direction: column; margin-top: 20px; gap: 10px; }
+.choice { display: flex; align-items: center; gap: 10px; border-radius: 10px; padding: 10px;}
+.select-circle {
+    width: 25px;
+    height: 40px;
+    padding: 15px 16px;
+    font-size: 16px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background: transparent;
+    color: rgb(170, 249, 255);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.select-circle:hover { background: rgba(0, 255, 255, 0.1); transform: scale(1.05); }
+.selected { background: #0ef; color: #111; box-shadow: 0 0 20px rgba(0, 255, 255, 0.6); }
+
+.answer {
+    flex: 1;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 10px 15px;
+    background: rgba(255, 255, 255, 0.03);
+    color: #fff;
+}
+
+/* ===================== TRUE/FALSE TABLE ===================== */
+.true-false-table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+.true-false-table th, .true-false-table td { border: 1px solid rgba(0, 255, 255, 0.1); padding: 10px; text-align: center; }
+.true-false-table th { background: rgba(0, 255, 255, 0.15); color: #0ef; font-weight: 600; }
+.true-false-table td { background: rgba(255, 255, 255, 0.05); }
+.true-false-table input[type="checkbox"] { width: 20px; height: 20px; accent-color: rgb(184, 250, 255); cursor: pointer; transform: scale(1.2); }
+
+/* ===================== WRITTEN ANSWER ===================== */
+.answer-area { display: flex; flex-direction: column; margin-top: 15px; gap: 6px; }
+.your-answer {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(0, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.your-answer.correct { background-color: #4CAF50; color: white; border-color: #4CAF50; }
+.your-answer.wrong { background-color: #f44336; color: white; border-color: #f44336; }
+.your-answer.missed { background-color: rgb(233, 124, 0); color: white; }
+.true-answer { margin-top: 6px; color: #21d430; font-size: 20px; font-weight: 600;}
+
+.explain {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* ===================== POPUPS ===================== */
+.ask-for-submit, .cancel-exam {
+    position: fixed; top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    background: rgba(0,0,0,0.7);
+    display: flex; align-items: center; justify-content: center;
+    z-index: 9999;
+}
+.ask-container {
+    background: rgba(25,25,25,0.95);
+    border: 1px solid rgba(0,255,255,0.2);
+    border-radius: 15px;
+    padding: 30px 40px;
+    text-align: center;
+    width: 450px;
+    box-shadow: 0 0 25px rgba(0,255,255,0.4);
+    animation: popupIn 0.4s ease;
+}
+.ask { font-size: 24px; color: #fff; margin-bottom: 25px; text-shadow: 0 0 10px #0ef; }
+.double-btn { display: flex; justify-content: space-around; gap: 10px; }
+.double-btn div { flex: 1; padding: 10px 20px; border-radius: 8px; cursor: pointer; font-weight: 600; }
+.double-btn .continue { background: rgba(255,255,255,0.1); color: #ccc; }
+.double-btn .continue:hover { background: rgba(255,255,255,0.2); }
+.double-btn .submit { background: #0ef; color: #000; }
+.double-btn .submit:hover { background: #00ffff; box-shadow: 0 0 20px rgba(0,255,255,0.7); }
+
+/* ===================== RESULT & ICON ===================== */
+.result-icon { position: absolute; top: -5px; right: -10px; font-size: 18px; font-weight: bold; user-select: none; }
+.result-cell { text-align: center; font-weight: bold; font-size: 18px; }
+.correct-answer { color: #333; margin-top: 4px; }
+.hide-explain { display: none; }
+
+/* ===================== ANIMATION ===================== */
+@keyframes popupIn { from { transform: scale(0.8); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+@keyframes pulse { 0%,100% { transform: scale(1); opacity:1;} 50% { transform: scale(1.2); opacity:0.7;} }
+
+/* ===================== MOBILE ===================== */
+@media (max-width:768px){
+    .exam { width: 95%; padding: 20px; }
+    .submit-btn { right: 20px; bottom: 20px; width: 100px; font-size: 14px; }
+    .part-title, .part2-title { font-size: 22px; }
+    .ask-container { width: 90%; }
+}
+
+.hide {
+    display: none;
+}
