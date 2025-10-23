@@ -1,5 +1,4 @@
 import { lessons } from "../scripts/unit.js";
-import { updateProgressBar } from "../../utils/util.js";
 
 const params = new URLSearchParams(window.location.search);
 const unit = params.get('unit');
@@ -44,7 +43,7 @@ if (type === 'theory') {
                 <img src="../../assets/images/home-btn.svg">
             </a>
             <div class="progress-container">
-                <div class="progress-bar"></div>
+                <div class="progress-bar"></div>-
             </div>
         </div>
         <div class="content">
@@ -227,7 +226,7 @@ if (type === 'theory') {
         continueButton.classList.add('hide');
 
         // Ảnh minh họa (nếu có)
-        const imgHTML = q.img && q.img !== 'none' 
+        const imgHTML = q.img && q.img !== 'none'
             ? `<img src="../../assets/learn-assets/ques-img/${q.img}" alt="image" class="question-img">`
             : '';
 
@@ -393,7 +392,7 @@ if (type === 'theory') {
         continueButton.classList.add('hide');
 
         // Ảnh minh họa
-        const imgHTML = q.img && q.img !== 'none' ? 
+        const imgHTML = q.img && q.img !== 'none' ?
             `<img src="${q.img}" alt="image" class="question-img">` : '';
 
         // Hiển thị câu hỏi + input
