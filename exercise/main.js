@@ -2,7 +2,7 @@ function submitData() {
     // Lấy giá trị từ input
     const timeValue = document.querySelector('.timeInput').value;
     // Xây dựng URL với dữ liệu
-    const targetUrl = `contest/index.html?time=${encodeURIComponent(timeValue)}`;
+    const targetUrl = `fixed/index.html?time=${encodeURIComponent(timeValue)}`;
     // Điều hướng đến trang mới
     window.location.href = targetUrl;
 }
