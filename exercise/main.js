@@ -21,7 +21,7 @@ timeInput.addEventListener('input', () => {
 
     // Kiểm tra nếu không phải số nguyên hoặc nằm ngoài khoảng [1, 359]
     if (!Number.isInteger(Number(value)) || value < 1 || value > 359) {
-        timeInput.value = 120;
+        timeInput.value = 50;
     } else {
         timeInput.style.border = ''; // Bỏ viền đỏ khi hợp lệ
     }

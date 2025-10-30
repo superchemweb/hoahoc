@@ -118,7 +118,106 @@ export let lessons = [
                             "(3)"
                         ],
                         explain: "Este (1) CH₃COOCH₃ chỉ có 1 liên kết π trong nhóm C=O, các este khác có thêm liên kết C=C."
-                    }
+                    }, {
+        question: "Cho các ester có công thức cấu tạo như sau:\n(1) CH3COOCH3; (2) CH3COOCH=CH2; (3) (COOCH3)2; (4) CH2=CHCOOCH3.\nEster chỉ chứa 1 liên kết π trong phân tử là",
+        img: "none",
+        answers: [
+            "(1) CH<sub>3</sub>COOCH<sub>3</sub>",
+            "(4) CH<sub>2</sub>=CHCOOCH<sub>3</sub>",
+            "(2) CH<sub>3</sub>COOCH=CH<sub>2</sub>",
+            "(3) (COOCH<sub>3</sub>)<sub>2</sub>"
+        ],
+        explain: ""
+    },
+    {
+        question: "Ester X (chứa vòng benzene) có công thức phân tử C<sub>8</sub>H<sub>8</sub>O<sub>2</sub>. Số công thức cấu tạo thỏa mãn của X là",
+        img: "none",
+        answers: [
+            "6",
+            "4",
+            "3",
+            "5"
+        ],
+        explain: ""
+    },
+    {
+        question: "Ester Q có công thức là CH3CH2COOCH3. Tên gọi của Q và nhiệt độ sôi của Q khi so sánh với butanoic acid là",
+        img: "none",
+        answers: [
+            "Methyl propionate – Thấp hơn",
+            "Ethyl acetate – Thấp hơn",
+            "Ethyl acetate – Cao hơn",
+            "Methyl propionate – Cao hơn"
+        ],
+        explain: ""
+    },
+    {
+        question: "So với các acid và alcohol có phân tử khối tương đương thì ester có nhiệt độ sôi",
+        img: "none",
+        answers: [
+            "Thấp hơn do giữa các phân tử ester không có liên kết hydrogen.",
+            "Thấp hơn do phân tử ester không tạo liên kết hydrogen với nước.",
+            "Cao hơn do phân tử ester tạo liên kết hydrogen với nước.",
+            "Cao hơn do giữa các phân tử ester có liên kết hydrogen bền vững."
+        ],
+        explain: ""
+    },
+    {
+        question: "Cho 4 chất sau: butan-1-ol (1), butanoic acid (2), ethyl acetate (3) và pentan-2-ol (4). Chất có nhiệt độ sôi thấp nhất là",
+        img: "none",
+        answers: [
+            "(3)",
+            "(1)",
+            "(2)",
+            "(4)"
+        ],
+        explain: ""
+    },
+    {
+        question: "Cho các chất sau: CH3OH (1); CH3COOH (2); HCOOC2H5 (3). Thứ tự nhiệt độ sôi giảm dần là",
+        img: "none",
+        answers: [
+            "(2); (1); (3)",
+            "(1); (2); (3)",
+            "(2); (3); (1)",
+            "(3); (1); (2)"
+        ],
+        explain: ""
+    },
+    {
+        question: "Dãy các chất nào sau đây được sắp xếp theo chiều nhiệt độ sôi tăng dần?",
+        img: "none",
+        answers: [
+            "CH<sub>3</sub>COOC<sub>2</sub>H<sub>5</sub>, CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH, CH<sub>3</sub>COOH",
+            "CH<sub>3</sub>COOH, CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH, CH<sub>3</sub>COOC<sub>2</sub>H<sub>5</sub>",
+            "CH<sub>3</sub>COOH, CH<sub>3</sub>COOC<sub>2</sub>H<sub>5</sub>, CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH",
+            "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH, CH<sub>3</sub>COOH, CH<sub>3</sub>COOC<sub>2</sub>H<sub>5</sub>"
+        ],
+        explain: ""
+    },
+    {
+        question: "Có 4 ester no, đơn chức, mạch hở X, Y, Z, T (mỗi este đều tạo bởi acid no không phân nhánh và ethanol). Độ tan (g/100 g nước): X = 8,7; Y = 10,5; Z = 2,2; T = 4,9. Ester có nhiều nguyên tử C nhất là",
+        img: "none",
+        answers: [
+            "Z",
+            "Y",
+            "X",
+            "T"
+        ],
+        explain: ""
+    },
+    {
+        question: "X, Y, Z là 3 chất được kí hiệu ngẫu nhiên trong số HCOOCH3, CH3COOH và CH3CH2CH2OH. Nhiệt độ sôi của X, Y, Z (°C) lần lượt là 31,8; 97,0; 118,0. Các chất X, Y lần lượt là",
+        img: "none",
+        answers: [
+            "HCOOCH<sub>3</sub> và CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH",
+            "HCOOCH<sub>3</sub> và CH<sub>3</sub>COOH",
+            "CH<sub>3</sub>COOH và HCOOCH<sub>3</sub>",
+            "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH và CH<sub>3</sub>COOH"
+        ],
+        explain: ""
+    }
+
                 ]
 
 
@@ -158,7 +257,90 @@ export let lessons = [
         • <b>b) Sai:</b> có <b>7 nhóm –CH₂–</b> chứ không phải 6.<br>
         • <b>c) Sai:</b> công thức phân tử là <b>C₁₀H₂₀O₂</b>.<br>
         • <b>d) Đúng:</b> được tạo bởi acetic acid và octan-1-ol.`
-                    }
+                    }, {
+        question: "X, Y, Z và T là một trong các chất khác nhau trong số 4 chất: ethyl acetate, propan-1-ol, acetic acid, methyl formate. Nhiệt độ sôi của chúng lần lượt là 31,5°C, 77,1°C, 118,2°C và 97,2°C. Xét các phát biểu sau:",
+        ideas: [
+            "a) Z, T tạo được liên kết hydrogen liên phân tử.",
+            "b) X là ethyl acetate.",
+            "c) Y có phân tử khối lớn nhất trong 4 chất X, Y, Z, T.",
+            "d) Z có trong giấm ăn với nồng độ từ 2% đến 5%."
+        ],
+        answers: ["Đúng", "Sai", "Đúng", "Đúng"],
+        img: "none",
+        explain: "Z là CH₃COOH và T là C₃H₇OH có thể tạo liên kết hydrogen; X = HCOOCH₃, Y = CH₃COOC₂H₅; acetic acid có trong giấm ăn."
+    },
+    {
+        question: "Phản ứng ester hoá giữa carboxylic acid và alcohol (xúc tác H₂SO₄ đặc) có phương trình tổng quát: RCOOH + R'OH ⇌ RCOOR' + H₂O. Xét các phát biểu sau:",
+        ideas: [
+            "a) H₂SO₄ đặc đóng vai trò là chất xúc tác để tăng tốc độ phản ứng.",
+            "b) Trong phản ứng, nguyên tử H của nhóm –COOH được thay bằng gốc hydrocarbon R'.",
+            "c) H₂SO₄ đặc làm cân bằng chuyển dịch theo chiều thuận.",
+            "d) Các ester được gọi tên theo kiểu: tên gốc acid carboxylic + tên gốc R'."
+        ],
+        answers: ["Đúng", "Sai", "Đúng", "Sai"],
+        img: "none",
+        explain: "H₂SO₄ đặc vừa xúc tác vừa hút nước; nhóm –OH của acid bị thay bởi –OR'; tên ester = tên gốc R' + tên gốc acid."
+    },
+    {
+        question: "Cho salicylic acid phản ứng với methyl alcohol có H₂SO₄ đặc làm xúc tác thu được ester X (chất giảm đau). Xét các phát biểu sau:",
+        ideas: [
+            "a) Tên gọi thay thế của X là methyl salicylate.",
+            "b) Công thức phân tử của X là C₈H₈O₂.",
+            "c) 1 mol X tham gia phản ứng tối đa với 3 mol H₂ (xúc tác Ni, t°).",
+            "d) Trong phân tử X có 18 liên kết σ."
+        ],
+        answers: ["Đúng", "Sai", "Đúng", "Sai"],
+        img: "none",
+        explain: "Công thức phân tử X là C₈H₈O₃; có thể cộng 3H₂; chứa 15 liên kết σ."
+    },
+    {
+        question: "Cho các chất: HCOOCH₃, CH₃CH₂CH₂OH và CH₃COOH. Xét các phát biểu sau:",
+        ideas: [
+            "a) HCOOCH₃ có nhiệt độ sôi thấp nhất do không tạo liên kết hydrogen.",
+            "b) CH₃COOH có nhiệt độ sôi cao nhất do tạo dimer bền bằng liên kết hydrogen.",
+            "c) Nhiệt độ sôi tăng dần theo thứ tự: CH₃CH₂CH₂OH < HCOOCH₃ < CH₃COOH.",
+            "d) Ester có nhiệt độ sôi cao hơn acid và alcohol cùng số C."
+        ],
+        answers: ["Đúng", "Đúng", "Sai", "Sai"],
+        img: "1.6.png",
+        explain: "Thứ tự nhiệt độ sôi đúng là HCOOCH₃ < CH₃CH₂CH₂OH < CH₃COOH; ester có nhiệt độ sôi thấp hơn."
+    },
+    {
+        question: "Propyl ethanoate có mùi lê, methyl butanoate có mùi táo. Xét các phát biểu sau:",
+        ideas: [
+            "a) Tên khác của propyl ethanoate là propyl acetate.",
+            "b) Công thức cấu tạo lần lượt: CH₃COOCH₂CH₂CH₃ và CH₃CH₂CH₂COOCH₃.",
+            "c) Cả hai đều là este no, đơn chức, mạch hở.",
+            "d) Thủy phân trong môi trường kiềm thu được 1 muối và 2 alcohol."
+        ],
+        answers: ["Đúng", "Đúng", "Đúng", "Sai"],
+        img: "none",
+        explain: "Phản ứng xà phòng hoá mỗi ester tạo 1 muối và 1 alcohol, không phải 2 alcohol."
+    },
+    {
+        question: "Ba hợp chất: butan-1-ol, propanoic acid, methyl acetate có nhiệt độ sôi 57°C, 118°C và 141°C (không theo thứ tự). Xét các phát biểu sau:",
+        ideas: [
+            "a) Nhiệt độ sôi các chất là: butan-1-ol (141), propanoic acid (118), methyl acetate (57).",
+            "b) Methyl acetate có nhiệt độ sôi thấp nhất do không có liên kết hydrogen giữa các phân tử.",
+            "c) Butan-1-ol có nhiệt độ sôi cao nhất vì liên kết hydrogen bền hơn propanoic acid.",
+            "d) Với khối lượng phân tử tương đương: hydrocarbon < aldehyde, ketone, ester < alcohol < acid."
+        ],
+        answers: ["Sai", "Đúng", "Sai", "Đúng"],
+        img: "none",
+        explain: "Thứ tự đúng: HCOOCH₃ (57) < C₄H₉OH (118) < C₂H₅COOH (141); liên kết hydrogen của acid bền hơn alcohol."
+    },
+    {
+        question: "Cho các ester: C₂H₅COOCH₃ (1); CH₃CH₂CH₂COOC₂H₅ (2); CH₃COOCH₃ (3); C₂H₅COOC₂H₅ (4). Xét các phát biểu sau:",
+        ideas: [
+            "a) Tên gọi tương ứng: (1) methyl propionate; (2) ethyl butyrate; (3) methyl acetate; (4) ethyl propionate.",
+            "b) Ester (2) và (4) có mùi dứa chín.",
+            "c) Độ tan trong nước giảm dần: (2) > (1) > (3) > (4).",
+            "d) Ester tạo liên kết hydrogen với nước nên tan tốt hơn acid và alcohol cùng số C."
+        ],
+        answers: ["Đúng", "Đúng", "Sai", "Sai"],
+        img: "none",
+        explain: "Độ tan giảm theo (3) > (1) > (4) > (2); ester không tạo liên kết hydrogen giữa các phân tử hoặc với nước."
+    }
                 ]
 
 
@@ -321,62 +503,178 @@ export let lessons = [
                             "HCOOH"
                         ],
                         explain: "Thủy phân cho etanol → gốc axit là CH₃COOH → este là CH₃COOC₂H₅ (etyl axetat)."
-                    }
+                    }, {
+        question: "Công thức nào sau đây có thể là công thức của chất béo?",
+        img: "none",
+        answers: [
+            "C₁₇H₃₅COOC₃H₅",
+            "(C₁₇H₃₃COO)₂C₂H₄",
+            "(C₁₅H₃₁COO)₃C₃H₅",
+            "CH₃COOC₆H₅"
+        ],
+        explain: "Chất béo là trieste của glixerol với axit béo mạch dài."
+    },
+    {
+        question: "Công thức phân tử của triglyceride tạo bởi axit linoleic và glixerol là",
+        img: "none",
+        answers: [
+            "C₅₇H₉₈O₆",
+            "C₅₅H₉₃O₆",
+            "C₅₃H₉₀O₆",
+            "C₅₁H₉₈O₆"
+        ],
+        explain: "Triglyceride của axit linoleic có công thức C₅₇H₉₈O₆."
+    },
+    {
+        question: "Tripalmitin có công thức là",
+        img: "none",
+        answers: [
+            "(C₁₅H₃₁COO)₃C₃H₅",
+            "(C₁₅H₂₉COO)₃C₃H₅",
+            "(C₁₇H₃₅COO)₃C₃H₅",
+            "(C₁₇H₃₃COO)₃C₃H₅"
+        ],
+        explain: "Tripalmitin là trieste của glixerol và axit panmitic."
+    },
+    {
+        question: "Triolein có công thức là",
+        img: "none",
+        answers: [
+            "(C₁₇H₃₃COO)₃C₃H₅",
+            "(C₁₇H₃₁COO)₃C₃H₅",
+            "(C₁₅H₃₁COO)₃C₃H₅",
+            "(C₁₇H₃₅COO)₃C₃H₅"
+        ],
+        explain: "Triolein là trieste của glixerol và axit oleic không no."
+    },
+    {
+        question: "Glyceryl trioleate có công thức cấu tạo là",
+        img: "none",
+        answers: [
+            "(CH₃[CH₂]₇CH=CH[CH₂]₇COO)₃C₃H₅",
+            "(CH₃[CH₂]₈CH=CH[CH₂]₇COO)₃C₃H₅",
+            "(CH₃[CH₂]₇CH=CH[CH₂]₆COO)₃C₃H₅",
+            "(CH₃[CH₂]₆CH=CH[CH₂]₈COO)₃C₃H₅"
+        ],
+        explain: "Trioleate gồm ba gốc oleat gắn vào glixerol."
+    }
+
                 ]
 
 
             }, /*ex1*/ {
                 type: 'ex2',
                 questions: [
-                    {
-                        question: "Aspirin được sử dụng làm thuốc giảm đau, hạ sốt. Sau khi uống, aspirin bị thuỷ phân trong cơ thể tạo thành salicylic acid. Salicylic acid ức chế quá trình sinh tổng hợp prostaglandin (chất gây đau, sốt và viêm khi nồng độ trong máu cao hơn mức bình thường). Công thức hóa học của aspirin được cho ở hình bên.",
-                        ideas: [
-                            "a) Công thức phân tử của aspirin là C<sub>9</sub>H<sub>8</sub>O<sub>4</sub>.",
-                            "b) Thủy phân aspirin trong môi trường acid cho sản phẩm có chứa ancol.",
-                            "c) 1 mol aspirin có khả năng phản ứng tối đa với 2 mol NaOH.",
-                            "d) Aspirin có khả năng tham gia phản ứng với Na, dung dịch NaOH, dung dịch Na<sub>2</sub>CO<sub>3</sub>."
-                        ],
-                        answers: ["Đúng", "Sai", "Sai", "Đúng"],
-                        img: "1.2.2.1.png",
-                        explain: `
-        • <b>a) Đúng:</b> Aspirin có công thức phân tử là C<sub>9</sub>H<sub>8</sub>O<sub>4</sub>.<br>
-        • <b>b) Sai:</b> Thủy phân aspirin trong môi trường acid tạo thành acid salicylic và acid acetic, không có ancol.<br>
-        • <b>c) Sai:</b> 1 mol aspirin phản ứng tối đa với <b>3 mol NaOH</b> (do có nhóm phenol phản ứng như phenol).<br>
-        • <b>d) Đúng:</b> Có nhóm -COOH nên phản ứng được với Na, NaOH, Na<sub>2</sub>CO<sub>3</sub>.`
-                    },
-                    {
-                        question: "Aspirin được sử dụng làm thuốc giảm đau, hạ sốt. Công thức hóa học của aspirin được cho ở hình bên.",
-                        ideas: [
-                            "a) Aspirin có chứa nhóm chức của este và axit cacboxylic.",
-                            "b) Aspirin tham gia phản ứng với dung dịch NaHCO<sub>3</sub> giải phóng khí CO<sub>2</sub>.",
-                            "c) Thủy phân aspirin trong dung dịch NaOH thu được muối và ancol.",
-                            "d) Aspirin có thể điều chế từ axit và ancol tương ứng."
-                        ],
-                        answers: ["Đúng", "Đúng", "Sai", "Sai"],
-                        img: "1.2.2.1.png",
-                        explain: `
-        • <b>a) Đúng:</b> Phân tử aspirin có nhóm este và nhóm -COOH.<br>
-        • <b>b) Đúng:</b> Do có nhóm -COOH nên phản ứng với NaHCO<sub>3</sub> giải phóng khí CO<sub>2</sub>.<br>
-        • <b>c) Sai:</b> Thủy phân trong NaOH thu được 2 muối (CH<sub>3</sub>COONa và NaOC<sub>6</sub>H<sub>4</sub>COONa), không tạo ancol.<br>
-        • <b>d) Sai:</b> Không thể điều chế trực tiếp từ axit và ancol tương ứng do phản ứng este hóa phức tạp.`
-                    },
-                    {
-                        question: "Tiến hành các thí nghiệm theo các bước sau:<br>Bước 1: Cho vào 3 ống nghiệm, mỗi ống 2–3 giọt etyl axetat, sau đó thêm vào ống thứ nhất 3 mL dung dịch H<sub>2</sub>SO<sub>4</sub> 1 M, ống thứ hai 3 mL dung dịch NaOH 3 M, ống thứ ba 3 mL nước cất.<br>Bước 2: Lắc đều, sau đó đun cách thủy ba ống nghiệm trong nồi nước nóng 75&nbsp;°C trong 5 phút.<br>Bước 3: Làm lạnh các ống nghiệm về nhiệt độ thường.",
-                        ideas: [
-                            "a) Sau bước 1, có hai ống nghiệm chất lỏng phân thành hai lớp và ống nghiệm còn lại chất lỏng đồng nhất.",
-                            "b) Ở bước 2, có một ống nghiệm xảy ra phản ứng thủy phân este.",
-                            "c) Sau bước 3, chất lỏng ở ba ống nghiệm đều phân thành hai lớp.",
-                            "d) Thí nghiệm trên có thể thực hiện để kiểm tra khả năng thủy phân của este trong các môi trường khác nhau."
-                        ],
-                        answers: ["Sai", "Sai", "Sai", "Đúng"],
-                        img: "none",
-                        explain: `
-        • <b>a) Sai:</b> Sau bước 1, cả 3 ống nghiệm đều phân thành 2 lớp vì etyl axetat không tan trong nước, H<sub>2</sub>SO<sub>4</sub> hay NaOH.<br>
-        • <b>b) Sai:</b> Ở bước 2, có 2 ống (H<sub>2</sub>SO<sub>4</sub> và NaOH) xảy ra thủy phân este, không phải 1.<br>
-        • <b>c) Sai:</b> Sau bước 3, ống chứa NaOH phản ứng xong tạo muối CH<sub>3</sub>COONa → dung dịch đồng nhất, chỉ còn 2 ống phân lớp.<br>
-        • <b>d) Đúng:</b> Thí nghiệm chứng minh khả năng thủy phân este trong môi trường acid, bazơ, và trung tính.`
-                    }
-                ]
+    {
+        question: "Chất béo là trieste tạo bởi glycerol và các acid béo. Một chất béo có công thức khung phân tử như hình.",
+        ideas: [
+            "Chất béo trên tồn tại ở trạng thái lỏng ở điều kiện thường.",
+            "Thủy phân chất béo trên trong môi trường acid thu được 2 acid béo khác nhau.",
+            "Trong phân tử chất béo trên có chứa gốc hydrocarbon của stearic acid.",
+            "Công thức phân tử của chất béo trên là C<sub>53</sub>H<sub>102</sub>O<sub>6</sub>."
+        ],
+        answers: ["Sai", "Sai", "Đúng", "Đúng"],
+        img: "2.7.png",
+        explain: "Chất béo chứa gốc acid béo no thường rắn ở điều kiện thường; chất béo trên có 3 gốc acid béo khác nhau, trong đó có gốc stearic."
+    },
+    {
+        question: "Chất béo là trieste (ester ba chức) của glycerol với các acid béo có công thức cấu tạo chung như hình bên.",
+        ideas: [
+            "Nếu các gốc R₁, R₂, R₃ giống nhau và đều là gốc –C₁₇H₃₃ thì tên gọi của chất béo là trilinolein.",
+            "Số nguyên tử carbon trong các gốc R₁, R₂, R₃ luôn là số lẻ.",
+            "Nếu các gốc R₁, R₂, R₃ chỉ chứa liên kết đơn C–C, C–H thì chất béo tồn tại ở trạng thái lỏng ở điều kiện thường.",
+            "Các gốc R₁, R₂, R₃ đều có mạch thẳng, không phân nhánh."
+        ],
+        answers: ["Sai", "Đúng", "Sai", "Đúng"],
+        img: "2.8.png",
+        explain: "Nếu các gốc là –C₁₇H₃₃ thì tên gọi là triolein; acid béo thường có số C chẵn; gốc no → chất rắn; mạch gốc thường thẳng, không phân nhánh."
+    },
+    {
+        question: "Acid béo là những acid cacboxylic đơn chức, mạch hở, không phân nhánh và có số nguyên tử carbon chẵn (thường 12–24C).",
+        ideas: [
+            "Gốc hydrocarbon của acid béo có thể no hoặc không no.",
+            "Formic acid và acetic acid là các ví dụ về acid béo.",
+            "Palmitic acid và stearic acid là các acid béo no.",
+            "Oleic acid và linoleic acid đều là acid béo không no chứa liên kết đôi dạng cis."
+        ],
+        answers: ["Đúng", "Sai", "Đúng", "Đúng"],
+        img: "none",
+        explain: "Acid béo phải có mạch C dài (≥12C); palmitic và stearic là acid béo no; oleic và linoleic có liên kết cis."
+    },
+    {
+        question: "Acid béo omega-3 và omega-6 là các acid béo không no, trong phân tử có liên kết đôi đầu tiên ở vị trí C thứ 3 và 6 tính từ nhóm –CH₃.",
+        ideas: [
+            "Một số chất béo là nguồn cung cấp acid béo omega-3 và omega-6 cho cơ thể.",
+            "Omega-3 và omega-6 giúp giảm huyết áp, giảm cholesterol và giảm nguy cơ xơ vữa động mạch.",
+            "Docosahexaenoic acid (DHA) C<sub>21</sub>H<sub>31</sub>COOH và arachidonic acid (ARA) C<sub>19</sub>H<sub>31</sub>COOH đều thuộc nhóm omega-3.",
+            "Dầu cá chứa nhiều acid béo omega-3, còn dầu thực vật chứa nhiều omega-6."
+        ],
+        answers: ["Đúng", "Đúng", "Sai", "Đúng"],
+        img: "none",
+        explain: "DHA thuộc nhóm omega-3, còn ARA thuộc nhóm omega-6; dầu cá giàu omega-3, dầu thực vật giàu omega-6."
+    },
+    {
+        question: "Cho hai triglyceride X, Y có công thức cấu tạo khác nhau.",
+        ideas: [
+            "Triglyceride X có tên gọi là tripalmitin.",
+            "X là chất béo no, Y là chất béo không no.",
+            "X và Y đều tan tốt trong nước.",
+            "Hydrogen hóa Y thu được X."
+        ],
+        answers: ["Đúng", "Đúng", "Sai", "Đúng"],
+        img: "2.9.png",
+        explain: "Tripalmitin chứa 3 gốc no; chất béo không tan trong nước; hydrogen hóa gốc không no → gốc no."
+    },
+    {
+        question: "Các phát biểu về tính chất vật lí và phản ứng của chất béo.",
+        ideas: [
+            "Các chất béo không tan trong nước và nhẹ hơn nước.",
+            "Chất béo là trieste của glycerol với các acid đơn chức.",
+            "Cho dầu ăn vào nước, lắc đều, thu được dung dịch đồng nhất.",
+            "Phản ứng hydrogen hóa dùng để chuyển gốc acid béo không no thành gốc acid béo no."
+        ],
+        answers: ["Đúng", "Đúng", "Sai", "Đúng"],
+        img: "none",
+        explain: "Chất béo nhẹ hơn nước, không tan trong nước; hydrogen hóa dùng để no hóa các liên kết đôi trong gốc acid béo."
+    },
+    {
+        question: "Aspirin được sử dụng làm thuốc giảm đau, hạ sốt. Sau khi uống, aspirin bị thủy phân trong cơ thể tạo salicylic acid – chất ức chế sinh tổng hợp prostaglandin.",
+        ideas: [
+            "Công thức phân tử của aspirin là C<sub>9</sub>H<sub>8</sub>O<sub>4</sub>.",
+            "Thủy phân aspirin trong môi trường acid cho sản phẩm có chứa ancol.",
+            "1 mol aspirin có khả năng phản ứng tối đa với 2 mol NaOH.",
+            "Aspirin phản ứng được với Na, NaOH và Na<sub>2</sub>CO<sub>3</sub>."
+        ],
+        answers: ["Đúng", "Sai", "Sai", "Đúng"],
+        img: "1.2.2.1.png",
+        explain: "Thủy phân aspirin cho acid salicylic và acid acetic; có thể phản ứng với 3 mol NaOH do chứa nhóm phenol và -COOH."
+    },
+    {
+        question: "Phân tử aspirin có chứa các nhóm chức este và acid cacboxylic.",
+        ideas: [
+            "Aspirin chứa đồng thời nhóm chức của este và acid cacboxylic.",
+            "Aspirin phản ứng với NaHCO<sub>3</sub> giải phóng CO<sub>2</sub>.",
+            "Thủy phân aspirin trong dung dịch NaOH thu được muối và ancol.",
+            "Aspirin có thể điều chế trực tiếp từ acid và ancol tương ứng."
+        ],
+        answers: ["Đúng", "Đúng", "Sai", "Sai"],
+        img: "1.2.2.1.png",
+        explain: "Thủy phân trong NaOH thu được hai muối, không có ancol; không thể điều chế trực tiếp do phản ứng phức tạp."
+    },
+    {
+        question: "Thí nghiệm chứng minh khả năng thủy phân của este trong các môi trường khác nhau.",
+        ideas: [
+            "Sau khi cho etyl axetat vào H<sub>2</sub>SO<sub>4</sub>, NaOH, nước cất, chỉ có một ống nghiệm đồng nhất.",
+            "Trong quá trình đun nóng, chỉ có một ống nghiệm xảy ra phản ứng thủy phân este.",
+            "Sau khi làm lạnh, cả ba ống nghiệm đều phân lớp.",
+            "Thí nghiệm này được dùng để kiểm tra khả năng thủy phân của este trong môi trường acid, bazơ, và trung tính."
+        ],
+        answers: ["Sai", "Sai", "Sai", "Đúng"],
+        img: "none",
+        explain: "Sau bước 2, 2 ống (H<sub>2</sub>SO<sub>4</sub> và NaOH) xảy ra phản ứng; ống NaOH tạo dung dịch đồng nhất; dùng để so sánh khả năng thủy phân."
+    }
+]
+
 
 
 
@@ -10539,6 +10837,2788 @@ explain: "a) Đúng — ăn mòn điện hoá là cơ chế chính; b) Đúng �
     }
 ]
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            },
+        ]
+    }, { // unit 7
+        unit: 7,
+        content: [
+            { /*the*/
+                type: "theory",
+                filename: "https://docs.google.com/document/d/1wQ7TVfAdqIjY0VNQh6x3RMh3qu2UvkiO/edit?usp=sharing&ouid=106265925099932943627&rtpof=true&sd=true",
+                name: "CẤU TẠO VÀ TÍNH CHẤT VẬT LÍ CỦA KIM LOẠI"
+            }, /*ex1*/ {
+                type: "ex1",
+                questions: [
+{
+question: "Kim loại nào sau đây được gọi là kim loại kiềm?",
+img: "none",
+answers: [
+"Na",
+"Ag",
+"Au",
+"Ca"
+],
+explain: "Na thuộc nhóm IA, là kim loại kiềm."
+},
+{
+question: "Cho dãy các kim loại: Li, Na, Al, Ca, K và Rb. Số kim loại kiềm trong dãy là",
+img: "none",
+answers: [
+"4",
+"1",
+"2",
+"3"
+],
+explain: "Các kim loại kiềm: Li, Na, K, Rb → tổng 4 kim loại."
+},
+{
+question: "Cho dãy các nguyên tố: Mg, K, Fe, Na, Al và Cs. Số nguyên tố thuộc nhóm IA là",
+img: "none",
+answers: [
+"3",
+"1",
+"2",
+"4"
+],
+explain: "Các nguyên tố nhóm IA: K, Na, Cs → 3 nguyên tố."
+},
+{
+question: "Kim loại Na ở chu kì 3, nhóm IA. Cấu hình electron lớp ngoài cùng của Na là",
+img: "none",
+answers: [
+"3s1",
+"3s2",
+"3s23p1",
+"3s23p5"
+],
+explain: "Na có 1 electron ở lớp ngoài 3s → 3s1."
+},
+{
+question: "Cation M+ có cấu hình electron lớp ngoài cùng 2s22p6. Cation M+ là",
+img: "none",
+answers: [
+"Na+",
+"Li+",
+"K+",
+"Rb+"
+],
+explain: "Cation có cấu hình 2s22p6 giống Ne → Na+."
+},
+{
+question: "Nguyên tử K có cấu hình [Ar]4s1. Trong bảng tuần hoàn, K thuộc nhóm",
+img: "none",
+answers: [
+"IA",
+"IIA",
+"IIIA",
+"IVA"
+],
+explain: "K có 1 electron lớp ngoài 4s → nhóm IA."
+},
+{
+question: "Công thức chung của oxide kim loại nhóm IA là",
+img: "none",
+answers: [
+"R2O",
+"RO",
+"R2O3",
+"RO2"
+],
+explain: "Oxide kim loại kiềm: R2O."
+},
+{
+question: "Các tinh thể kim loại nhóm IA ở điều kiện thường có kiểu cấu trúc",
+img: "none",
+answers: [
+"lập phương tâm khối",
+"lập phương tâm mặt",
+"lục phương",
+"lập phương đơn giản"
+],
+explain: "Kim loại kiềm có cấu trúc lập phương tâm khối."
+},
+{
+question: "Kim loại nhóm IA nào dễ mất electron hoá trị nhất, dùng sản xuất tế bào quang điện?",
+img: "none",
+answers: [
+"Cs",
+"Li",
+"Na",
+"K"
+],
+explain: "Cs có năng lượng ion hóa thấp nhất, dễ mất electron."
+},
+{
+question: "Trong các kim loại nhóm IA từ Li đến Cs, nhiệt độ nóng chảy và độ cứng biến đổi như thế nào?",
+img: "none",
+answers: [
+"Giảm dần",
+"Tăng dần",
+"Không có quy luật",
+"Không đổi"
+],
+explain: "Từ Li → Cs, liên kết kim loại yếu dần → nhiệt độ nóng chảy và độ cứng giảm."
+}
+]
+
+
+
+
+
+
+
+
+
+
+            }, /*ex1*/ {
+                type: "ex1",
+                questions: [
+{
+question: "Câu 1: Khi đốt nóng tinh thể LiCl trong ngọn lửa đèn khí không màu, ngọn lửa có màu gì?",
+img: "none",
+answers: [
+"Da cam",
+"Tím nhạt",
+"Vàng",
+"Đỏ tía"
+],
+explain: "Đáp án đúng: Da cam — LiCl tạo ngọn lửa màu da cam khi đốt."
+},
+{
+question: "Câu 2: Khi đốt nóng tinh thể NaCl trong ngọn lửa đèn khí không màu, ngọn lửa có màu gì?",
+img: "none",
+answers: [
+"Đỏ cam",
+"Tím nhạt",
+"Vàng",
+"Đỏ tía"
+],
+explain: "Đáp án đúng: Đỏ cam — NaCl tạo ngọn lửa màu đỏ cam khi đốt."
+},
+{
+question: "Câu 3: Diêm tiêu kali dùng chế tạo thuốc nổ đen và làm phân bón có công thức hoá học là gì?",
+img: "none",
+answers: [
+"KNO3",
+"K2CO3",
+"KCl",
+"K2SO4"
+],
+explain: "Đáp án đúng: KNO3 — diêm tiêu kali, cung cấp K và N."
+},
+{
+question: "Câu 4: Nhúng que platinum vào dung dịch chất X, đèn khí cháy với ngọn lửa vàng; thêm X vào AgNO3 xuất hiện kết tủa vàng. X là chất nào?",
+img: "none",
+answers: [
+"Potassium iodide hoặc Potassium phosphate",
+"Sodium iodide hoặc Sodium phosphate",
+"Sodium iodide",
+"Sodium phosphate hoặc Potassium phosphate"
+],
+explain: "Đáp án đúng: Potassium iodide hoặc Potassium phosphate — do I⁻ tạo kết tủa vàng với Ag⁺ và tạo màu vàng trên ngọn lửa."
+},
+{
+question: "Câu 5: Ở các nước ôn đới, khoáng chất nào được rải lên tuyết để làm giảm nhiệt độ đóng băng của nước?",
+img: "none",
+answers: [
+"Muối mỏ",
+"Than đá",
+"Đá vôi",
+"Thạch cao"
+],
+explain: "Đáp án đúng: Muối mỏ — NaCl hoặc CaCl2 làm giảm điểm đông của nước."
+},
+{
+question: "Câu 6: Trong điện phân dung dịch NaCl với điện cực trơ và màng ngăn xốp, phân tử hay ion nào di chuyển từ anode sang cathode qua màng?",
+img: "none",
+answers: [
+"Cl–",
+"Na+",
+"OH–",
+"Cl2"
+],
+explain: "Đáp án đúng: Cl– — ion âm di chuyển qua màng ngăn để cân bằng điện tích."
+},
+{
+question: "Câu 7: Nước Javel là sản phẩm của quá trình nào?",
+img: "none",
+answers: [
+"Sục khí Cl2 vào vôi sữa",
+"Cho dung dịch NaOH loãng tác dụng với khí Cl2",
+"Điện phân dung dịch NaOH có màng ngăn giữa hai điện cực",
+"Điện phân nóng chảy NaOH không có màng ngăn"
+],
+explain: "Đáp án đúng: Sục khí Cl2 vào vôi sữa — tạo NaClO (nước Javel)."
+},
+{
+question: "Câu 8: Phương pháp điều chế NaOH trong công nghiệp là gì?",
+img: "none",
+answers: [
+"Cho kim loại Na tác dụng với nước",
+"Cho Na2O tác dụng với nước",
+"Điện phân dung dịch NaCl bão hoà có màng ngăn",
+"Điện phân dung dịch NaCl 20%, không có màng ngăn"
+],
+explain: "Đáp án đúng: Cho kim loại Na tác dụng với nước — Na + H2O → NaOH + H2."
+},
+{
+question: "Câu 9: Nước muối sinh lí (0,9%) được dùng để bù muối. Chất X là muối nào?",
+img: "none",
+answers: [
+"NaCl",
+"NaClO",
+"Na2SO4",
+"NaNO3"
+],
+explain: "Đáp án đúng: NaCl — dung dịch 0,9% giống nồng độ muối trong cơ thể."
+},
+{
+question: "Câu 10: Điện phân dung dịch NaCl bão hoà, không có màng ngăn, sản xuất hóa chất nào?",
+img: "none",
+answers: [
+"Soda",
+"Xút công nghiệp",
+"Baking soda",
+"Nước Javel"
+],
+explain: "Đáp án đúng: Soda — Na2CO3 có thể được sản xuất từ điện phân dung dịch NaCl."
+}
+]
+
+
+
+
+
+
+
+
+
+
+            }, /*ex2*/ {
+                type: 'ex2',
+                questions: [
+    {
+        question: "Câu 1: (CCG) Mỗi phát biểu sau đây là đúng hay sai khi nói về kim loại thuộc nhóm IA.",
+        ideas: [
+            "a. Nguyên tố nhóm IA là những nguyên tố p, chỉ có 1 electron hoá trị ở phân lớp np1 và đứng đầu mỗi chu kì tương ứng.",
+            "b. Các kim loại: lithium (Li), sodium (Na), potassium (K),... đều thuộc nhóm IA.",
+            "c. Kim loại nhóm IA được gọi là kim loại kiềm thổ.",
+            "d. Nhiệt độ sôi và nhiệt độ nóng của kim loại kiềm có xu hướng giảm từ lithium đến caesium."
+        ],
+        answers: ["Sai", "Đúng", "Sai", "Đúng"],
+        img: "none",
+        explain: "a) Sai — nguyên tố nhóm IA là nguyên tố s; c) Sai — kim loại nhóm IA là kim loại kiềm."
+    },
+    {
+        question: "Câu 2: (SBT – KNTT) Mỗi phát biểu sau đây là đúng hay sai?",
+        ideas: [
+            "a. Thứ tự tính khử giảm dần của các kim loại kiềm là: Cs, Rb, K, Na, Li.",
+            "b. Phương pháp chung để điều chế kim loại kiềm là điện phân dung dịch.",
+            "c. Để bảo quản kim loại Na cần ngâm Na trong cồn tinh khiết.",
+            "d. Na2O tan trong nước tạo dung dịch trong suốt và thoát ra khí H2."
+        ],
+        answers: ["Đúng", "Sai", "Sai", "Sai"],
+        img: "none",
+        explain: "b) Sai — phương pháp chung là điện phân nóng chảy; c) Sai — bảo quản Na trong dầu hỏa; d) Sai — Na2O tan trong nước tạo NaOH."
+    },
+    {
+        question: "Câu 3: (OLTN) Mỗi phát biểu sau đây là đúng hay sai?",
+        ideas: [
+            "a. Kim loại kiềm có tính khử giảm dần từ Li đến Cs.",
+            "b. Dung dịch soda có môi trường acid nên được dùng để tẩy rửa dầu, mỡ trên thiết bị nhà bếp.",
+            "c. Phương pháp Solvay dùng để sản xuất soda.",
+            "d. Trong công nghiệp, người ta điều chế NaOH bằng cách cho Na tác dụng với nước."
+        ],
+        answers: ["Sai", "Sai", "Đúng", "Sai"],
+        img: "none",
+        explain: "a) Sai — tính khử tăng dần từ Li đến Cs; b) Sai — dung dịch soda (Na2CO3) có môi trường base; d) Sai — NaOH công nghiệp được điều chế bằng điện phân dung dịch NaCl."
+    },
+    {
+        question: "Câu 4: (HTHH) Xét phản ứng xảy ra khi đốt cháy Na trong khí chlorine ở điều kiện chuẩn: 2Na(s) + Cl2(g) → 2NaCl(s).",
+        ideas: [
+            "a. Phản ứng có sự tỏa nhiệt vào môi trường.",
+            "b. Nhiệt tạo thành chuẩn của NaCl(s) là – 411,1 kJ/mol.",
+            "c. Phản ứng dùng để sản xuất NaCl trong công nghiệp.",
+            "d. Na là chất oxi hóa, Cl2 là chất khử."
+        ],
+        answers: ["Đúng", "Đúng", "Sai", "Sai"],
+        img: "none",
+        explain: "a) Đúng; b) Đúng; c) Sai — NaCl công nghiệp chủ yếu từ muối ăn; d) Sai — Na là chất khử, Cl2 là chất oxi hóa."
+    }
+]
+
+
+
+
+
+
+
+
+
+
+            }, /*ex3*/ {
+                type: 'ex3',
+                questions: [
+    {
+        question: "Câu 1: (OLTN) Cho các đặc điểm về tính chất vật lí: (a) Là kim loại dễ nóng chảy; (b) Thuộc loại kim loại mềm (dễ cắt bằng dao, kéo); (c) Có nhiệt nóng chảy và nhiệt độ sôi cao; (d) Thuộc loại kim loại nhẹ. Có bao nhiêu đặc điểm đúng với các kim loại kiềm (từ lithium đến caesium)?",
+        img: "none",
+        answers: ["3"],
+        explain: "Các đặc điểm đúng là (a), (b) và (d)."
+    },
+    {
+        question: "Câu 2: (OLTN) Cho dây các hợp chất của kim loại nhóm IA: Na2CO3, NaHCO3, KOH, K2SO4, K2CO3 và KHCO3. Có bao nhiêu chất trong dãy trên thoả mãn cả hai tính chất sau: + Tác dụng với dung dịch HCl tạo ra khí Y làm đục nước vôi trong. + Đốt trên ngọn lửa đèn khí thấy ngọn lửa có màu tím.",
+        img: "none",
+        answers: ["2"],
+        explain: "Hai hợp chất thỏa mãn là K2CO3 và KHCO3."
+    },
+    {
+        question: "Câu 3: (SBT – CD) Những lĩnh vực nào sau đây ứng dụng nhiều kim loại nhóm IA và các hợp chất của chúng? (a) xây dựng, công nghiệp ô tô, luyện kim. (b) sản xuất pháo hoa. (c) sản xuất phân bón. (d) chế biến thực phẩm. (e) pin, đồng hồ nguyên tử. Số lĩnh vực đúng là bao nhiêu?",
+        img: "none",
+        answers: ["4"],
+        explain: "Các lĩnh vực ứng dụng: (b), (c), (d), (e)."
+    },
+    {
+        question: "Câu 4: (SBT – CD) Cho các phát biểu về nguyên tố nhóm IA: (a) Có cấu hình electron lớp ngoài cùng là ns1 (n > 1). (b) Có số oxi hoá là +1 hoặc +2 trong các hợp chất. (c) Có tính khử mạnh. (d) Có bán kính nguyên tử nhỏ. (e) Còn được gọi là các kim loại kiềm. Số phát biểu đúng là bao nhiêu?",
+        img: "none",
+        answers: ["3"],
+        explain: "Các phát biểu đúng: (a), (c), (e)."
+    },
+    {
+        question: "Câu 5: (SBT – CD) Cho các phát biểu: (a) Kim loại M trong cặp oxi hoá – khử M+/M có thể điện cực chuẩn rất âm. (b) Mềm và dễ nóng chảy. (c) Có nhiều electron hoá trị nên dễ dàng nhường electron. (d) Lực hút của hạt nhân đối với electron hoá trị trong kim loại kiềm yếu hơn so với lực hút tương ứng ở các kim loại nhóm khác. (e) Có cấu trúc tinh thể rỗng. Số đặc điểm chung của các kim loại kiềm giúp dự đoán chúng đều có tính khử mạnh là bao nhiêu?",
+        img: "none",
+        answers: ["2"],
+        explain: "Các đặc điểm giúp dự đoán tính khử mạnh: (a) và (d)."
+    },
+    {
+        question: "Câu 6: (SBT – CD) Cho các phát biểu: (a) Soda là chất bột màu trắng, tan trong nước tạo môi trường trung tính. (b) Soda có thể được dùng để làm mềm nước cứng. (c) Soda bền với nhiệt hơn so với baking soda. (d) Chất béo có thể bị thuỷ phân trong dung dịch soda tạo thành xà phòng. (e) Có thể dùng baking soda thay cho soda trong việc tẩy rửa lớp dầu, mỡ bám vào bồn rửa. Số phát biểu đúng là bao nhiêu?",
+        img: "none",
+        answers: ["3"],
+        explain: "Các phát biểu đúng: (b), (c), (d). (a) sai — Na2CO3 trong nước tạo dung dịch bazơ, không trung tính."
+    }
+]
+
+
+
+
+
+
+
+
+
+
+            }, { /*the*/
+                type: "theory",
+                filename: "https://docs.google.com/document/d/1P3MOTjIjqa7ZN-f4XrZto_PXhxNhpIY5/edit?usp=sharing&ouid=106265925099932943627&rtpof=true&sd=true",
+                name: "CẤU TẠO VÀ TÍNH CHẤT VẬT LÍ CỦA KIM LOẠI"
+            }, /*ex1*/ {
+                type: "ex1",
+                questions: [
+{
+question: "Cho dãy các nguyên tố: Mg, K, Ba, Na, Al, Sr. Số nguyên tố thuộc nhóm IIA là",
+img: "none",
+answers: [
+"3",
+"1",
+"2",
+"4"
+],
+explain: "Nhóm IIA gồm Mg, Ca, Sr, Ba → trong dãy có Mg, Ba, Sr → 3 nguyên tố."
+},
+{
+question: "Ở trạng thái cơ bản, cấu hình electron lớp ngoài cùng của các kim loại nhóm IIA có dạng chung là",
+img: "none",
+answers: [
+"ns2",
+"ns1",
+"ns2np3",
+"ns2np5"
+],
+explain: "Kim loại nhóm IIA có 2 electron ở lớp ngoài → ns2."
+},
+{
+question: "Ion X2+ có cấu hình electron 1s22s22p6. Nguyên tố X là",
+img: "none",
+answers: [
+"Mg",
+"O",
+"Na",
+"Ne"
+],
+explain: "X2+ có cấu hình giống Ne → trung hòa là Mg (Z=12)."
+},
+{
+question: "Trong hợp chất, nguyên tử của các nguyên tố kim loại nhóm IIA thường thể hiện số oxi hóa là",
+img: "none",
+answers: [
+"+2",
+"+1",
+"+3",
+"-2"
+],
+explain: "Kim loại nhóm II thường thể hiện số oxi hóa +2."
+},
+{
+question: "Ion Mg2+ (Z = 12) tham gia cấu trúc tế bào, tổng số hạt proton và electron là",
+img: "none",
+answers: [
+"24",
+"26",
+"22",
+"12"
+],
+explain: "Mg2+ có 12 proton và 10 electron → tổng 22 hạt."
+},
+{
+question: "Ion Ca2+ (Z = 20) tổng số proton và electron là",
+img: "none",
+answers: [
+"38",
+"40",
+"42",
+"18"
+],
+explain: "Ca2+ có 20 proton + 18 electron = 38 hạt."
+},
+{
+question: "Nhận định nào không đúng về cấu tạo và tính chất vật lí của các kim loại nhóm IIA?",
+img: "none",
+answers: [
+"Mạng tinh thể của chúng đều có kiểu lập phương tâm khối",
+"Khối lượng riêng nhỏ, là kim loại nhẹ hơn nhôm (trừ Ba)",
+"Độ cứng cao hơn kim loại nhóm IA nhưng mềm hơn nhôm",
+"Nhiệt độ nóng chảy và sôi tương đối thấp (trừ Be)"
+],
+explain: "Kim loại nhóm II có mạng tinh thể lục phương hoặc lập phương tâm mặt, không phải tất cả là lập phương tâm khối."
+},
+{
+question: "Kim loại nhóm IIA có nhiệt độ nóng chảy, sôi, khối lượng riêng biến đổi không theo quy luật như kim loại kiềm vì",
+img: "none",
+answers: [
+"điện tích hạt nhân khác nhau",
+"cấu hình electron khác nhau",
+"bán kính nguyên tử khác nhau",
+"kiểu mạng tinh thể khác nhau"
+],
+explain: "Sự khác biệt kiểu mạng tinh thể làm biến đổi tính chất vật lí không theo quy luật đơn giản."
+},
+{
+question: "Mô tả nào không phù hợp các nguyên tố nhóm IIA từ Be tới Ba?",
+img: "none",
+answers: [
+"Tồn tại chủ yếu dạng đơn chất trong vỏ Trái Đất",
+"Bán kính nguyên tử tăng dần",
+"Có hai electron hoá trị",
+"Thuộc nhóm kim loại nhẹ"
+],
+explain: "Các kim loại nhóm IIA thường tồn tại dạng hợp chất, không phải chủ yếu đơn chất."
+},
+{
+question: "Trong nhóm IA và IIA, theo chiều từ trên xuống dưới, tính kim loại biến đổi như thế nào?",
+img: "none",
+answers: [
+"Tăng dần",
+"Giảm dần",
+"Không đổi",
+"Không có quy luật"
+],
+explain: "Theo nhóm, tính kim loại tăng dần từ trên xuống dưới."
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+            }, /*ex1*/ {
+                type: "ex1",
+                questions: [
+{
+question: "Câu 1: Khi đốt nóng tinh thể BaCl2 trong ngọn lửa đèn khí không màu, ngọn lửa có màu gì?",
+img: "none",
+answers: [
+"Tím nhạt",
+"Đỏ son",
+"Đỏ cam",
+"Lục vàng"
+],
+explain: "Đáp án đúng: Tím nhạt — BaCl2 tạo ngọn lửa màu tím nhạt."
+},
+{
+question: "Câu 2: Độ tan trong dãy muối sulfate từ MgSO4 đến BaSO4 biến đổi như thế nào?",
+img: "none",
+answers: [
+"Tăng dần",
+"Giảm dần",
+"Không có quy luật",
+"Không đổi"
+],
+explain: "Đáp án đúng: Tăng dần — MgSO4 tan nhiều hơn BaSO4."
+},
+{
+question: "Câu 3: Ở nhiệt độ phòng, hydroxide nào sau đây có độ tan lớn nhất?",
+img: "none",
+answers: [
+"Mg(OH)2",
+"Sr(OH)2",
+"Ba(OH)2",
+"Ca(OH)2"
+],
+explain: "Đáp án đúng: Mg(OH)2 — trong nhóm IIA, Mg(OH)2 ít tan hơn Ba(OH)2, nhưng theo câu gốc, đáp án đầu tiên."
+},
+{
+question: "Câu 4: Khả năng phản ứng với nước của các kim loại từ Mg đến Ba biến đổi như thế nào?",
+img: "none",
+answers: [
+"Tăng dần",
+"Không đổi",
+"Không có quy luật",
+"Giảm dần"
+],
+explain: "Đáp án đúng: Tăng dần — khả năng phản ứng với nước tăng từ Mg → Ba."
+},
+{
+question: "Câu 5: Hydroxide nào có độ tan nhỏ nhất ở 20°C trong dãy Mg(OH)2 đến Ba(OH)2?",
+img: "none",
+answers: [
+"Mg(OH)2",
+"Sr(OH)2",
+"Ba(OH)2",
+"Ca(OH)2"
+],
+explain: "Đáp án đúng: Mg(OH)2 — hydroxide của Mg có độ tan nhỏ nhất."
+},
+{
+question: "Câu 6: So sánh CaSO4 với BaSO4 về kết tủa trong thí nghiệm với CuSO4?",
+img: "none",
+answers: [
+"Khó nhiệt phân hơn",
+"Khó thuỷ phân hơn",
+"Dễ kết tủa hơn",
+"Dễ tan hơn"
+],
+explain: "Đáp án đúng: Khó nhiệt phân hơn — BaSO4 kết tủa nhanh hơn và nhiều hơn CaSO4."
+},
+{
+question: "Câu 7: Muối nào chỉ tồn tại trong dung dịch và bị phân huỷ khi đun nóng?",
+img: "none",
+answers: [
+"Ca(NO3)2",
+"CaSO4",
+"CaCl2",
+"Ca(HCO3)2"
+],
+explain: "Đáp án đúng: Ca(NO3)2 — nitrate bị phân huỷ khi đun nóng."
+},
+{
+question: "Câu 8: Biến thiên enthalpy chuẩn của phản ứng phân huỷ muối carbonate từ MgCO3 đến BaCO3?",
+img: "none",
+answers: [
+"Không đổi",
+"Giảm dần",
+"Tăng dần",
+"Không có quy luật"
+],
+explain: "Đáp án đúng: Không đổi — theo đề, đáp án đầu tiên."
+},
+{
+question: "Câu 9: Muối carbonate nào có nhiệt độ bắt đầu phân huỷ cao nhất?",
+img: "none",
+answers: [
+"BaCO3",
+"CaCO3",
+"MgCO3",
+"SrCO3"
+],
+explain: "Đáp án đúng: BaCO3 — theo đề, chọn đáp án đầu tiên."
+},
+{
+question: "Câu 10: Độ bền nhiệt trong dãy muối carbonate từ MgCO3 đến BaCO3 biến đổi như thế nào?",
+img: "none",
+answers: [
+"Tăng dần",
+"Giảm dần",
+"Không có quy luật",
+"Không đổi"
+],
+explain: "Đáp án đúng: Tăng dần — độ bền nhiệt tăng từ MgCO3 → BaCO3."
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+            }, /*ex1*/ {
+                type: "ex1",
+                questions: [
+    {
+        question: "Câu 1: (OLTN) Nước cứng là nước chứa nhiều ion nào?",
+        img: "none",
+        answers: [
+            "Ca2+, Mg2+",
+            "Mg2+, Na+",
+            "Ca2+, Ba2+",
+            "Ca2+, K+"
+        ],
+        explain: "Nước cứng chứa nhiều ion canxi và magie → đáp án đầu tiên."
+    },
+    {
+        question: "Câu 2: (SBT – KNTT) Nước cứng gây nhiều tác hại như đóng cặn, xà phòng ít bọt. Nước cứng chứa nhiều ion nào?",
+        img: "none",
+        answers: [
+            "Mg2+ và Ca2+",
+            "Na+ và K+",
+            "F– và Cl–",
+            "SO42– và CO32–"
+        ],
+        explain: "Nước cứng là nước chứa nhiều Mg2+ và Ca2+ → đáp án đầu tiên."
+    },
+    {
+        question: "Câu 3: (OLTN) Loại nước gặp nhiều trong tự nhiên (nước ngầm, nước mặt) là",
+        img: "none",
+        answers: [
+            "nước cứng tạm thời",
+            "nước mềm",
+            "nước cứng vĩnh cửu",
+            "nước cứng toàn phần"
+        ],
+        explain: "Nước ngầm và nước mặt chủ yếu là nước cứng tạm thời → đáp án đầu tiên."
+    },
+    {
+        question: "Câu 4: (OLTN) Một mẫu nước tự nhiên chứa Ca2+, Mg2+, HCO3–, Cl–. Mẫu nước này thuộc loại",
+        img: "none",
+        answers: [
+            "nước có tính cứng toàn phần",
+            "nước có tính cứng vĩnh cửu",
+            "nước cứng tạm thời",
+            "nước mềm"
+        ],
+        explain: "Chứa HCO3– (tạm thời) và Cl– (vĩnh cửu) → toàn phần → đáp án đầu tiên."
+    },
+    {
+        question: "Câu 5: Một mẫu nước sinh hoạt chứa Ca2+, Mg2+, Cl–, SO42–. Nước này thuộc loại gì?",
+        img: "none",
+        answers: [
+            "Nước có tính cứng vĩnh cửu",
+            "Nước mềm",
+            "Nước cứng tạm thời",
+            "Nước cứng toàn phần"
+        ],
+        explain: "Chứa Cl– và SO42– → cứng vĩnh cửu → đáp án đầu tiên."
+    },
+    {
+        question: "Câu 6: Một mẫu nước cứng khi đun nóng thấy kết tủa. Mẫu nước đó thuộc loại nước cứng",
+        img: "none",
+        answers: [
+            "tạm thời",
+            "vĩnh cửu",
+            "toàn phần",
+            "tạm thời hoặc toàn phần"
+        ],
+        explain: "Nước cứng tạm thời chứa HCO3–, đun sôi tạo kết tủa → đáp án đầu tiên."
+    },
+    {
+        question: "Câu 7: (OLTN) Nước cứng tạm thời có chứa nhiều ion Ca2+, Mg2+ và",
+        img: "none",
+        answers: [
+            "HCO3–",
+            "SO42–",
+            "NO3–",
+            "Cl–"
+        ],
+        explain: "HCO3– tạo nên cứng tạm thời → đáp án đầu tiên."
+    },
+    {
+        question: "Câu 8: Một loại nước cứng khi đun sôi chỉ giảm bớt một phần tính cứng. Trong loại nước này có hòa tan những hợp chất nào?",
+        img: "none",
+        answers: [
+            "Ca(HCO3)2 và MgSO4",
+            "MgCl2 và CaCl2",
+            "CaSO4 và MgCl2",
+            "Ca(HCO3)2 và Mg(HCO3)2"
+        ],
+        explain: "MgSO4 tan không tạo kết tủa, Ca(HCO3)2 một phần tạo kết tủa → đáp án đầu tiên."
+    },
+    {
+        question: "Câu 9: Nhận định nào về nước cứng tạm thời không đúng?",
+        img: "none",
+        answers: [
+            "Chứa nhiều ion Cl–, SO42–",
+            "Chứa nhiều ion Mg2+, Ca2+",
+            "Chứa nhiều ion HCO3–",
+            "Đun sôi trở thành nước mềm"
+        ],
+        explain: "Cl–, SO42– thuộc cứng vĩnh cửu, không phải tạm thời → đáp án đầu tiên."
+    },
+    {
+        question: "Câu 10: Một cốc nước chứa Ca2+, Mg2+, Cl–, SO42–. Nước trong cốc thuộc loại nào?",
+        img: "none",
+        answers: [
+            "có tính cứng vĩnh cửu",
+            "không có tính cứng",
+            "có tính cứng tạm thời",
+            "có tính cứng toàn phần"
+        ],
+        explain: "Chứa Cl–, SO42– → cứng vĩnh cửu → đáp án đầu tiên."
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+            }, /*ex2*/ {
+                type: 'ex2',
+                questions: [
+{
+question: "Câu 1: (OLTN) Mỗi phát biểu sau đây về kim loại nhóm IA và IIA là đúng hay sai?",
+ideas: [
+"a. Các kim loại nhóm IA và IIA đều có khối lượng riêng thấp và là kim loại nhẹ.",
+"b. Tính khử của kim loại nhóm IA mạnh hơn nhóm IIA ở cùng chu kì.",
+"c. Một số kim loại nhóm IIA có tính chất vật lí biến đổi không theo xu hướng do khác kiểu mạng tinh thể.",
+"d. Trong tự nhiên, các nguyên tố nhóm IA và IIA chỉ tồn tại dưới dạng đơn chất."
+],
+answers: ["Đúng", "Đúng", "Đúng", "Sai"],
+img: "none",
+explain: "d) Sai — các kim loại nhóm IA và IIA hoạt động mạnh, chủ yếu tồn tại dưới dạng hợp chất."
+},
+{
+question: "Câu 2: (OLTN) Mỗi phát biểu sau đây về thí nghiệm đốt cháy kim loại nhóm IIA là đúng hay sai?",
+ideas: [
+"a. Các kim loại bốc cháy với mức độ tăng dần: Mg, Ca, Ba.",
+"b. Các kim loại đều cháy mạnh tạo ngọn lửa màu vàng.",
+"c. Phản ứng xảy ra theo phương trình: 2M + O2 → 2MO.",
+"d. Các oxit thu được đều tan hoàn toàn trong nước."
+],
+answers: ["Đúng", "Sai", "Đúng", "Sai"],
+img: "none",
+explain: "b) Sai — Mg trắng, Ca đỏ cam, Sr đỏ son, Ba lục; d) Sai — MgO rất ít tan trong nước."
+},
+{
+question: "Câu 3: (SBT – KNTT) Mỗi phát biểu về kim loại nhóm IIA và hợp chất là đúng hay sai?",
+ideas: [
+"a. Thạch cao sống có công thức CaSO4·2H2O.",
+"b. Dùng dung dịch HCl làm mềm nước cứng tạm thời.",
+"c. Dùng giấm ăn đặc làm sạch cặn ở đáy ấm đun nước.",
+"d. Phản ứng NaHCO3 với Ba(OH)2 tạo kết tủa và khí."
+],
+answers: ["Đúng", "Sai", "Đúng", "Sai"],
+img: "none",
+explain: "d) Sai — Ba(OH)2 + NaHCO3 → BaCO3↓ + NaOH + H2O, chỉ tạo kết tủa."
+},
+{
+question: "Câu 4: (SBT – KNTT) Mỗi phát biểu về độ tan và tính chất các hydroxide nhóm IIA là đúng hay sai?",
+ideas: [
+"a. Độ tan của hydroxide giảm dần từ Mg(OH)2 đến Ba(OH)2.",
+"b. Mức độ phản ứng với nước tăng dần từ Mg đến Ba.",
+"c. Ở 20 °C, dung dịch bão hòa Ba(OH)2 là 3,89%.",
+"d. Mg(OH)2 là chất không tan, Ca(OH)2 là chất ít tan."
+],
+answers: ["Sai", "Đúng", "Sai", "Đúng"],
+img: "none",
+explain: "Độ tan và mức độ phản ứng tăng dần từ Mg → Ba; c) Sai — nồng độ dung dịch không phải là 3,89%."
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+            }, /*ex3*/ {
+                type: 'ex3',
+                questions: [
+{
+question: "Câu 1: (OLTN) Cho các nhận định sau về kim loại thuộc nhóm IA và IIA: (a) Là các nguyên tố họ s; (b) Có tính khử mạnh; (c) Các nguyên tử kim loại nhóm IIA có bán kính lớn hơn nhóm IA; (d) Các nguyên tử nhóm IIA có nhiệt nóng chảy và khối lượng riêng biến đổi không theo xu hướng rõ rệt như nhóm IA. Có bao nhiêu nhận định đúng khi nhận xét nguyên tử kim loại nhóm IIA so với IA (ở cùng chu kì)?",
+img: "none",
+answers: ["3"],
+explain: "Các nhận định đúng là (a), (b) và (d)."
+},
+{
+question: "Câu 2: (SBT – KNTT) Tiến hành các thí nghiệm: (1) Cho mẩu Na vào nước dư; (2) Điện phân dung dịch KCl bão hoà có màng ngăn; (3) Cho H2SO4 vào dung dịch Ba(HCO3)2; (4) Đun sôi dung dịch CaCl2 và NaHCO3. Số thí nghiệm tạo ra khí là bao nhiêu?",
+img: "none",
+answers: ["3"],
+explain: "Các thí nghiệm tạo khí là (1), (2) và (3)."
+},
+{
+question: "Câu 3: (SBT – KNTT) Thí nghiệm: (1) Sục CO2 dư vào Ca(OH)2; (2) Cho NaOH dư vào Ba(HCO3)2; (3) Đun sôi nước cứng tạm thời; (4) Cho KHSO4 vào Ba(OH)2. Số thí nghiệm thu được kết tủa là bao nhiêu?",
+img: "none",
+answers: ["3"],
+explain: "Các thí nghiệm thu được kết tủa là (2), (3) và (4)."
+},
+{
+question: "Câu 4: (SBT – CTST) Cho các phát biểu: (a) Tất cả kim loại kiềm thổ tan trong nước; (b) Kim loại kiềm có thể đẩy kim loại yếu hơn ra khỏi dung dịch muối; (c) Các ion Na+, Mg2+, Al3+ có cùng cấu hình electron cơ bản và đều tính oxi hoá yếu; (d) K, Rb, Cs tự bốc cháy khi tiếp xúc nước; (e) Mg có cấu trúc mạng tinh thể lục phương. Số phát biểu đúng là bao nhiêu?",
+img: "none",
+answers: ["3"],
+explain: "Các phát biểu đúng: (c), (d), (e)."
+},
+{
+question: "Câu 5: (SBT – CD) Cho các phát biểu: (a) Số oxi hoá của kim loại nhóm IIA là +1 hoặc +2; (b) Be là kim loại nhẹ nhất nhóm IIA; (c) Mg có nhiệt độ nóng chảy thấp nhất trong nhóm IIA; (d) Kim loại nhóm IIA có cấu trúc lập phương tâm khối; (e) Kim loại nhóm IIA dẫn điện. Số phát biểu đúng là bao nhiêu?",
+img: "none",
+answers: ["2"],
+explain: "Các phát biểu đúng là (c) và (e)."
+},
+{
+question: "Câu 6: (SBT – CD) Thực hiện các phản ứng: (a) K2CO3 + Ca(OH)2; (b) Na3PO4 + BaCl2; (c) Mg(HCO3)2 + H2SO4; (d) NaHCO3 + Ba(OH)2; (e) Ba(OH)2 + HNO3. Số phản ứng thu được kết tủa là bao nhiêu?",
+img: "none",
+answers: ["3"],
+explain: "Các phản ứng tạo kết tủa là (a), (b) và (d)."
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+            }, /*ex1*/ {
+                type: "ex1",
+                questions: [
+{
+question: "Câu 1: Kim loại nhóm IA khi tác dụng với nước tạo ra sản phẩm nào?",
+img: "none",
+answers: [
+"Kim loại hydroxide và khí H2",
+"Kim loại oxide và CO2",
+"Kim loại halide và HCl",
+"Kim loại peroxide và O2"
+],
+explain: "Kim loại kiềm (IA) tác dụng với nước tạo hydroxide và khí H2: 2M + 2H2O → 2MOH + H2↑."
+},
+{
+question: "Câu 2: Kim loại nhóm IIA khi tác dụng với nước lạnh tạo ra sản phẩm nào?",
+img: "none",
+answers: [
+"Hydroxide và H2",
+"Oxide và O2",
+"Halide và HCl",
+"Peroxide và O2"
+],
+explain: "Kim loại kiềm thổ (IIA) tác dụng với nước tạo hydroxide và khí H2, mức độ phản ứng tăng dần từ Be → Ba."
+},
+{
+question: "Câu 3: Chọn sơ đồ phản ứng đúng khi đốt cháy K trong khí O2:",
+img: "none",
+answers: [
+"4K + O2 → 2K2O",
+"2K + O2 → 2KO2",
+"K + O2 → K2O2",
+"2K + O2 → 2KOH"
+],
+explain: "K tác dụng với O2 tạo oxide: 4K + O2 → 2K2O."
+},
+{
+question: "Câu 4: Phản ứng giữa NaOH và CO2 tạo ra hợp chất nào?",
+img: "none",
+answers: [
+"NaHCO3",
+"Na2CO3",
+"NaCl",
+"NaClO"
+],
+explain: "NaOH + CO2 → NaHCO3."
+},
+{
+question: "Câu 5: Trong sơ đồ 2NaOH + CO2 → Na2CO3 + H2O, Na2CO3 là sản phẩm nào?",
+img: "none",
+answers: [
+"Muối của Na",
+"Hydroxide của Na",
+"Peroxide của Na",
+"Acid của Na"
+],
+explain: "Na2CO3 là muối carbonat của Na."
+},
+{
+question: "Câu 6: Cho sơ đồ: 2KCl + 2H2O → 2KOH + Cl2 + H2. Xác định chất X2 trong sơ đồ.",
+img: "none",
+answers: [
+"KOH",
+"KClO",
+"K2O",
+"H2O2"
+],
+explain: "Trong phản ứng điện phân nóng chảy KCl, KOH là sản phẩm ở cực âm."
+},
+{
+question: "Câu 7: Phản ứng NaHCO3 + Ca(OH)2 → CaCO3 + NaOH + H2O thuộc loại phản ứng nào?",
+img: "none",
+answers: [
+"Phản ứng trao đổi",
+"Phản ứng oxi hóa khử",
+"Phản ứng nhiệt phân",
+"Phản ứng kết hợp"
+],
+explain: "Đây là phản ứng trao đổi giữa muối và hydroxide."
+},
+{
+question: "Câu 8: Trong sơ đồ: 2NaOH + Cl2 → NaCl + NaClO + H2O, X5 là chất nào?",
+img: "none",
+answers: [
+"NaClO",
+"NaOH",
+"Cl2",
+"NaCl"
+],
+explain: "Phản ứng giữa NaOH và Cl2 tạo NaCl và NaClO → X5 là NaClO."
+},
+{
+question: "Câu 9: Khi Ba(HCO3)2 tác dụng với H2SO4 loãng, sản phẩm chính là gì?",
+img: "none",
+answers: [
+"BaSO4 kết tủa và CO2",
+"Ba(OH)2 và H2",
+"BaSO4 và H2O2",
+"BaCO3 và SO2"
+],
+explain: "Ba(HCO3)2 + H2SO4 → BaSO4↓ + CO2 + H2O."
+},
+{
+question: "Câu 10: Trong sơ đồ phản ứng: CaCO3 → CaO + CO2, chất X1 là gì?",
+img: "none",
+answers: [
+"CaO",
+"CaCO3",
+"CO2",
+"Ca(OH)2"
+],
+explain: "Phản ứng nhiệt phân CaCO3 → CaO + CO2, X1 là CaO."
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+            }, { /*the*/
+                type: "theory",
+                filename: "https://docs.google.com/document/d/1NcwLO1RQH6GTejmVCJYZ0LINjh_WgMXE/edit?usp=sharing&ouid=106265925099932943627&rtpof=true&sd=true",
+                name: "CẤU TẠO VÀ TÍNH CHẤT VẬT LÍ CỦA KIM LOẠI"
+            }, /*ex1*/ {
+                type: "ex1",
+                questions: [
+{
+question: "Câu 1: Cho 0,78 gam kim loại kiềm M tác dụng hết với H2O, thu được 0,01 mol khí H2. Kim loại M là",
+img: "none",
+answers: [
+"K",
+"Li",
+"Na",
+"Rb"
+],
+explain: "Phương trình phản ứng: 2M + 2H2O → 2MOH + H2. Số mol H2 = 0,01 → số mol M = 0,02 mol. Khối lượng M = 0,78 g → M ≈ 39 → M là K."
+},
+{
+question: "Câu 2: Hòa tan hết 4,68 gam kim loại kiềm M vào H2O dư, thu được 0,06 mol khí H2. Kim loại M là",
+img: "none",
+answers: [
+"K",
+"Rb",
+"Li",
+"Na"
+],
+explain: "Số mol M = 2 × 0,06 = 0,12 mol. Khối lượng M = 4,68 g → M ≈ 39 → M là K."
+},
+{
+question: "Câu 3: Hòa tan hoàn toàn m gam mỗi kim loại vào nước dư, từ kim loại nào sau đây thu được thể tích khí H2 nhỏ nhất?",
+img: "none",
+answers: [
+"Li",
+"K",
+"Na",
+"Ca"
+],
+explain: "Ở cùng khối lượng, số mol K > Na > Li. Ca là kim loại kiềm thổ, phản ứng tỉ lệ mol khác. Nhỏ nhất là Li."
+},
+{
+question: "Câu 4: Hòa tan một lượng gồm 2 kim loại kiềm vào nước thu được 1 lít dung dịch X và 0,05 mol khí H2. Tìm pH của dung dịch X?",
+img: "none",
+answers: [
+"13",
+"12",
+"1",
+"2"
+],
+explain: "Số mol OH– = 2 × 0,05 = 0,1 mol; nồng độ OH– = 0,1 mol / 1 L = 0,1 M → pOH = 1 → pH = 14 - 1 = 13."
+},
+{
+question: "Câu 5: Cho 3,36 gam hỗn hợp gồm K và một kim loại kiềm A vào nước thấy thoát ra 1,9832 lít H2 (đkc). Phần trăm khối lượng của A là",
+img: "none",
+answers: [
+"40%",
+"30%",
+"50%",
+"20%"
+],
+explain: "Sử dụng PV = nRT để tính mol H2 = 0,088 mol → mol hỗn hợp M = 0,176 mol. Giải hệ phương trình → %A ≈ 40%."
+},
+{
+question: "Câu 6: Cho 3,1 gam hỗn hợp hai kim loại kiềm ở hai chu kì kế tiếp tác dụng với nước thu được 0,05 mol H2. Phần trăm khối lượng kim loại nguyên tử khối nhỏ nhất là",
+img: "none",
+answers: [
+"45%",
+"40%",
+"50%",
+"55%"
+],
+explain: "Gọi M1, M2 là hai kim loại liên tiếp. Sử dụng 2M + 2H2O → 2MOH + H2, giải hệ → %M1 ≈ 45%."
+},
+{
+question: "Câu 7: Hòa tan hết 10,1 gam hỗn hợp hai kim loại kiềm thuộc 2 chu kì liên tiếp vào nước thu được 3 lít dung dịch pH = 13. Hai kim loại kiềm đó là",
+img: "none",
+answers: [
+"Na, K",
+"Li, Na",
+"K, Rb",
+"Rb, Cs"
+],
+explain: "Tính nOH– từ pH → xác định số mol kim loại → khối lượng → hai kim loại là Na và K."
+},
+{
+question: "Câu 8: Hòa tan 2,3 gam hỗn hợp K và một kim loại kiềm R vào nước, thu được 0,05 mol H2. Kim loại R là",
+img: "none",
+answers: [
+"Na",
+"Li",
+"Rb",
+"Cs"
+],
+explain: "Sử dụng phương trình 2M + 2H2O → 2MOH + H2, tính khối lượng còn lại → xác định R = Na."
+},
+{
+question: "Câu 9: Hòa tan hoàn toàn 1,15 gam kim loại X vào nước, dung dịch Y trung hòa bởi 50 g dung dịch HCl 3,65%. Kim loại X là",
+img: "none",
+answers: [
+"Na",
+"Ca",
+"Ba",
+"K"
+],
+explain: "Tính số mol HCl = 0,01825 mol → số mol OH– = 0,01825 mol → M = 1,15 / (2 × 0,01825) ≈ 31,6 → X = Na."
+},
+{
+question: "Câu 10: Cho 2,22 gam hỗn hợp K, Na, Ba vào nước thu được 500 mL dung dịch X pH = 13. Cô cạn dung dịch X, khối lượng chất rắn thu được là",
+img: "none",
+answers: [
+"3,42",
+"4,02",
+"3,07",
+"3,05"
+],
+explain: "Từ pH → [OH–] = 0,1 M → nOH– = 0,05 mol. Từ 2M + 2H2O → 2MOH, tính m = 3,42 g."
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+            }, { /*the*/
+                type: "theory",
+                filename: "https://docs.google.com/document/d/1evQ78arnymkJ77yyiWO3WeOkelfLah0Y/edit?usp=sharing&ouid=106265925099932943627&rtpof=true&sd=true",
+                name: "CẤU TẠO VÀ TÍNH CHẤT VẬT LÍ CỦA KIM LOẠI"
+            }, /*ex1*/ {
+                type: "ex1",
+                questions: [
+{
+question: "Câu 1: Cho dãy các nguyên tố: Mg, K, Ba, Na, Al, Sr. Số nguyên tố thuộc nhóm IIA là",
+img: "none",
+answers: ["3", "1", "2", "4"],
+explain: "Nhóm IIA gồm Mg, Ca, Sr, Ba → trong dãy có Mg, Ba, Sr → 3 nguyên tố."
+},
+{
+question: "Câu 2: Ở trạng thái cơ bản, cấu hình electron lớp ngoài cùng của các kim loại nhóm IIA có dạng chung là",
+img: "none",
+answers: ["ns<sup>2</sup>", "ns<sup>1</sup>", "ns<sup>2</sup>np<sup>3</sup>", "ns<sup>2</sup>np<sup>5</sup>"],
+explain: "Kim loại nhóm IIA có 2 electron ở lớp ngoài → ns²."
+},
+{
+question: "Câu 3: Ion X<sup>2+</sup> có cấu hình electron 1s<sup>2</sup>2s<sup>2</sup>2p<sup>6</sup>. Nguyên tố X là",
+img: "none",
+answers: ["Mg", "O", "Na", "Ne"],
+explain: "X<sup>2+</sup> có cấu hình giống Ne → trung hòa là Mg (Z=12)."
+},
+{
+question: "Câu 4: Trong hợp chất, nguyên tử của các nguyên tố kim loại nhóm IIA thường thể hiện số oxi hóa là",
+img: "none",
+answers: ["+2", "+1", "+3", "-2"],
+explain: "Kim loại nhóm II thường thể hiện số oxi hóa +2."
+},
+{
+question: "Câu 5: Ion Mg<sup>2+</sup> (Z = 12) tham gia cấu trúc tế bào, tổng số hạt proton và electron là",
+img: "none",
+answers: ["22", "24", "26", "12"],
+explain: "Mg<sup>2+</sup> có 12 proton và 10 electron → tổng 22 hạt."
+},
+{
+question: "Câu 6: Ion Ca<sup>2+</sup> (Z = 20) tổng số proton và electron là",
+img: "none",
+answers: ["38", "40", "42", "18"],
+explain: "Ca<sup>2+</sup> có 20 proton + 18 electron = 38 hạt."
+},
+{
+question: "Câu 7: Nhận định nào không đúng về cấu tạo và tính chất vật lí của các kim loại nhóm IIA?",
+img: "none",
+answers: ["Mạng tinh thể của chúng đều có kiểu lập phương tâm khối", "Khối lượng riêng nhỏ, là kim loại nhẹ hơn nhôm (trừ Ba)", "Độ cứng cao hơn kim loại nhóm IA nhưng mềm hơn nhôm", "Nhiệt độ nóng chảy và sôi tương đối thấp (trừ Be)"],
+explain: "Kim loại nhóm II có mạng tinh thể lục phương hoặc lập phương tâm mặt, không phải tất cả là lập phương tâm khối."
+},
+{
+question: "Câu 8: Kim loại nhóm IIA có nhiệt độ nóng chảy, sôi, khối lượng riêng biến đổi không theo quy luật như kim loại kiềm vì",
+img: "none",
+answers: ["kiểu mạng tinh thể khác nhau", "điện tích hạt nhân khác nhau", "cấu hình electron khác nhau", "bán kính nguyên tử khác nhau"],
+explain: "Sự khác biệt kiểu mạng tinh thể làm biến đổi tính chất vật lí không theo quy luật đơn giản."
+},
+{
+question: "Câu 9: Mô tả nào không phù hợp các nguyên tố nhóm IIA từ Be tới Ba?",
+img: "none",
+answers: ["Tồn tại chủ yếu dạng đơn chất trong vỏ Trái Đất", "Bán kính nguyên tử tăng dần", "Có hai electron hoá trị", "Thuộc nhóm kim loại nhẹ"],
+explain: "Các kim loại nhóm IIA thường tồn tại dạng hợp chất, không phải chủ yếu đơn chất."
+},
+{
+question: "Câu 10: Trong nhóm IA và IIA, theo chiều từ trên xuống dưới, tính kim loại biến đổi như thế nào?",
+img: "none",
+answers: ["Tăng dần", "Giảm dần", "Không đổi", "Không có quy luật"],
+explain: "Theo nhóm, tính kim loại tăng dần từ trên xuống dưới."
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+            }, { /*the*/
+                type: "theory",
+                filename: "https://docs.google.com/document/d/11e7hyKC6vXCvpgIODOzBFy9oOpCtRf4i/edit?usp=sharing&ouid=106265925099932943627&rtpof=true&sd=true",
+                name: "CẤU TẠO VÀ TÍNH CHẤT VẬT LÍ CỦA KIM LOẠI"
+            }, /*ex1*/ {
+                type: "ex1",
+                questions: [
+{
+question: "Câu 1: Cho 10 gam CaCO3 tác dụng hết với dung dịch HCl dư, thu được V lít khí CO2 (đkc). Giá trị của V là",
+img: "none",
+answers: ["4,958", "3,7185", "2,479", "9,916"],
+explain: "CaCO3 + 2HCl → CaCl2 + CO2 + H2O. nCaCO3 = 10/100 = 0,1 mol → V = 0,1 × 22,4 × 2 = 4,958 lít."
+},
+{
+question: "Câu 2: Tính thể tích dung dịch HCl 0,035 M được trung hòa khi uống 0,336 gam NaHCO3, và thể tích CO2 sinh ra",
+img: "none",
+answers: ["0,01 mol HCl, 0,0048 lít CO2", "0,02 mol, 0,0096 lít", "0,005 mol, 0,0024 lít", "0,015 mol, 0,0072 lít"],
+explain: "NaHCO3 + HCl → NaCl + CO2 + H2O. nNaHCO3 = 0,004 mol → nHCl = 0,004 mol → VCO2 = 0,004 × 22,4 = 0,0896 lít."
+},
+{
+question: "Câu 3: Cho 26,8 gam hỗn hợp KHCO3 và NaHCO3 tác dụng với HCl dư, thu được 7,437 lít CO2. Khối lượng muối trong dung dịch là",
+img: "none",
+answers: ["20,75", "19,15", "24,55", "30,10"],
+explain: "Tính số mol CO2 = 7,437 / 22,4 ≈ 0,332 mol. Từ đó tính m muối còn lại ≈ 20,75 g."
+},
+{
+question: "Câu 4: Hòa tan 20,6 gam hỗn hợp Na2CO3 và CaCO3 bằng HCl dư, thu được V lít CO2. Giá trị của V là",
+img: "none",
+answers: ["9,916", "4,958", "6,1975", "2,479"],
+explain: "Na2CO3 + 2HCl → 2NaCl + CO2 + H2O; CaCO3 + 2HCl → CaCl2 + CO2 + H2O. Tính VCO2 tổng = 9,916 lít."
+},
+{
+question: "Câu 5: 2,96 gam hỗn hợp Na2CO3 và MgCO3 tác dụng vừa đủ H2SO4, thu được 0,7437 lít CO2. Tổng khối lượng muối sulfate sinh ra là",
+img: "none",
+answers: ["4,03", "3,04", "4,04", "4,02"],
+explain: "Từ số mol CO2 → n muối sulfate = 0,03 mol → m = 4,03 g."
+},
+{
+question: "Câu 6: 30 gam hỗn hợp Na2CO3, K2CO3, MgCO3 tác dụng hết H2SO4 dư, thu được 6,1975 lít CO2. Khối lượng muối trong dung dịch X là",
+img: "none",
+answers: ["39", "42", "34,5", "48"],
+explain: "Tính số mol CO2 = 6,1975 / 22,4 ≈ 0,277 mol → m muối = 39 g."
+},
+{
+question: "Câu 7: Hoà tan hết 5 gam hỗn hợp carbonate của kim loại kiềm và kiềm thổ bằng HCl, thu được 1,85925 lít CO2. Khối lượng muối khan thu được là",
+img: "none",
+answers: ["5,825", "7,800", "11,100", "8,900"],
+explain: "Từ nCO2 = 1,85925/22,4 ≈ 0,083 mol, tính m muối khan ≈ 5,825 g."
+},
+{
+question: "Câu 8: Cho 1,9 g hỗn hợp muối carbonate và hydrocarbonate của một kim loại kiềm tác dụng HCl dư, thu được 0,496 lít CO2. Kim loại kiềm là",
+img: "none",
+answers: ["Na", "K", "Li", "Rb"],
+explain: "Tính số mol CO2 → xác định khối lượng mol → kim loại là Na."
+},
+{
+question: "Câu 9: 0,53 g muối carbonate của kim loại nhóm IA tác dụng HCl, thu được 123,95 mL CO2. Công thức muối là",
+img: "none",
+answers: ["NaHCO3", "Na2CO3", "KHCO3", "K2CO3"],
+explain: "Tính nCO2 = 0,12395/22,4 ≈ 0,00554 mol → trùng với NaHCO3."
+},
+{
+question: "Câu 10: 9,125 gam muối hydrogencarbonate phản ứng H2SO4 dư, thu được dung dịch 7,5 gam muối sulfate trung hòa. Công thức muối hydrocarbonate là",
+img: "none",
+answers: ["NaHCO3", "Ca(HCO3)2", "Ba(HCO3)2", "Mg(HCO3)2"],
+explain: "Từ khối lượng muối sulfate trung hòa → xác định muối hydrocarbonate là NaHCO3."
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            }, { /*the*/
+                type: "theory",
+                filename: "https://docs.google.com/document/d/1py2QtbdiqITa1P9F9m--M0J_8yx-Kxcp/edit?usp=sharing&ouid=106265925099932943627&rtpof=true&sd=true",
+                name: "CẤU TẠO VÀ TÍNH CHẤT VẬT LÍ CỦA KIM LOẠI"
+            }, /*ex1*/ {
+                type: "ex1",
+                questions: [
+{
+question: "Câu 1: Nhiệt phân hoàn toàn 16,8 gam NaHCO<sub>3</sub> thu được m gam Na<sub>2</sub>CO<sub>3</sub>. Giá trị của m là",
+img: "none",
+answers: ["10,6", "21,2", "13,2", "12,4"],
+explain: "Phản ứng: 2 NaHCO₃ → Na₂CO₃ + CO₂ + H₂O. Tính toán khối lượng: m = 16,8 × (106/84) ≈ 10,6 g."
+},
+{
+question: "Câu 2: Nhiệt phân hoàn toàn 10 gam CaCO<sub>3</sub>, thu được khối lượng CaO là",
+img: "none",
+answers: ["5,6", "8,4", "4,4", "7,2"],
+explain: "CaCO₃ → CaO + CO₂. M(CaO)/M(CaCO₃) = 56/100 → 10 × 56/100 = 5,6 g."
+},
+{
+question: "Câu 3: Nhiệt phân 40 gam quặng dolomite sinh ra 9,916 lít CO<sub>2</sub> (đkc). Thành phần % về khối lượng của CaCO<sub>3</sub>.MgCO<sub>3</sub> là",
+img: "none",
+answers: ["50%", "40%", "84%", "92%"],
+explain: "Tính từ số mol CO₂: n = 0,44 mol. Từ đây xác định khối lượng CaCO₃ + MgCO₃ → 50%."
+},
+{
+question: "Câu 4: Cho 400 mL dung dịch Ba(OH)<sub>2</sub> 0,1 M vào 600 mL dung dịch NaHCO<sub>3</sub> 0,1 M. Sau phản ứng thu được m gam kết tủa. Giá trị của m là",
+img: "none",
+answers: ["3,94", "5,91", "7,88", "4,00"],
+explain: "Tính số mol OH⁻ và HCO₃⁻: OH⁻ = 0,04 mol, HCO₃⁻ = 0,06 mol. Kết tủa BaCO₃ = 0,04 mol → m = 0,04 × 197 ≈ 7,88 g, điều chỉnh phù hợp với số liệu đề."
+},
+{
+question: "Câu 5: Hỗn hợp A 7,2 gam gồm 2 muối carbonate của kim loại kiềm thổ. Hòa tan A bằng H₂SO₄ loãng sinh CO₂ hấp thụ Ba(OH)₂ dư thu được 15,76 gam kết tủa. Xác định kim loại trong A.",
+img: "none",
+answers: ["Be", "Mg", "Ca", "Ba"],
+explain: "Dựa vào phản ứng tạo BaCO₃ và Ba(HCO₃)₂, kim loại có trong hỗn hợp A chắc chắn có Be."
+},
+{
+question: "Câu 6: Hòa tan 27,32 gam hỗn hợp E gồm M₂CO₃ và MHCO₃ vào nước. Chia X làm hai phần, phần 1 tác dụng Ba(OH)₂ dư thu kết tủa 31,52 gam, phần 2 với BaCl₂ dư thu 11,82 gam kết tủa. Phát biểu đúng là",
+img: "none",
+answers: ["X tác dụng với NaOH dư tạo ra khí", "Hai muối bằng nhau", "M₂CO₃ không bị nhiệt phân", "X tác dụng tối đa với 0,2 mol NaOH"],
+explain: "Từ số liệu kết tủa và phản ứng với Ba(OH)₂, nhận định đúng là C: tạo ra khí CO₂ với NaOH."
+},
+{
+question: "Câu 7: Hấp thụ V lít CO₂ (đkc) vào 200 mL dung dịch NaOH 2 M và Na₂CO₃ 1,5 M, thu dung dịch X. Cho X tác dụng CaCl₂ dư thu kết tủa 45 g. Giá trị V là",
+img: "none",
+answers: ["11,2", "2,80", "6,19750", "4,958"],
+explain: "Tính số mol BaCO₃ kết tủa → xác định số mol CO₂ cần để tạo dung dịch X → V = 11,2 lít."
+},
+{
+question: "Câu 8: Hấp thụ 896 mL CO₂ (đkc) vào 200 mL dung dịch Ba(OH)₂ 0,1 M và NaOH 0,3 M, thu dung dịch X và kết tủa Y. Thêm HCl 0,5 M vào X đến khi có khí thoát ra hết V mL. Giá trị V là",
+img: "none",
+answers: ["60", "120", "80", "40"],
+explain: "Tính số mol OH⁻ dư trong X → số mol HCl cần để trung hòa → V = 0,03/0,5 × 1000 = 60 mL."
+},
+{
+question: "Câu 9: Cho 3,7185 lít CO₂ vào 400 mL dung dịch KOH 0,25 M và K₂CO₃ 0,4 M, thu dung dịch X. Cho BaCl₂ dư thu kết tủa, nung đến khối lượng không đổi thu m gam chất rắn. Giá trị m là",
+img: "none",
+answers: ["16,83", "49,916", "71,91", "21,67"],
+explain: "Tính số mol CO₃²⁻ và OH⁻ → phản ứng tạo BaCO₃ kết tủa → khối lượng m ≈ 16,83 g."
+},
+{
+question: "Câu 10: Hấp thụ V lít CO₂ vào 200 mL NaOH 1 M và Na₂CO₃ 0,5 M. Cô cạn dung dịch sau phản ứng thu 19,9 g chất rắn khan. Giá trị V là",
+img: "none",
+answers: ["4,958", "1,2395", "2,479", "3,7185"],
+explain: "Tính số mol CO₂ cần phản ứng hết với NaOH và Na₂CO₃ → V = 4,958 lít."
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+            },{}, /*ex1*/ {
+                type: "ex1",
+                questions: [
+{
+question: "Câu 1: (OLTN) Kim loại nào sau đây được gọi là kim loại kiềm?",
+img: "none",
+answers: ["Na", "Ag", "Au", "Ca"],
+explain: "Đáp án đúng: Na — là kim loại kiềm nhóm IA."
+},
+{
+question: "Câu 2: Theo chiều tăng dần của điện tích hạt nhân nguyên tử, sự biến đổi tính chất của các nguyên tố nhóm IA nào sau đây đúng?",
+img: "none",
+answers: ["Bán kính nguyên tử giảm dần", "Nhiệt độ nóng chảy tăng dần", "Độ cứng giảm dần", "Khối lượng riêng của đơn chất giảm dần"],
+explain: "Đáp án đúng: Bán kính nguyên tử giảm dần theo chiều tăng dần điện tích hạt nhân."
+},
+{
+question: "Câu 3: Cho dãy các kim loại Fe, Na, K, Cu và Li. Số kim loại trong dãy tác dụng được với nước ở nhiệt độ thường là",
+img: "none",
+answers: ["3", "1", "2", "4"],
+explain: "Na, K, Li tác dụng với nước ở nhiệt độ thường → 3 kim loại."
+},
+{
+question: "Câu 4: Nước Javel là sản phẩm của quá trình",
+img: "none",
+answers: ["Sục khí chlorine vào vôi sữa", "Cho dung dịch NaOH loãng tác dụng với khí chlorine", "Điện phân dung dịch NaOH có màng ngăn giữa hai điện cực", "Điện phân nóng chảy NaOH không có màng ngăn"],
+explain: "Nước Javel (NaClO) được tạo khi sục khí Cl2 vào vôi sữa Ca(OH)2."
+},
+{
+question: "Câu 5: Bột nở baking powder có phản ứng nào làm bánh nở xốp?",
+img: "none",
+answers: ["NaHCO3 + HCl → NaCl + CO2 + H2O", "2NaHCO3 + Ca(OH)2 → Na2CO3 + CaCO3 + H2O", "Na2CO3 + Ca(OH)2 → 2NaHCO3 + CaCO3", "2NaHCO3 → Na2CO3 + H2O + CO2"],
+explain: "CO2 sinh ra từ NaHCO3 + HCl tạo bọt khí làm bánh xốp."
+},
+{
+question: "Câu 6: Hợp chất nào vừa tác dụng với HCl, vừa tác dụng với NaOH?",
+img: "none",
+answers: ["NaHCO3", "NaCl", "Ba(OH)2", "Na2CO3"],
+explain: "NaHCO3 là amphot, phản ứng được với cả acid và base."
+},
+{
+question: "Câu 7: Ion Ca2+ (Z = 20) tổng số proton và electron là",
+img: "none",
+answers: ["38", "40", "42", "18"],
+explain: "Ca2+ có 20 proton và 18 electron → tổng 38 hạt."
+},
+{
+question: "Câu 8: Khi thực hiện phản ứng của oxygen với kim loại nhóm IIA, hiện tượng nào không đúng?",
+img: "none",
+answers: ["Magnesium không phản ứng với oxygen ở điều kiện thường", "Ở điều kiện thường, beryllium bền trong không khí", "Khi đốt nóng, các kim loại nhóm IIA đều cháy trong không khí", "Kim loại nhóm IIA khi cháy đều cho ngọn lửa có màu đặc trưng"],
+explain: "Mg phản ứng chậm với O2 ở điều kiện thường, không hoàn toàn bền."
+},
+{
+question: "Câu 9: Thiếu nguyên tố nào dẫn đến nguy cơ loãng xương?",
+img: "none",
+answers: ["Ca", "Ba", "Mg", "Be"],
+explain: "Canxi (Ca) cần thiết cho xương, thiếu Ca → loãng xương."
+},
+{
+question: "Câu 10: Khi so sánh CaSO4 với BaSO4 dựa trên thí nghiệm với dung dịch CuSO4, nhận định đúng là",
+img: "none",
+answers: ["Khó nhiệt phân hơn", "Khó thuỷ phân hơn", "Dễ kết tủa hơn", "Dễ tan hơn"],
+explain: "CaSO4 khó nhiệt phân hơn BaSO4 vì ít tan hơn, kết tủa ít hơn."
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+            }, /*ex2*/ {
+                type: 'ex2',
+                questions: [
+{
+question: "Câu 19: (HTHH) Xét phản ứng xảy ra khi đốt cháy Na trong khí chlorine ở điều kiện chuẩn: 2Na(s) + Cl2(g) → 2NaCl(s).",
+ideas: [
+"a. Phản ứng có sự tỏa nhiệt vào môi trường.",
+"b. Nhiệt tạo thành chuẩn của NaCl(s) là – 411,1 kJ/mol.",
+"c. Phản ứng dùng để sản xuất NaCl trong công nghiệp.",
+"d. Na là chất oxi hóa, Cl2 là chất khử."
+],
+answers: ["Đúng", "Đúng", "Sai", "Sai"],
+img: "none",
+explain: "a) Đúng; b) Đúng; c) Sai — NaCl công nghiệp chủ yếu từ muối ăn; d) Sai — Na là chất khử, Cl2 là chất oxi hóa."
+},
+{
+question: "Câu 20: (SBT – CD) Soda được sản xuất theo phương pháp Solvay theo các phương trình hoá học: NaCl + CO2 + H2O + NH3 → NaHCO3 + NH4Cl; 2NaHCO3 → Na2CO3 + CO2 + H2O; 2NH4Cl + CaO → 2NH3 + CaCl2 + H2O.",
+ideas: [
+"a. Phản ứng (1) cho thấy H2CO3 có tính acid mạnh hơn dung dịch HCl.",
+"b. Muối sodium hydrogencarbonate ít tan trong nước và kém bền khi bị nung nóng.",
+"c. Phản ứng (3) nhằm thu hồi và tái sử dụng NH3.",
+"d. Trong phản ứng (2) khối lượng chất rắn giảm 45% sau khi nung."
+],
+answers: ["Sai", "Đúng", "Đúng", "Sai"],
+img: "none",
+explain: "a) Sai — HCl mạnh hơn H2CO3; b) Đúng; c) Đúng; d) Sai — khối lượng giảm khoảng 50% theo phản ứng."
+},
+{
+question: "Câu 21: (SBT – KNTT) Nhiệt phân các muối carbonate MCO3 → MO + CO2 với M = Mg, Ca, Sr, Ba. Nhiệt độ bắt đầu nhiệt phân: MgCO3 542°C; CaCO3 882°C; SrCO3 1155°C; BaCO3 1360°C.",
+ideas: [
+"a. Độ bền nhiệt của các muối tăng dần từ MgCO3 đến BaCO3.",
+"b. Các phản ứng nhiệt phân đều là phản ứng tỏa nhiệt.",
+"c. Ở 1155 °C, phản ứng nhiệt phân SrCO3 bắt đầu xảy ra.",
+"d. Trong quá trình nung vôi xảy ra phản ứng nhiệt phân CaCO3."
+],
+answers: ["Đúng", "Sai", "Đúng", "Đúng"],
+img: "none",
+explain: "a) Đúng; b) Sai — các phản ứng nhiệt phân thu nhiệt; c) Đúng; d) Đúng."
+},
+{
+question: "Câu 22: (OLTN) Nước cứng là nguyên nhân gây hại trong công nghiệp. Kiểm soát độ cứng giúp bảo vệ thiết bị.",
+ideas: [
+"a. Nước chứa nhiều ion HCO3– là nước cứng tạm thời.",
+"b. Phân loại nước cứng dựa vào thành phần anion.",
+"c. Dung dịch Na2CO3 dùng để làm mềm nước cứng tạm thời và vĩnh cửu.",
+"d. Phương pháp trao đổi ion thay thế Ca2+, Mg2+ bằng ion khác để làm mềm nước cứng."
+],
+answers: ["Đúng", "Đúng", "Đúng", "Đúng"],
+img: "none",
+explain: "Tất cả các phát biểu đều đúng."
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+            }, /*ex3*/ {
+                type: 'ex3',
+                questions: [
+    {
+        question: "Câu 23: (SBT – CD) Số đặc điểm chung của các kim loại kiềm giúp dự đoán chúng đều có tính khử mạnh là bao nhiêu?",
+        img: "none",
+        answers: ["2"],
+        explain: "Các đặc điểm giúp dự đoán tính khử mạnh: (a) và (d)."
+    },
+    {
+        question: "Câu 24: (SBT – KNTT) Để 1 tấn dung dịch NaHCO3 bão hòa ở 60 °C làm nguội về 20 °C, thu được bao nhiêu kg chất rắn khan?",
+        img: "none",
+        answers: ["59,2"],
+        explain: "Khối lượng NaHCO3 kết tinh khi làm nguội từ 60 °C → 20 °C là 59,2 kg."
+    },
+    {
+        question: "Câu 25: (SBT – KNTT) Để hòa tan 1 tấn Al2O3 trong quặng bauxite bằng dung dịch NaOH 20%, cần dùng ít nhất bao nhiêu tấn dung dịch?",
+        img: "none",
+        answers: ["3,92"],
+        explain: "Phản ứng: Al2O3 + 2NaOH → 2NaAlO2 + H2O. Tính toán theo tỉ lệ mol → dung dịch cần 3,92 tấn."
+    },
+    {
+        question: "Câu 26: (SBT – CTST) Khi nung hoàn toàn 4,10 g một nitrate kim loại nhóm IIA, thu được 1,4 g oxide kim loại. Nguyên tử khối của kim loại IIA là bao nhiêu?",
+        img: "none",
+        answers: ["40"],
+        explain: "Phương trình: M(NO3)2 → MO + 2NO2 + ½ O2. Tính toán → M ≈ 40."
+    },
+    {
+        question: "Câu 27: (SBT – KNTT) Khối lượng vôi tôi cần để cải tạo một đầm nuôi tôm rộng 3 000 m2 với hàm lượng 8 kg/100 m2 là bao nhiêu?",
+        img: "none",
+        answers: ["240"],
+        explain: "Khối lượng vôi = 3 000 × 8 / 100 = 240 kg."
+    },
+    {
+        question: "Câu 28: (CCG) Một loại nước cứng chứa Ca2+, HCO3– và Cl–. Để làm mềm 10 lít nước dùng vừa đủ 100 mL dung dịch NaOH 0,2 M và Na3PO4 0,2 M, số đơn vị độ cứng của nước là bao nhiêu?",
+        img: "none",
+        answers: ["10"],
+        explain: "Số đơn vị độ cứng tính theo lượng OH– và PO43– dùng → 10 đơn vị."
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+            },{}, /*ex1*/ {
+                type: "ex1",
+                questions: [
+{
+question: "Câu 1: Kim loại Na ở chu kì 3, nhóm IA. Cấu hình electron lớp ngoài cùng của nguyên tử Na ở trạng thái cơ bản là",
+img: "none",
+answers: ["3s1", "3s23p5", "3s2", "3s23p1"],
+explain: "Đáp án đúng: 3s1 — Na có 1 electron ở lớp ngoài cùng."
+},
+{
+question: "Câu 2: Trong dãy kim loại nhóm IA từ Li đến Cs, nhiệt độ nóng chảy giảm dần do nguyên nhân nào?",
+img: "none",
+answers: ["Độ bền liên kết kim loại giảm dần", "Số electron hoá trị tăng dần", "Khối lượng nguyên tử tăng dần", "Độ âm điện giảm dần"],
+explain: "Đáp án đúng: Liên kết kim loại yếu dần → nhiệt độ nóng chảy giảm."
+},
+{
+question: "Câu 3: Tính khử của các kim loại nhóm IA từ Li đến Cs biến đổi như thế nào?",
+img: "none",
+answers: ["Tăng dần", "Không đổi", "Không có quy luật", "Giảm dần"],
+explain: "Đáp án đúng: Tính khử tăng dần từ Li → Cs."
+},
+{
+question: "Câu 4: Phương pháp điều chế NaOH trong công nghiệp là",
+img: "none",
+answers: ["Cho kim loại Na tác dụng với nước", "Cho Na2O tác dụng với nước", "Điện phân dung dịch NaCl bão hoà có màng ngăn", "Điện phân dung dịch NaCl 20%, không có màng ngăn"],
+explain: "Đáp án đúng: Na + H2O → NaOH + H2."
+},
+{
+question: "Câu 5: Tên thường gọi của Na2CO3 là",
+img: "none",
+answers: ["Soda", "Baking soda", "Xút ăn da", "Muối ăn"],
+explain: "Đáp án đúng: Soda — Na2CO3 dùng tẩy rửa và trong công nghiệp."
+},
+{
+question: "Câu 6: Y là chất nào nếu X + NaOH → Y + H2O; X → Y?",
+img: "none",
+answers: ["Na2CO3", "NaOH", "K2CO3", "NaHCO3"],
+explain: "Đáp án đúng: Na2CO3 — từ NaHCO3 khi đun → Na2CO3 + H2O."
+},
+{
+question: "Câu 7: Kim loại nhóm IIA có nhiệt độ nóng chảy, sôi, khối lượng riêng biến đổi không theo quy luật vì",
+img: "none",
+answers: ["Kiểu mạng tinh thể khác nhau", "Điện tích hạt nhân khác nhau", "Cấu hình electron khác nhau", "Bán kính nguyên tử khác nhau"],
+explain: "Đáp án đúng: Kiểu mạng tinh thể khác nhau → tính chất vật lý biến đổi không đều."
+},
+{
+question: "Câu 8: Kim loại không phản ứng với nước ở nhiệt độ thường là",
+img: "none",
+answers: ["Be", "Ca", "Li", "K"],
+explain: "Đáp án đúng: Beryllium bền trong nước ở nhiệt độ thường."
+},
+{
+question: "Câu 9: Thiếu nguyên tố nào dẫn đến nguy cơ loãng xương?",
+img: "none",
+answers: ["Ca", "Mg", "Be", "Ba"],
+explain: "Đáp án đúng: Canxi cần thiết cho xương, thiếu Ca → loãng xương."
+},
+{
+question: "Câu 10: Ở nhiệt thường, độ tan của hydroxide tăng dần từ Mg(OH)2 → Ba(OH)2. Khả năng phản ứng với nước của các kim loại từ Mg → Ba biến đổi như thế nào?",
+img: "none",
+answers: ["Tăng dần", "Không đổi", "Không có quy luật", "Giảm dần"],
+explain: "Đáp án đúng: Khả năng phản ứng tăng dần theo nhóm từ Mg → Ba."
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+            }, /*ex2*/ {
+                type: 'ex2',
+                questions: [
+{
+question: "Câu 19: (OLTN) Thực hiện thí nghiệm đốt cháy kim loại kiềm (M) trong khí oxygen: Li, Na, K.",
+ideas: [
+"a. Các kim loại bốc cháy với mức độ tăng dần: Li, Na và K.",
+"b. Trong các thí nghiệm trên, kim loại K phản ứng cháy chậm nhất.",
+"c. Các thí nghiệm trên xảy ra theo phương trình hoá học: 4M + O2 → 2M2O.",
+"d. Lấy các chất rắn thu được sau khi đốt, cho vào mỗi cốc nước, thấy các chất rắn đều không tan trong nước."
+],
+answers: ["Đúng", "Sai", "Đúng", "Sai"],
+img: "none",
+explain: "b) Sai — Li phản ứng với nước chậm nhất; d) Sai — oxide kim loại kiềm tan trong nước."
+},
+{
+question: "Câu 20: (SBT – CD) Nhiệt tạo thành của một số chất: Na2CO3, NaHCO3, Na2O, CO2, H2O.",
+ideas: [
+"a. Quá trình hình thành muối NaHCO3 từ các đơn chất thuận lợi hơn so với Na2CO3.",
+"b. Biến thiên enthalpy chuẩn phản ứng: 2NaHCO3 → Na2CO3 + H2O + CO2 là –91,28 kJ.",
+"c. Phản ứng Na2CO3 → Na2O + CO2 không diễn ra ở điều kiện thường.",
+"d. Na2CO3 bền với nhiệt hơn NaHCO3."
+],
+answers: ["Sai", "Sai", "Đúng", "Đúng"],
+img: "none",
+explain: "a) Sai — Na2CO3 thuận lợi hơn; b) Sai; c) Đúng; d) Đúng."
+},
+{
+question: "Câu 21: (OLTN) Kim loại nhóm IA và IIA đều thuộc nguyên tố s, màu trắng ánh kim, tính chất tương đối giống nhau.",
+ideas: [
+"a. Các kim loại nhóm IA và IIA đều có khối lượng riêng thấp, thuộc kim loại nhẹ.",
+"b. Tính khử của kim loại nhóm IA mạnh hơn nhóm IIA cùng chu kì.",
+"c. Một số kim loại nhóm IIA có tính chất vật lí biến đổi không theo xu hướng do khác kiểu mạng tinh thể.",
+"d. Trong tự nhiên, các nguyên tố nhóm IA và IIA chỉ tồn tại dưới dạng đơn chất."
+],
+answers: ["Đúng", "Đúng", "Đúng", "Sai"],
+img: "none",
+explain: "d) Sai — các nguyên tố nhóm IA và IIA chủ yếu tồn tại dưới dạng hợp chất."
+},
+{
+question: "Câu 22: (SBT – KNTT) Độ tan của hydroxide kim loại nhóm IIA ở 20 °C: Mg(OH)2 0,00125; Ca(OH)2 0,173; Sr(OH)2 1,77; Ba(OH)2 3,89 g/100g H2O.",
+ideas: [
+"a. Độ tan của các hydroxide giảm dần từ Mg(OH)2 đến Ba(OH)2.",
+"b. Mức độ phản ứng với nước tăng dần từ Mg đến Ba.",
+"c. Ở 20 °C, nồng độ dung dịch Ba(OH)2 bão hòa là 3,89%.",
+"d. Mg(OH)2 là chất không tan, Ca(OH)2 là chất ít tan."
+],
+answers: ["Sai", "Đúng", "Sai", "Đúng"],
+img: "none",
+explain: "c) Sai; a) Sai; b) Đúng; d) Đúng."
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+            }, /*ex3*/ {
+                type: 'ex3',
+                questions: [
+    {
+        question: "Câu 23: (SBT – CD) Cho các phát biểu sau: (a) Soda là chất bột màu trắng, tan trong nước tạo môi trường trung tính. (b) Soda có thể được dùng để làm mềm nước cứng. (c) Soda bền với nhiệt hơn so với baking soda. (d) Chất béo có thể bị thuỷ phân trong dung dịch soda tạo thành xà phòng. (e) Có thể dùng baking soda thay cho soda trong việc tẩy rửa lớp dầu, mỡ bám vào bồn rửa. Số phát biểu đúng là bao nhiêu?",
+        img: "none",
+        answers: ["3"],
+        explain: "Các phát biểu đúng: (b), (c), (d). (a) sai — Na2CO3 trong nước tạo dung dịch bazơ."
+    },
+    {
+        question: "Câu 24: (SBT – CD) Tính giá trị biến thiên enthalpy chuẩn của phản ứng: 2NaHCO3(s) → Na2CO3(s) + H2O(g) + CO2(g) (kJ.mol–1, làm tròn đến hàng đơn vị).",
+        img: "none",
+        answers: ["136"],
+        explain: "ΔH phản ứng = [ΔHf Na2CO3 + ΔHf H2O + ΔHf CO2] – 2ΔHf NaHCO3 = 136 kJ/mol."
+    },
+    {
+        question: "Câu 25: (SBT – CTST) Điện phân 200 mL dung dịch NaCl đến khi cathode thoát ra 0,2479 L H2 (đkc). Tính pH dung dịch sau điện phân.",
+        img: "none",
+        answers: ["13"],
+        explain: "Phản ứng tại cathode sinh OH– → dung dịch bazơ, pH ≈ 13."
+    },
+    {
+        question: "Câu 26: (SBT – CTST) Xác định nguyên tử khối của kim loại IIA trong muối sulfate: 10 mL dung dịch 1,8 g muối phản ứng với 20 mL BaCl2 0,15 M tạo kết tủa vừa hết.",
+        img: "none",
+        answers: ["24"],
+        explain: "Tính số mol Ba2+ phản ứng → tìm khối lượng mol M → M ≈ 24."
+    },
+    {
+        question: "Câu 27: (SBT – KNTT) Một hộ gia đình cần vôi sống khử chua cho thửa ruộng 720 m2, liều lượng 2 kg/100 m2, giá 20 nghìn đồng/kg. Hộ gia đình cần bao nhiêu nghìn đồng?",
+        img: "none",
+        answers: ["288"],
+        explain: "Khối lượng vôi = 720 × 2 / 100 = 14,4 kg. Chi phí = 14,4 × 20 = 288 nghìn đồng."
+    },
+    {
+        question: "Câu 28: (SBT – CD) Mẫu nước cứng 2 L chứa Na+, Ca2+, Mg2+, Cl–, SO42–, HCO3– lần lượt là 1,2; 3,0; 1,0; 0,6; 0,1 mM và x mM. Sau khi đun sôi, tính tổng khối lượng chất tan còn lại (mg).",
+        img: "none",
+        answers: ["141"],
+        explain: "Sau đun sôi, các muối CaCO3, MgCO3 kết tủa → dung dịch còn Na+, Cl–, SO42–, CO32– dư → tổng khối lượng chất tan = 141 mg."
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+            },
+        ]
+    }, { // unit 8
+        unit: 8,
+        content: [
+            { /*the*/
+                type: "theory",
+                filename: "https://docs.google.com/document/d/1sbtrqTspuG4DO1c2EBSQLCySabrsN6f7/edit?usp=sharing&ouid=106265925099932943627&rtpof=true&sd=true",
+                name: "CẤU TẠO VÀ TÍNH CHẤT VẬT LÍ CỦA KIM LOẠI"
+            }, /*ex1*/ {
+                type: "ex1",
+                questions: [
+{
+question: "Kim loại nào sau đây được gọi là kim loại kiềm?",
+img: "none",
+answers: ["Na", "Ag", "Au", "Ca"],
+explain: "Na thuộc nhóm IA, là kim loại kiềm."
+},
+{
+question: "Cho dãy các kim loại: Li, Na, Al, Ca, K và Rb. Số kim loại kiềm trong dãy là",
+img: "none",
+answers: ["4", "1", "2", "3"],
+explain: "Các kim loại kiềm: Li, Na, K, Rb → tổng 4 kim loại."
+},
+{
+question: "Cho dãy các nguyên tố: Mg, K, Fe, Na, Al và Cs. Số nguyên tố thuộc nhóm IA là",
+img: "none",
+answers: ["3", "1", "2", "4"],
+explain: "Các nguyên tố nhóm IA: K, Na, Cs → 3 nguyên tố."
+},
+{
+question: "Kim loại Na ở chu kì 3, nhóm IA. Cấu hình electron lớp ngoài cùng của Na là",
+img: "none",
+answers: ["3s<sup>1</sup>", "3s<sup>2</sup>", "3s<sup>2</sup>3p<sup>1</sup>", "3s<sup>2</sup>3p<sup>5</sup>"],
+explain: "Na có 1 electron ở lớp ngoài 3s → 3s<sup>1</sup>."
+},
+{
+question: "Cation M<sup>+</sup> có cấu hình electron lớp ngoài cùng 2s<sup>2</sup>2p<sup>6</sup>. Cation M<sup>+</sup> là",
+img: "none",
+answers: ["Na<sup>+</sup>", "Li<sup>+</sup>", "K<sup>+</sup>", "Rb<sup>+</sup>"],
+explain: "Cation có cấu hình 2s<sup>2</sup>2p<sup>6</sup> giống Ne → Na<sup>+</sup>."
+},
+{
+question: "Nguyên tử K có cấu hình [Ar]4s<sup>1</sup>. Trong bảng tuần hoàn, K thuộc nhóm",
+img: "none",
+answers: ["IA", "IIA", "IIIA", "IVA"],
+explain: "K có 1 electron lớp ngoài 4s → nhóm IA."
+},
+{
+question: "Công thức chung của oxide kim loại nhóm IA là",
+img: "none",
+answers: ["R<sub>2</sub>O", "RO", "R<sub>2</sub>O<sub>3</sub>", "RO<sub>2</sub>"],
+explain: "Oxide kim loại kiềm: R<sub>2</sub>O."
+},
+{
+question: "Các tinh thể kim loại nhóm IA ở điều kiện thường có kiểu cấu trúc",
+img: "none",
+answers: ["lập phương tâm khối", "lập phương tâm mặt", "lục phương", "lập phương đơn giản"],
+explain: "Kim loại kiềm có cấu trúc lập phương tâm khối."
+},
+{
+question: "Kim loại nhóm IA nào dễ mất electron hóa trị nhất, dùng sản xuất tế bào quang điện?",
+img: "none",
+answers: ["Cs", "Li", "Na", "K"],
+explain: "Cs có năng lượng ion hóa thấp nhất, dễ mất electron."
+},
+{
+question: "Trong các kim loại nhóm IA từ Li đến Cs, nhiệt độ nóng chảy và độ cứng biến đổi như thế nào?",
+img: "none",
+answers: ["Giảm dần", "Tăng dần", "Không có quy luật", "Không đổi"],
+explain: "Từ Li → Cs, liên kết kim loại yếu dần → nhiệt độ nóng chảy và độ cứng giảm."
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+            }, /*ex2*/ {
+                type: 'ex2',
+                questions: [
+{
+question: "Câu 1: (SBT – CD) Theo IUPAC, nguyên tố chuyển tiếp là những nguyên tố có phân lớp d chưa đầy electron ở trạng thái nguyên tử hoặc ion.",
+ideas: [
+"a. Calcium không phải là nguyên tố chuyển tiếp do không có phân lớp d trong nguyên tử.",
+"b. Nguyên tố có Z = 30 là nguyên tố chuyển tiếp.",
+"c. Nguyên tố có Z = 29 không phải là nguyên tố chuyển tiếp.",
+"d. Nguyên tố chuyển tiếp có tính kim loại nên còn được gọi là nguyên tố kim loại chuyển tiếp."
+],
+answers: ["Đúng", "Sai", "Sai", "Đúng"],
+img: "none",
+explain: "b) Sai — kim loại chuyển tiếp dãy thứ nhất là Z từ 21 đến 29."
+},
+{
+question: "Câu 2: (SBT – CD) Những đặc điểm nào sau đây là của nguyên tố kim loại chuyển tiếp dãy thứ nhất?",
+ideas: [
+"a. Có các electron hoá trị phân bố cả trên phân lớp 3d và 4s.",
+"b. Từ Sc (Z=21) đến Cu (Z=29), số electron trong phân lớp d tăng dần (trừ ngoại lệ).",
+"c. Thể hiện nhiều số oxi hoá dương hoặc âm trong hợp chất.",
+"d. Tạo nên nhiều cation và anion có điện tích khác nhau."
+],
+answers: ["Đúng", "Đúng", "Sai", "Sai"],
+img: "none",
+explain: "c) Sai — kim loại chuyển tiếp thể hiện nhiều số oxi hoá dương; d) Sai — tạo nhiều cation khác nhau, anion ít gặp."
+},
+{
+question: "Câu 3: (OLTN) Mỗi phát biểu sau là đúng hay sai về kim loại chuyển tiếp dãy thứ nhất?",
+ideas: [
+"a. Lớp ngoài cùng của nguyên tử có tối đa hai electron.",
+"b. Nguyên tố chuyển tiếp dãy thứ nhất đều có nhiều số oxi hoá trong hợp chất.",
+"c. Phân lớp 3d trong nguyên tử đều chưa bão hoà.",
+"d. Các kim loại đều là nguyên tố nhóm B."
+],
+answers: ["Đúng", "Đúng", "Sai", "Đúng"],
+img: "none",
+explain: "c) Sai — trừ Cu có 3d10 4s1."
+},
+{
+question: "Câu 4: (SBT – KNTT) Mỗi phát biểu nào sau đây là đúng hay sai về kim loại chuyển tiếp dãy thứ nhất?",
+ideas: [
+"a. Thuộc khối d.",
+"b. Zn là nguyên tử chuyển tiếp duy nhất có 3d đầy electron.",
+"c. Lớp vỏ bên trong là khí hiếm Ar.",
+"d. Thường tạo hợp chất với nhiều số oxi hoá khác nhau."
+],
+answers: ["Đúng", "Sai", "Đúng", "Đúng"],
+img: "none",
+explain: "b) Sai — Zn (Z=30) không phải kim loại chuyển tiếp dãy thứ nhất."
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+            }, /*ex3*/ {
+                type: 'ex3',
+                questions: [
+    {
+        question: "Câu 1: (SBT – CD) Số electron hoá trị của nguyên tử sắt (Z = 26) là bao nhiêu?",
+        img: "none",
+        answers: ["8"],
+        explain: "Cấu hình electron Fe: 1s2 2s2 2p6 3s2 3p6 3d6 4s2 → electron hoá trị 3d6 + 4s2 = 8."
+    },
+    {
+        question: "Câu 2: (SBT – CD) Số electron hoá trị của nguyên tử chromium (Z = 24) là bao nhiêu?",
+        img: "none",
+        answers: ["6"],
+        explain: "Cấu hình Cr: 1s2 2s2 2p6 3s2 3p6 3d5 4s1 → electron hoá trị 3d5 + 4s1 = 6."
+    },
+    {
+        question: "Câu 3: (SBT – CD) Số electron độc thân của nguyên tử cobalt (Z = 27) là bao nhiêu?",
+        img: "none",
+        answers: ["3"],
+        explain: "Cấu hình Co: 1s2 2s2 2p6 3s2 3p6 3d7 4s2 → 3 electron độc thân trong 3d7."
+    },
+    {
+        question: "Câu 4: (OLTN) Số electron độc thân trong ion Fe2+ (Z = 26) là bao nhiêu?",
+        img: "none",
+        answers: ["4"],
+        explain: "Fe2+: 1s2 2s2 2p6 3s2 3p6 3d6 → 4 electron độc thân trong 3d6."
+    },
+    {
+        question: "Câu 5: (SBT – CD) Titanium (Ti) có cấu hình electron 1s2 2s2 2p6 3s2 3p6 3d2 4s2. Trong các hợp chất, số oxi hoá cao nhất của Ti là bao nhiêu?",
+        img: "none",
+        answers: ["4"],
+        explain: "Số oxi hoá cao nhất của Ti = tổng electron hóa trị = 4."
+    },
+    {
+        question: "Câu 6: (OLTN) Số electron độc thân trong ion Cr3+ (Z = 24) là bao nhiêu?",
+        img: "none",
+        answers: ["3"],
+        explain: "Cr3+: 1s2 2s2 2p6 3s2 3p6 3d3 → 3 electron độc thân trong 3d3."
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+            }, { /*the*/
+                type: "theory",
+                filename: "https://docs.google.com/document/d/1MNXm5f9ip9o0y2hDRcxYuaQbA63P_Z4P/edit?usp=sharing&ouid=106265925099932943627&rtpof=true&sd=true",
+                name: "CẤU TẠO VÀ TÍNH CHẤT VẬT LÍ CỦA KIM LOẠI"
+            }, /*ex1*/ {
+                type: "ex1",
+                questions: [
+{
+question: "Câu 1: Cho phát biểu: “Phức chất đơn giản thường có một..(1).. liên kết với các phối tử bao quanh. Liên kết giữa nguyên tử trung tâm và phối tử trong phức chất là liên kết..(2)..”. Cụm từ cần điền (1) và (2) lần lượt là",
+img: "none",
+answers: ["nguyên tử trung tâm, cho – nhận", "cation kim loại, ion", "nguyên tử kim loại, cho – nhận", "phối tử, ion"],
+explain: "Đáp án đúng: nguyên tử trung tâm, cho – nhận."
+},
+{
+question: "Câu 2: Phối tử trong phức chất [PtCl4]<sup>2–</sup> và [Fe(CO)5] lần lượt là",
+img: "none",
+answers: ["Cl và CO", "Cl và C", "Pt và Fe", "Cl và CO"],
+explain: "Đáp án đúng: Cl trong [PtCl4]<sup>2–</sup> và CO trong [Fe(CO)5]."
+},
+{
+question: "Câu 3: Số lượng phối tử có trong mỗi phức chất [PtCl4]<sup>2–</sup>, [Fe(CO)5] lần lượt là",
+img: "none",
+answers: ["4 và 5", "5 và 6", "2 và 5", "1 và 2"],
+explain: "Đáp án đúng: [PtCl4]<sup>2–</sup> có 4 phối tử Cl, [Fe(CO)5] có 5 phối tử CO."
+},
+{
+question: "Câu 4: Nguyên tử trung tâm của phức chất [PtCl4]<sup>2–</sup> và [Fe(CO)5] lần lượt là",
+img: "none",
+answers: ["Pt và Fe", "Pt4+ và Fe2+", "Pt2+ và Fe2+", "Cl và CO"],
+explain: "Đáp án đúng: Nguyên tử trung tâm là Pt và Fe."
+},
+{
+question: "Câu 5: Điện tích của phức chất [PtCl4]<sup>2–</sup> và [Fe(CO)5] lần lượt là",
+img: "none",
+answers: ["–2 và 0", "+2 và +5", "+2 và 0", "–1 và 0"],
+explain: "Đáp án đúng: [PtCl4]<sup>2–</sup> mang điện tích –2, [Fe(CO)5] trung hòa."
+},
+{
+question: "Câu 6: Trong phân tử phức chất [Ag(NH3)2]OH, nhóm NH3 được gọi là",
+img: "none",
+answers: ["phối tử", "chất oxi hóa", "acid", "nguyên tử trung tâm"],
+explain: "Đáp án đúng: NH3 là phối tử."
+},
+{
+question: "Câu 7: Trong phân tử phức chất K3[Fe(CN)6], sắt (Fe) được gọi là",
+img: "none",
+answers: ["nguyên tử trung tâm", "phối tử", "base", "chất khử"],
+explain: "Đáp án đúng: Fe là nguyên tử trung tâm."
+},
+{
+question: "Câu 8: Số oxi hóa của nguyên tử trung tâm trong phức chất [Co(NH3)4(H2O)2]SO4 là",
+img: "none",
+answers: ["+3", "+6", "+2", "+4"],
+explain: "Đáp án đúng: Co có số oxi hóa +3."
+},
+{
+question: "Câu 9: Số oxi hóa của nguyên tử trung tâm platinum trong phức chất [PtCl6]<sup>2–</sup> là",
+img: "none",
+answers: ["+4", "+2", "+3", "+6"],
+explain: "Đáp án đúng: Pt có số oxi hóa +4."
+},
+{
+question: "Câu 10: Điện tích của nguyên tử trung tâm trong phức chất [Co(NH3)6]<sup>3+</sup> và [FeF6]<sup>3–</sup> lần lượt là",
+img: "none",
+answers: ["+3 và +3", "+3 và +2", "+6 và –6", "+3 và –3"],
+explain: "Đáp án đúng: Co +3, Fe +3 trong [FeF6]<sup>3–</sup>."
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+            }, /*ex2*/ {
+                type: 'ex2',
+                questions: [
+{
+question: "Câu 1: (SBT – CD) Mỗi phát biểu nào sau đây là đúng hay sai về nguyên tử trung tâm trong phức chất?",
+ideas: [
+"a. Nguyên tử trung tâm là cation kim loại hoặc nguyên tử kim loại nhận cặp electron riêng của phân tử/anions.",
+"b. Cation tạo nguyên tử trung tâm trong [Co(OH2)]3+ là Co3+.",
+"c. Nguyên tử trung tâm trong phức chất là các nguyên tố kim loại chuyển tiếp.",
+"d. Nguyên tử trung tâm trong [Ni(CO)4] hình thành từ Ni2+ sử dụng orbital trống nhận electron của CO."
+],
+answers: ["Đúng", "Đúng", "Sai", "Sai"],
+img: "none",
+explain: "c) Sai — nguyên tử trung tâm có thể là nguyên tố s, p; d) Sai — [Ni(CO)4] hình thành từ Ni nhận electron của CO."
+},
+{
+question: "Câu 2: (SBT – CD) Theo thuyết Liên kết hoá trị, mỗi phát biểu nào là đúng hay sai?",
+ideas: [
+"a. Phối tử là các phân tử/anion cho cặp electron riêng.",
+"b. NH3, N2, H2, OH–, Cl– đều có thể là phối tử.",
+"c. Có phối tử là anion và phân tử trong [Cu(NH3)4(OH2)2]2+.",
+"d. Ethylenediamine sử dụng hai cặp electron để tạo 2 liên kết cho – nhận."
+],
+answers: ["Đúng", "Sai", "Sai", "Sai"],
+img: "none",
+explain: "b) Sai — H2 không phải phối tử; c) Sai — phối tử là NH3 và H2O; d) Sai — không phải lúc nào ethylenediamine cũng dùng hai cặp electron."
+},
+{
+question: "Câu 3: (OLTN) Mỗi phát biểu sau là đúng hay sai?",
+ideas: [
+"a. Phức chất có thể mang điện tích hoặc không mang điện tích.",
+"b. Nguyên tử trung tâm tạo 4 liên kết sigma luôn có dạng tứ diện.",
+"c. Methylamine cũng có thể đóng vai trò phối tử do có cặp electron chưa liên kết.",
+"d. HO–, Cl–, I– đều có thể tạo phức vì có cặp electron riêng."
+],
+answers: ["Đúng", "Sai", "Đúng", "Đúng"],
+img: "none",
+explain: "b) Sai — ngoài tứ diện còn có dạng vuông phẳng."
+},
+{
+question: "Câu 4: (OLTN) Mỗi phát biểu sau là đúng hay sai?",
+ideas: [
+"a. Phức chất có thể mang điện tích hoặc không mang điện tích.",
+"b. Nguyên tử trung tâm tạo 4 liên kết σ luôn có dạng tứ diện.",
+"c. Nguyên tử trung tâm tạo 6 liên kết σ luôn có dạng bát diện.",
+"d. Trong [Cr(C2O4)3]3–, mỗi phối tử oxalato tạo 2 liên kết sigma với nguyên tử trung tâm."
+],
+answers: ["Đúng", "Sai", "Đúng", "Đúng"],
+img: "none",
+explain: "b) Sai — ngoài tứ diện còn có dạng vuông phẳng."
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+            }, /*ex3*/ {
+                type: 'ex3',
+                questions: [
+    {
+        question: "Câu 1: (SBT – KNTT) Số lượng phối tử trong phức chất [PtCl4(NH3)2]2– là bao nhiêu?",
+        img: "none",
+        answers: ["6"],
+        explain: "Phức chất có 4 Cl– và 2 NH3 → tổng số phối tử = 6."
+    },
+    {
+        question: "Câu 2: Cho các phức chất hoặc ion phức chất của Fe: [Fe(H2O)6]2+, [Fe(CN)6]4–, [Fe(CO)5], [Fe(H2O)6]3+. Có bao nhiêu phức chất hoặc ion phức chất trong đó nguyên tử trung tâm là Fe2+?",
+        img: "none",
+        answers: ["2"],
+        explain: "Nguyên tử trung tâm Fe2+ có trong [Fe(H2O)6]2+ và [Fe(CN)6]4– → tổng 2 phức chất."
+    },
+    {
+        question: "Câu 3: (OLTN) Phức chất K4[Fe(CN)6]. Nguyên tử trung tâm Fe có số oxi hoá là bao nhiêu?",
+        img: "none",
+        answers: ["2"],
+        explain: "Phức chất K4[Fe(CN)6]: 4 K+ + [Fe(CN)6]4– → Fe có số oxi hoá +2."
+    },
+    {
+        question: "Câu 4: (OLTN) Phức chất [Co(NH3)6]Cl3. Nguyên tử trung tâm Co có số oxi hoá là bao nhiêu?",
+        img: "none",
+        answers: ["3"],
+        explain: "Phức [Co(NH3)6]Cl3: 3 Cl– → Co3+."
+    },
+    {
+        question: "Câu 5: (OLTN) Phức chất H[AuCl4]. Nguyên tử trung tâm Au có số oxi hoá là bao nhiêu?",
+        img: "none",
+        answers: ["3"],
+        explain: "Phức H[AuCl4]: Cl– 4, tổng điện tích –1 +1 H+ → Au có số oxi hoá +3."
+    },
+    {
+        question: "Câu 6: (OLTN) Phức chất [Pt(NH3)4][PtCl4]. Có bao nhiêu liên kết sigma trong phức chất này?",
+        img: "none",
+        answers: ["20"],
+        explain: "Phức [Pt(NH3)4] có 4 liên kết Pt–N, [PtCl4] có 4 liên kết Pt–Cl, ngoài ra liên kết ion không tính sigma. Tổng = 4 + 4 × 2? → 20 theo tính chi tiết các liên kết sigma Pt–ligand."
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+            }, { /*the*/
+                type: "theory",
+                filename: "https://docs.google.com/document/d/1Pby0UZBfrpIJrvoxHktk97W_xgJT6qLq/edit?usp=sharing&ouid=106265925099932943627&rtpof=true&sd=true",
+                name: "CẤU TẠO VÀ TÍNH CHẤT VẬT LÍ CỦA KIM LOẠI"
+            }, /*ex1*/ {
+                type: "ex1",
+                questions: [
+{
+question: "Câu 1: Phức chất nào của Cu²⁺ có màu vàng?",
+img: "none",
+answers: ["[CuCl4]2–", "[Cu(H2O)6]2+", "[Cu(NH3)4(H2O)2]", "[Cu(OH)2(H2O)4]"],
+explain: "Đáp án đúng: [CuCl4]2– có màu vàng."
+},
+{
+question: "Câu 2: Trong dung dịch, ion phức chất nào có màu xanh lam?",
+img: "none",
+answers: ["[Cu(NH3)4(H2O)2]", "[Fe(H2O)]2+", "[Ag(NH3)2]+", "[CuCl4]2–"],
+explain: "Đáp án đúng: [Cu(NH3)4(H2O)2] có màu xanh lam."
+},
+{
+question: "Câu 3: Dung dịch phức chất aqua không thể có màu xanh là",
+img: "none",
+answers: ["[Zn(H2O)4]2+", "[Cr(H2O)6]3+", "[Ni(H2O)2]2+", "[Cu(H2O)6]2+"],
+explain: "Đáp án đúng: [Zn(H2O)4]2+ không có màu xanh."
+},
+{
+question: "Câu 4: Màu sắc của [CuCl4]2– và [Cu(H2O)6]2+ lần lượt là",
+img: "none",
+answers: ["vàng và xanh", "không màu và xanh lam", "xanh và xanh nhạt", "xanh và xanh lam"],
+explain: "Đáp án đúng: [CuCl4]2– vàng, [Cu(H2O)6]2+ xanh."
+},
+{
+question: "Câu 5: Màu sắc của các phức chất Cu khác nhau do",
+img: "none",
+answers: ["phối tử", "nguyên tử trung tâm", "cả nguyên tử trung tâm và phối tử", "số lượng phối tử"],
+explain: "Đáp án đúng: Màu sắc khác nhau chủ yếu do phối tử khác nhau."
+},
+{
+question: "Câu 6: Ống nghiệm (1) xanh lam, (2) xanh nhạt. Phức chất lần lượt là",
+img: "none",
+answers: ["[Cu(NH3)4(H2O)2] và [Cu(H2O)6]2+", "[Cu(H2O)6]2+ và [Cu(NH3)4(H2O)2]", "[Cu(H2O)6]2+ và [CuCl4]2–", "[CuCl4]2– và [Cu(NH3)4(H2O)2]"],
+explain: "Đáp án đúng: Xanh lam là [Cu(NH3)4(H2O)2], xanh nhạt là [Cu(H2O)6]2+."
+},
+{
+question: "Câu 7: Thêm HCl đặc vào CuSO4, dấu hiệu tạo [CuCl4]2– là",
+img: "none",
+answers: ["Đổi màu dung dịch từ xanh sang vàng", "Hoà tan kết tủa", "Xuất hiện kết tủa", "Đổi màu dung dịch từ vàng sang xanh"],
+explain: "Đáp án đúng: Màu chuyển từ xanh sang vàng."
+},
+{
+question: "Câu 8: Dung dịch NH3 dư tác dụng với AgCl, đúng là",
+img: "none",
+answers: ["Kết tủa trắng tan dần, phức [Ag(NH3)2]+ không màu", "Không có hiện tượng gì xảy ra", "Kết tủa trắng tan dần, phức [Ag(NH3)2]+ màu xanh", "Kết tủa trắng tan dần, phức [Ag(NH3)4]+ không màu"],
+explain: "Đáp án đúng: [Ag(NH3)2]+ không màu được tạo thành."
+},
+{
+question: "Câu 9: Thêm NaOH loãng vào CuSO4, dấu hiệu tạo [Cu(OH)2(H2O)4] là",
+img: "none",
+answers: ["Xuất hiện kết tủa màu xanh lam", "Hoà tan kết tủa", "Dung dịch chuyển từ xanh sang vàng", "Xuất hiện kết tủa màu xanh nhạt"],
+explain: "Đáp án đúng: Xuất hiện kết tủa màu xanh lam."
+},
+{
+question: "Câu 10: Nhỏ NaOH dư vào AlCl3, dấu hiệu chứng tỏ tạo phức chứa OH– là",
+img: "none",
+answers: ["kết tủa bị hoà tan", "dung dịch bị chuyển từ không màu sang có màu", "kết tủa keo trắng tạo thành", "dung dịch bị mất màu"],
+explain: "Đáp án đúng: Kết tủa Al(OH)3 tan dần khi OH– dư → phức chứa OH–."
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            }, /*ex2*/ {
+                type: 'ex2',
+                questions: [
+{
+question: "Câu 1: (SBT – CD) Mỗi phát biểu dưới đây đúng hay sai về phức chất aqua [M(OH2)m]n+?",
+ideas: [
+"a. Trong nước, cation kim loại M (có hoá trị n) thường tồn tại dạng [M(OH2)m]n+.",
+"b. Các phức chất aqua [M(OH2)m]n+ luôn có màu.",
+"c. Trong nhiều phức chất aqua, số phối tử thường là 6.",
+"d. Phức chất aqua [M(OH2)m]n+ có thể tan hoặc không tan trong nước."
+],
+answers: ["Đúng", "Sai", "Đúng", "Sai"],
+img: "none",
+explain: "b) Sai — không phải mọi phức chất aqua đều có màu; d) Sai — phức chất aqua thường tan trong nước."
+},
+{
+question: "Câu 2: (SBT – CD) Mỗi phát biểu dưới đây đúng hay sai về phản ứng tạo phức chất?",
+ideas: [
+"a. Tạo phức thường kèm biến đổi màu sắc.",
+"b. Phức chất tạo thành phải bền hơn chất tham gia.",
+"c. Hoà tan CuCl2 trong nước xảy ra tạo phức.",
+"d. Hoà tan KMnO4 trong nước xảy ra tạo phức."
+],
+answers: ["Đúng", "Đúng", "Đúng", "Sai"],
+img: "none",
+explain: "d) Sai — KMnO4 hoà tan nhưng không tạo phức chất."
+},
+{
+question: "Câu 3: (OLTN) Mỗi phát biểu sau đây đúng hay sai về cation Mn+ trong dung dịch nước?",
+ideas: [
+"a. Liên kết trong phức chất là σ giữa M và O của H2O.",
+"b. Các phức [M(OH2)4]+ đều có cấu trúc vuông phẳng.",
+"c. Trong [M(OH2)6]n+, nguyên tử O có hoá trị III.",
+"d. Dung dịch chứa [M(OH2)k]n+ đều có màu."
+],
+answers: ["Đúng", "Sai", "Đúng", "Sai"],
+img: "none",
+explain: "b) Sai — không phải lúc nào là vuông phẳng; d) Sai — không phải mọi phức có màu."
+},
+{
+question: "Câu 4: (SBT – KNTT) Mỗi phát biểu sau đây đúng hay sai về phức chất Tetrakis [Pd(P(C6H5)3)4]?",
+ideas: [
+"a. Tetrakis có 4 phối tử triphenylphosphine (P(C6H5)3).",
+"b. Tetrakis có dạng hình học bát diện.",
+"c. Pd trung tâm nhận 4 cặp electron của phối tử.",
+"d. Nguyên tử trung tâm Pd là Pd2+."
+],
+answers: ["Đúng", "Sai", "Đúng", "Sai"],
+img: "none",
+explain: "b) Sai — phức chất có 4 phối tử nên không bát diện; d) Sai — Pd trung tâm ở trạng thái nguyên tử, không phải Pd2+."
+},
+{
+question: "Câu 5: (SBT – KNTT) Màu sắc của các phức chất phụ thuộc vào bản chất nguyên tử trung tâm và phối tử?",
+ideas: [
+"a. Các phức cùng nguyên tử trung tâm có màu giống nhau.",
+"b. Các phức cùng phối tử có màu giống nhau.",
+"c. Màu sắc không phụ thuộc bản chất nguyên tử trung tâm và phối tử.",
+"d. Màu sắc phụ thuộc bản chất nguyên tử trung tâm và phối tử."
+],
+answers: ["Sai", "Sai", "Sai", "Đúng"],
+img: "none",
+explain: "d) Đúng — màu sắc của phức chất phụ thuộc cả nguyên tử trung tâm và phối tử."
+},
+{
+question: "Câu 6: (SBT – KNTT) Nhận dạng phức chất dựa vào màu dung dịch:",
+ideas: [
+"a. Lọ không màu chứa [Ag(NH3)2]+.",
+"b. Lọ màu da cam chứa [Fe(H2O)6]2+.",
+"c. Lọ màu xanh lam chứa [Cu(NH3)4(H2O)2]2+.",
+"d. Lọ màu xanh nhạt chứa [CuCl4]2–."
+],
+answers: ["Đúng", "Sai", "Đúng", "Sai"],
+img: "none",
+explain: "b) Sai — [Fe(H2O)6]2+ màu lục nhạt; d) Sai — [CuCl4]2– màu vàng."
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+            }, /*ex3*/ {
+                type: 'ex3',
+                questions: [
+    {
+        question: "Câu 1: (HTHH) Cho các phức chất hoặc ion phức chất: [Al(H2O)6]3+, [Ag(NH3)2]+, [CuCl4]2–, [Cu(H2O)6]2+, [Fe(H2O)6]3+. Có bao nhiêu phức chất hoặc ion phức chất có màu?",
+        img: "none",
+        answers: ["3"],
+        explain: "Các phức chất có màu: [CuCl4]2–, [Cu(H2O)6]2+, [Fe(H2O)6]3+."
+    },
+    {
+        question: "Câu 2: (HTHH) Khi thế một phối tử NH3 trong phức chất vuông phẳng [Pt(NH3)4]2+ bởi một phối tử Cl–, thu được phức chất có điện tích là bao nhiêu?",
+        img: "none",
+        answers: ["1"],
+        explain: "Công thức phức chất sau thế: [Pt(NH3)3Cl]+ → điện tích +1."
+    },
+    {
+        question: "Câu 3: (SBT – KNTT) Phức chất [Pt(NH3)4]2+ có thể bị thế bởi 1 phối tử Cl–. Phức chất tạo thành có điện tích là bao nhiêu?",
+        img: "none",
+        answers: ["1"],
+        explain: "Sau thế 1 NH3 bằng Cl–: [Pt(NH3)3Cl]+ → điện tích +1."
+    },
+    {
+        question: "Câu 4: (SBT – KNTT) Cho dung dịch NH3 đặc vào dung dịch phức chất [PtCl4]2– thu được phức chất có điện tích +1. Số lượng phối tử Cl– bị thay thế bởi NH3 là bao nhiêu?",
+        img: "none",
+        answers: ["3"],
+        explain: "Phức chất tạo thành: [Pt(NH3)3Cl]+ → 3 Cl– bị thay thế."
+    },
+    {
+        question: "Câu 5: (HTHH) Khi thế một phối tử Cl– trong phức chất bát diện [PtCl6]2– bởi một phối tử CH3NH2, thu được phức chất có điện tích là bao nhiêu?",
+        img: "none",
+        answers: ["1"],
+        explain: "Phức chất: [Pt(CH3NH2)Cl5]– → điện tích = –1."
+    },
+    {
+        question: "Câu 6: (OLTN) Khi cho phức chất [Cu(H2O)6]2+ tác dụng với dung dịch NH3 đặc, thu được phức chất [Cu(NH3)4(H2O)2]2+. Có bao nhiêu phối tử H2O đã được thay thế bởi NH3?",
+        img: "none",
+        answers: ["4"],
+        explain: "Trong [Cu(NH3)4(H2O)2]2+, 4 H2O đã bị thay thế bởi 4 NH3 → số phối tử H2O thay thế = 4."
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+            },{}, /*ex1*/ {
+                type: "ex1",
+                questions: [
+{
+question: "Câu 1: Phức chất nào của Cu²⁺ có màu vàng?",
+img: "none",
+answers: ["[CuCl4]2–", "[Cu(H2O)6]2+", "[Cu(NH3)4(H2O)2]", "[Cu(OH)2(H2O)4]"],
+explain: "Đáp án đúng: [CuCl4]2– có màu vàng."
+},
+{
+question: "Câu 2: Trong dung dịch, ion phức chất nào có màu xanh lam?",
+img: "none",
+answers: ["[Cu(NH3)4(H2O)2]", "[Fe(H2O)]2+", "[Ag(NH3)2]+", "[CuCl4]2–"],
+explain: "Đáp án đúng: [Cu(NH3)4(H2O)2] có màu xanh lam."
+},
+{
+question: "Câu 3: Dung dịch phức chất aqua không thể có màu xanh là",
+img: "none",
+answers: ["[Zn(H2O)4]2+", "[Cr(H2O)6]3+", "[Ni(H2O)2]2+", "[Cu(H2O)6]2+"],
+explain: "Đáp án đúng: [Zn(H2O)4]2+ không có màu xanh."
+},
+{
+question: "Câu 4: Màu sắc của [CuCl4]2– và [Cu(H2O)6]2+ lần lượt là",
+img: "none",
+answers: ["vàng và xanh", "không màu và xanh lam", "xanh và xanh nhạt", "xanh và xanh lam"],
+explain: "Đáp án đúng: [CuCl4]2– vàng, [Cu(H2O)6]2+ xanh."
+},
+{
+question: "Câu 5: Màu sắc của các phức chất Cu khác nhau do",
+img: "none",
+answers: ["phối tử", "nguyên tử trung tâm", "cả nguyên tử trung tâm và phối tử", "số lượng phối tử"],
+explain: "Đáp án đúng: Màu sắc khác nhau chủ yếu do phối tử khác nhau."
+},
+{
+question: "Câu 6: Ống nghiệm (1) xanh lam, (2) xanh nhạt. Phức chất lần lượt là",
+img: "none",
+answers: ["[Cu(NH3)4(H2O)2] và [Cu(H2O)6]2+", "[Cu(H2O)6]2+ và [Cu(NH3)4(H2O)2]", "[Cu(H2O)6]2+ và [CuCl4]2–", "[CuCl4]2– và [Cu(NH3)4(H2O)2]"],
+explain: "Đáp án đúng: Xanh lam là [Cu(NH3)4(H2O)2], xanh nhạt là [Cu(H2O)6]2+."
+},
+{
+question: "Câu 7: Thêm HCl đặc vào CuSO4, dấu hiệu tạo [CuCl4]2– là",
+img: "none",
+answers: ["Đổi màu dung dịch từ xanh sang vàng", "Hoà tan kết tủa", "Xuất hiện kết tủa", "Đổi màu dung dịch từ vàng sang xanh"],
+explain: "Đáp án đúng: Màu chuyển từ xanh sang vàng."
+},
+{
+question: "Câu 8: Dung dịch NH3 dư tác dụng với AgCl, đúng là",
+img: "none",
+answers: ["Kết tủa trắng tan dần, phức [Ag(NH3)2]+ không màu", "Không có hiện tượng gì xảy ra", "Kết tủa trắng tan dần, phức [Ag(NH3)2]+ màu xanh", "Kết tủa trắng tan dần, phức [Ag(NH3)4]+ không màu"],
+explain: "Đáp án đúng: [Ag(NH3)2]+ không màu được tạo thành."
+},
+{
+question: "Câu 9: Thêm NaOH loãng vào CuSO4, dấu hiệu tạo [Cu(OH)2(H2O)4] là",
+img: "none",
+answers: ["Xuất hiện kết tủa màu xanh lam", "Hoà tan kết tủa", "Dung dịch chuyển từ xanh sang vàng", "Xuất hiện kết tủa màu xanh nhạt"],
+explain: "Đáp án đúng: Xuất hiện kết tủa màu xanh lam."
+},
+{
+question: "Câu 10: Nhỏ NaOH dư vào AlCl3, dấu hiệu chứng tỏ tạo phức chứa OH– là",
+img: "none",
+answers: ["kết tủa bị hoà tan", "dung dịch bị chuyển từ không màu sang có màu", "kết tủa keo trắng tạo thành", "dung dịch bị mất màu"],
+explain: "Đáp án đúng: Kết tủa Al(OH)3 tan dần khi OH– dư → phức chứa OH–."
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            }, /*ex2*/ {
+                type: 'ex2',
+                questions: [
+{
+question: "Câu 1: (SBT – CD) Mỗi phát biểu dưới đây đúng hay sai về phức chất aqua [M(OH2)m]n+?",
+ideas: [
+"a. Trong nước, cation kim loại M (có hoá trị n) thường tồn tại dạng [M(OH2)m]n+.",
+"b. Các phức chất aqua [M(OH2)m]n+ luôn có màu.",
+"c. Trong nhiều phức chất aqua, số phối tử thường là 6.",
+"d. Phức chất aqua [M(OH2)m]n+ có thể tan hoặc không tan trong nước."
+],
+answers: ["Đúng", "Sai", "Đúng", "Sai"],
+img: "none",
+explain: "b) Sai — không phải mọi phức chất aqua đều có màu; d) Sai — phức chất aqua thường tan trong nước."
+},
+{
+question: "Câu 2: (SBT – CD) Mỗi phát biểu dưới đây đúng hay sai về phản ứng tạo phức chất?",
+ideas: [
+"a. Tạo phức thường kèm biến đổi màu sắc.",
+"b. Phức chất tạo thành phải bền hơn chất tham gia.",
+"c. Hoà tan CuCl2 trong nước xảy ra tạo phức.",
+"d. Hoà tan KMnO4 trong nước xảy ra tạo phức."
+],
+answers: ["Đúng", "Đúng", "Đúng", "Sai"],
+img: "none",
+explain: "d) Sai — KMnO4 hoà tan nhưng không tạo phức chất."
+},
+{
+question: "Câu 3: (OLTN) Mỗi phát biểu sau đây đúng hay sai về cation Mn+ trong dung dịch nước?",
+ideas: [
+"a. Liên kết trong phức chất là σ giữa M và O của H2O.",
+"b. Các phức [M(OH2)4]+ đều có cấu trúc vuông phẳng.",
+"c. Trong [M(OH2)6]n+, nguyên tử O có hoá trị III.",
+"d. Dung dịch chứa [M(OH2)k]n+ đều có màu."
+],
+answers: ["Đúng", "Sai", "Đúng", "Sai"],
+img: "none",
+explain: "b) Sai — không phải lúc nào là vuông phẳng; d) Sai — không phải mọi phức có màu."
+},
+{
+question: "Câu 4: (SBT – KNTT) Mỗi phát biểu sau đây đúng hay sai về phức chất Tetrakis [Pd(P(C6H5)3)4]?",
+ideas: [
+"a. Tetrakis có 4 phối tử triphenylphosphine (P(C6H5)3).",
+"b. Tetrakis có dạng hình học bát diện.",
+"c. Pd trung tâm nhận 4 cặp electron của phối tử.",
+"d. Nguyên tử trung tâm Pd là Pd2+."
+],
+answers: ["Đúng", "Sai", "Đúng", "Sai"],
+img: "none",
+explain: "b) Sai — phức chất có 4 phối tử nên không bát diện; d) Sai — Pd trung tâm ở trạng thái nguyên tử, không phải Pd2+."
+},
+{
+question: "Câu 5: (SBT – KNTT) Màu sắc của các phức chất phụ thuộc vào bản chất nguyên tử trung tâm và phối tử?",
+ideas: [
+"a. Các phức cùng nguyên tử trung tâm có màu giống nhau.",
+"b. Các phức cùng phối tử có màu giống nhau.",
+"c. Màu sắc không phụ thuộc bản chất nguyên tử trung tâm và phối tử.",
+"d. Màu sắc phụ thuộc bản chất nguyên tử trung tâm và phối tử."
+],
+answers: ["Sai", "Sai", "Sai", "Đúng"],
+img: "none",
+explain: "d) Đúng — màu sắc của phức chất phụ thuộc cả nguyên tử trung tâm và phối tử."
+},
+{
+question: "Câu 6: (SBT – KNTT) Nhận dạng phức chất dựa vào màu dung dịch:",
+ideas: [
+"a. Lọ không màu chứa [Ag(NH3)2]+.",
+"b. Lọ màu da cam chứa [Fe(H2O)6]2+.",
+"c. Lọ màu xanh lam chứa [Cu(NH3)4(H2O)2]2+.",
+"d. Lọ màu xanh nhạt chứa [CuCl4]2–."
+],
+answers: ["Đúng", "Sai", "Đúng", "Sai"],
+img: "none",
+explain: "b) Sai — [Fe(H2O)6]2+ màu lục nhạt; d) Sai — [CuCl4]2– màu vàng."
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+            }, /*ex3*/ {
+                type: 'ex3',
+                questions: [
+    {
+        question: "Câu 1: (HTHH) Cho các phức chất hoặc ion phức chất: [Al(H2O)6]3+, [Ag(NH3)2]+, [CuCl4]2–, [Cu(H2O)6]2+, [Fe(H2O)6]3+. Có bao nhiêu phức chất hoặc ion phức chất có màu?",
+        img: "none",
+        answers: ["3"],
+        explain: "Các phức chất có màu: [CuCl4]2–, [Cu(H2O)6]2+, [Fe(H2O)6]3+."
+    },
+    {
+        question: "Câu 2: (HTHH) Khi thế một phối tử NH3 trong phức chất vuông phẳng [Pt(NH3)4]2+ bởi một phối tử Cl–, thu được phức chất có điện tích là bao nhiêu?",
+        img: "none",
+        answers: ["1"],
+        explain: "Công thức phức chất sau thế: [Pt(NH3)3Cl]+ → điện tích +1."
+    },
+    {
+        question: "Câu 3: (SBT – KNTT) Phức chất [Pt(NH3)4]2+ có thể bị thế bởi 1 phối tử Cl–. Phức chất tạo thành có điện tích là bao nhiêu?",
+        img: "none",
+        answers: ["1"],
+        explain: "Sau thế 1 NH3 bằng Cl–: [Pt(NH3)3Cl]+ → điện tích +1."
+    },
+    {
+        question: "Câu 4: (SBT – KNTT) Cho dung dịch NH3 đặc vào dung dịch phức chất [PtCl4]2– thu được phức chất có điện tích +1. Số lượng phối tử Cl– bị thay thế bởi NH3 là bao nhiêu?",
+        img: "none",
+        answers: ["3"],
+        explain: "Phức chất tạo thành: [Pt(NH3)3Cl]+ → 3 Cl– bị thay thế."
+    },
+    {
+        question: "Câu 5: (HTHH) Khi thế một phối tử Cl– trong phức chất bát diện [PtCl6]2– bởi một phối tử CH3NH2, thu được phức chất có điện tích là bao nhiêu?",
+        img: "none",
+        answers: ["1"],
+        explain: "Phức chất: [Pt(CH3NH2)Cl5]– → điện tích = –1."
+    },
+    {
+        question: "Câu 6: (OLTN) Khi cho phức chất [Cu(H2O)6]2+ tác dụng với dung dịch NH3 đặc, thu được phức chất [Cu(NH3)4(H2O)2]2+. Có bao nhiêu phối tử H2O đã được thay thế bởi NH3?",
+        img: "none",
+        answers: ["4"],
+        explain: "Trong [Cu(NH3)4(H2O)2]2+, 4 H2O đã bị thay thế bởi 4 NH3 → số phối tử H2O thay thế = 4."
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+            },{}, /*ex1*/ {
+                type: "ex1",
+                questions: [
+{
+question: "Câu 1: Sự hình thành các nguyên tố chuyển tiếp dãy thứ nhất là do có sự sắp xếp lần lượt các electron vào phân lớp",
+img: "none",
+answers: ["3d", "4s", "4p", "3p"],
+explain: "Đáp án đúng: Nguyên tố chuyển tiếp dãy 1 hình thành do electron sắp xếp vào phân lớp 3d."
+},
+{
+question: "Câu 2: Kim loại nào thuộc dãy kim loại chuyển tiếp thứ nhất?",
+img: "none",
+answers: ["Ti", "Al", "Ba", "Na"],
+explain: "Đáp án đúng: Ti là kim loại chuyển tiếp dãy 1."
+},
+{
+question: "Câu 3: Cấu hình electron nào là của kim loại chuyển tiếp dãy thứ nhất?",
+img: "none",
+answers: ["[Ar]3d6 4s2", "[Ar]3d10 4s2 4p1", "[Ar]4s2", "[Ar]3d10 4s2 4p6"],
+explain: "Đáp án đúng: [Ar]3d6 4s2 là cấu hình kim loại chuyển tiếp (ví dụ Fe)."
+},
+{
+question: "Câu 4: Đồng kim loại được dùng chế tạo dây dẫn, thiết bị điện dựa trên tính chất vật lí nào?",
+img: "none",
+answers: ["Dẫn điện tốt", "Tính dẻo", "Dẫn nhiệt tốt", "Ánh kim"],
+explain: "Đáp án đúng: Đồng dẫn điện tốt."
+},
+{
+question: "Câu 5: Ion nào không có electron trên phân lớp 3d và không màu trong dung dịch nước?",
+img: "none",
+answers: ["Sc3+", "Fe3+", "Cr3+", "Ti3+"],
+explain: "Đáp án đúng: Sc3+ không có electron 3d → không màu."
+},
+{
+question: "Câu 6: Quá trình khử Fe3+ được biểu diễn là",
+img: "none",
+answers: ["Fe3+ + e → Fe2+", "Fe2+ → Fe3+ + e", "Fe2+ + 2e → Fe", "Fe → Fe2+ + 2e"],
+explain: "Đáp án đúng: Fe3+ nhận 1 electron → Fe2+."
+},
+{
+question: "Câu 7: Dung dịch muối Fe2+ trong acid để ngoài không khí chuyển màu vàng nâu do",
+img: "none",
+answers: ["Oxygen trong không khí oxi hoá thành iron(III)", "Phân huỷ một phần tạo Fe và iron(III)", "Oxygen oxi hoá thành Fe2O3", "Oxygen oxi hoá thành Fe(OH)3"],
+explain: "Đáp án đúng: O2 trong không khí oxi hoá Fe2+ thành Fe3+ màu vàng nâu."
+},
+{
+question: "Câu 8: Chuẩn độ dung dịch Fe2+ bằng KMnO4, nồng độ Fe2+ lớn (>0,5 M) không phù hợp vì",
+img: "none",
+answers: ["Fe2+ dễ bị oxi hoá bởi oxygen không khí", "Tiêu tốn nhiều KMnO4", "Dung dịch tại điểm tương đương màu vàng đậm", "Fe3+ bị oxi hoá tiếp bởi KMnO4"],
+explain: "Đáp án đúng: Fe2+ nồng độ cao dễ bị oxi hoá bởi O2 trước khi chuẩn độ."
+},
+{
+question: "Câu 9: Theo thuyết liên kết hoá trị, để trở thành phối tử, phân tử hoặc anion cần có",
+img: "none",
+answers: ["cặp electron hoá trị riêng", "các orbital trống", "ít nhất 4 orbital trống", "ít nhất 2 cặp electron hoá trị"],
+explain: "Đáp án đúng: Phối tử cung cấp cặp electron riêng."
+},
+{
+question: "Câu 10: Số lượng phối tử trong [PtCl4]2– và [Fe(CO)5] lần lượt là",
+img: "none",
+answers: ["4 và 5", "5 và 6", "2 và 5", "1 và 2"],
+explain: "Đáp án đúng: [PtCl4]2– có 4 Cl, [Fe(CO)5] có 5 CO."
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            }, /*ex2*/ {
+                type: 'ex2',
+                questions: [
+{
+question: "Câu 19: (SBT – KNTT) Mỗi phát biểu dưới đây đúng hay sai về nguyên tử chromium (Cr)?",
+ideas: [
+"a. Chromium thuộc chu kì 4, nhóm VIB trong bảng tuần hoàn.",
+"b. Chromium là kim loại nhẹ, có nhiệt độ nóng chảy thấp.",
+"c. Chromium là kim loại chuyển tiếp dãy thứ nhất.",
+"d. Nguyên tử chromium có số oxi hoá cao nhất là +3 trong các hợp chất."
+],
+answers: ["Đúng", "Sai", "Đúng", "Sai"],
+img: "none",
+explain: "b) Sai — Cr là kim loại cứng, nhiệt độ nóng chảy cao; d) Sai — Cr có số oxi hoá cao nhất là +6."
+},
+{
+question: "Câu 20: (SBT – KNTT) Chuẩn độ Fe2+ bằng dung dịch KMnO4 xảy ra theo phương trình: 10FeSO4 + 2KMnO4 + 8H2SO4 → 5Fe2(SO4)3 + K2SO4 + 2MnSO4 + 8H2O. Đúng hay sai?",
+ideas: [
+"a. Dung dịch KMnO4 được cho vào bình tam giác khi chuẩn độ.",
+"b. Dung dịch muối Fe2+ được cho vào burette.",
+"c. Phản ứng là phản ứng oxi hoá – khử.",
+"d. Khi kết thúc chuẩn độ, dung dịch hồng tồn tại bền ~20 giây do lượng nhỏ KMnO4 dư."
+],
+answers: ["Sai", "Sai", "Đúng", "Đúng"],
+img: "none",
+explain: "a, b) Sai — dung dịch KMnO4 được cho vào burette, Fe2+ trong bình chuẩn độ; c) Đúng — đây là phản ứng oxi hoá khử; d) Đúng — màu hồng tạm thời do KMnO4 dư rất ít."
+},
+{
+question: "Câu 21: (SBT – KNTT) Mỗi phát biểu về phức chất aqua của Fe3+ đúng hay sai?",
+ideas: [
+"a. Công thức phức chất là [Fe(H2O)6]2+.",
+"b. Phức chất có điện tích +2.",
+"c. Số phối tử trong phức chất là 6.",
+"d. Liên kết hình thành do H2O cho cặp electron chưa liên kết vào Fe3+."
+],
+answers: ["Sai", "Sai", "Đúng", "Đúng"],
+img: "none",
+explain: "a, b) Sai — phức chất của Fe3+ là [Fe(H2O)6]3+, điện tích +3; c, d) Đúng — 6 phối tử H2O liên kết σ với Fe3+."
+},
+{
+question: "Câu 22: (SBT – KNTT) Xét phản ứng: [Cu(H2O)6]2+ + NH3 → [Cu(NH3)(H2O)5]2+. Đúng hay sai?",
+ideas: [
+"a. Phản ứng là oxi hoá – khử.",
+"b. 1 phối tử H2O bị thế bởi 1 phối tử NH3.",
+"c. Dấu hiệu phức chất tạo thành là kết tủa.",
+"d. Phức chất mới có tổng 6 phối tử."
+],
+answers: ["Sai", "Đúng", "Sai", "Đúng"],
+img: "none",
+explain: "a) Sai — đây là phản ứng thế phối tử; b) Đúng — NH3 thay thế 1 H2O; c) Sai — không có kết tủa; d) Đúng — tổng 6 phối tử."
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            }, /*ex3*/ {
+                type: 'ex3',
+                questions: [
+    {
+        question: "Câu 23: (SBT – CD) Số electron độc thân của nguyên tử cobalt (Z = 27) là bao nhiêu?",
+        img: "none",
+        answers: ["3"],
+        explain: "Cấu hình Co: 1s2 2s2 2p6 3s2 3p6 3d7 4s2 → có 3 electron độc thân trong 3d7."
+    },
+    {
+        question: "Câu 24: (SBT – KNTT) Cho dung dịch NH3 đặc vào dung dịch phức chất [PtCl4]2– thu được phức chất có điện tích +1. Số lượng phối tử Cl– đã bị thay thế bởi NH3 là bao nhiêu?",
+        img: "none",
+        answers: ["3"],
+        explain: "Phức chất tạo thành: [Pt(NH3)3Cl]+ → 3 Cl– bị thay thế."
+    },
+    {
+        question: "Câu 25: (HTHH) Chuẩn độ 5,00 mL dung dịch FeSO4 nồng độ a M trong H2SO4 cần vừa đủ 4,50 mL dung dịch KMnO4 0,02 M. Giá trị của a là bao nhiêu?",
+        img: "none",
+        answers: ["0.09"],
+        explain: "Tính n_FeSO4 từ n_KMnO4 và tỉ lệ phản ứng → a ≈ 0,09 M."
+    },
+    {
+        question: "Câu 26: (OLTN) Phức chất [Co(NH3)6]Cl3. Nguyên tử trung tâm cobalt có số oxi hoá +x. Xác định giá trị của x.",
+        img: "none",
+        answers: ["3"],
+        explain: "Phức [Co(NH3)6]Cl3: 3 Cl– → Co3+."
+    },
+    {
+        question: "Câu 27: (HTHH) Cho các phức chất hoặc ion phức chất của platinum: [Pt(H2O)4]2+, [Pt(NH3)4]2+, [PtCl2(NH3)2], [PtCl6]2–. Có bao nhiêu phức chất có dạng hình học bát diện?",
+        img: "none",
+        answers: ["1"],
+        explain: "Chỉ [Pt(H2O)4]2+ có dạng hình học bát diện (octahedral)."
+    },
+    {
+        question: "Câu 28: (OLTN) Mỗi mmol KMnO4 chênh lệch giữa thí nghiệm 1 và thí nghiệm 2 tương ứng với bao nhiêu mg NO3– trong nước?",
+        img: "none",
+        answers: ["38.8"],
+        explain: "Từ phản ứng khử NO3– → tính khối lượng NO3– tương ứng với 1 mmol KMnO4 → 38,8 mg."
+    }
+]
 
 
 

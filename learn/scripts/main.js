@@ -1,5 +1,5 @@
-// let units = JSON.parse(localStorage.getItem('units')) || [
-let units = [
+let units = JSON.parse(localStorage.getItem('units')) || [
+// let units = [
     { /*ester*/
         id: 1,
         name: "Ester",
@@ -53,7 +53,7 @@ let units = [
                 isDone: 'notdone',
                 type: "ex3"
             }, {
-                name: "Phần Lipiq",
+                name: "Phần Lipid",
                 isDone: 'done',
                 type: "theory"
             }, {
@@ -791,6 +791,224 @@ let units = [
                 type: "ex3"
             },
         ]
+    }, { /* NGUYÊN TỐ NHÓM IA VÀ NHÓM IIA */
+        id: 7,
+        name: "NGUYÊN TỐ NHÓM IA VÀ NHÓM IIA ",
+        levels: [
+            {
+                partName: "NGUYÊN TỐ NHÓM IA",
+                name: "Lí thuyết",
+                isDone: 'done',
+                type: "theory"
+            }, {
+                name: "Trắc nghiệm nhiều phương án lựa chọn (ĐƠN CHẤT KIM LOẠI KIỀM)",
+                isDone: 'notdone',
+                type: "ex1"
+            }, {
+                name: "Trắc nghiệm nhiều phương án lựa chọn (HỢP CHẤT KIM LOẠI KIỀM)",
+                isDone: 'notdone',
+                type: "ex1"
+            }, {
+                name: "Trắc nghiệm đúng – sai",
+                isDone: 'notdone',
+                type: "ex2"
+            }, {
+                name: "Trắc nghiệm trả lời ngắn",
+                isDone: 'notdone',
+                type: "ex3"
+            }, {
+                partName: "NGUYÊN TỐ NHÓM IIA",
+                name: "Lí thuyết",
+                isDone: 'done',
+                type: "theory"
+            }, {
+                name: "Trắc nghiệm nhiều phương án lựa chọn (KIM LOẠI KIỀM THỔ)",
+                isDone: 'notdone',
+                type: "ex1"
+            }, {
+                name: "Trắc nghiệm nhiều phương án lựa chọn (HỢP CHẤT KIM LOẠI KIỀM THỔ)",
+                isDone: 'notdone',
+                type: "ex1"
+            }, {
+                name: "Trắc nghiệm nhiều phương án lựa chọn (NƯỚC CỨNG)",
+                isDone: 'notdone',
+                type: "ex1"
+            }, {
+                name: "Trắc nghiệm đúng – sai",
+                isDone: 'notdone',
+                type: "ex2"
+            }, {
+                name: "Trắc nghiệm trả lời ngắn",
+                isDone: 'notdone',
+                type: "ex3"
+            }, {
+                partName: "DẠNG 1: SƠ ĐỒ - CHUỔI PHẢN ỨNG",
+                name: "Trắc nghiệm nhiều phương án lựa chọn",
+                isDone: 'notdone',
+                type: "ex1"
+            }, {
+                partName: "DẠNG 2: KIM LOẠI KIỀM, KIỀM THỔ TÁC DỤNG VỚI NƯỚC",
+                name: "Lí thuyết",
+                isDone: 'done',
+                type: "theory"
+            }, {
+                name: "Trắc nghiệm nhiều phương án lựa chọn (KIM LOẠI KIỀM THỔ)",
+                isDone: 'notdone',
+                type: "ex1"
+            }, {
+                partName: "DẠNG 3: DẠNG TOÁN CO2 TÁC DỤNG VỚI DUNG DỊCH KIỀM",
+                name: "Lí thuyết",
+                isDone: 'done',
+                type: "theory"
+            }, {
+                name: "Trắc nghiệm nhiều phương án lựa chọn (KIM LOẠI KIỀM THỔ)",
+                isDone: 'notdone',
+                type: "ex1"
+            }, {
+                partName: "DẠNG 4: MUỐI CARBONATE TÁC DỤNG VỚI ACID",
+                name: "Lí thuyết",
+                isDone: 'done',
+                type: "theory"
+            }, {
+                name: "Trắc nghiệm nhiều phương án lựa chọn (KIM LOẠI KIỀM THỔ)",
+                isDone: 'notdone',
+                type: "ex1"
+            }, {
+                partName: "DẠNG 5: BÀI TOÁN TỔNG HỢP MUỐI CARBONATE",
+                name: "Lí thuyết",
+                isDone: 'done',
+                type: "theory"
+            }, {
+                name: "Trắc nghiệm nhiều phương án lựa chọn (KIM LOẠI KIỀM THỔ)",
+                isDone: 'notdone',
+                type: "ex1"
+            }, {
+                partName: "ĐỀ ÔN TẬP CHƯƠNG SỐ 01",
+                name: "Phương pháp",
+                isDone: 'done',
+                type: "name"
+            }, {
+                name: "Bài tập vận dụng (Trắc nghiệm lựa chọn)",
+                isDone: 'notdone',
+                type: "ex1"
+            }, {
+                name: "Bài tập vận dụng (Trắc nghiệm đúng sai)",
+                isDone: 'notdone',
+                type: "ex2"
+            }, {
+                name: "Bài tập vận dụng (Tự luận trả lời ngắn)",
+                isDone: 'notdone',
+                type: "ex3"
+            }, {
+                partName: "ĐỀ ÔN TẬP CHƯƠNG SỐ 02",
+                name: "Phương pháp",
+                isDone: 'done',
+                type: "name"
+            }, {
+                name: "Bài tập vận dụng (Trắc nghiệm lựa chọn)",
+                isDone: 'notdone',
+                type: "ex1"
+            }, {
+                name: "Bài tập vận dụng (Trắc nghiệm đúng sai)",
+                isDone: 'notdone',
+                type: "ex2"
+            }, {
+                name: "Bài tập vận dụng (Tự luận trả lời ngắn)",
+                isDone: 'notdone',
+                type: "ex3"
+            },
+        ]
+    }, { /* SƠ LƯỢC VỀ KIM LOẠI CHUYỂN TIẾP THỨ NHẤT VÀ PHỨC CHẤT */ 
+        id: 8,
+        name: "SƠ LƯỢC VỀ KIM LOẠI CHUYỂN TIẾP THỨ NHẤT VÀ PHỨC CHẤT",
+        levels: [
+            {
+                partName: "ĐẠI CƯƠNG VỀ KIM LOẠI CHUYỂN TIẾP THỨ NHẤT",
+                name: "Lí thuyết",
+                isDone: 'done',
+                type: "theory"
+            }, {
+                name: "Trắc nghiệm nhiều phương án lựa chọn",
+                isDone: 'notdone',
+                type: "ex1"
+            }, {
+                name: "Trắc nghiệm đúng – sai",
+                isDone: 'notdone',
+                type: "ex2"
+            }, {
+                name: "Trắc nghiệm trả lời ngắn",
+                isDone: 'notdone',
+                type: "ex3"
+            }, {
+                partName: "SƠ LƯỢC VỀ PHỨC CHẤT",
+                name: "Lí thuyết",
+                isDone: 'done',
+                type: "theory"
+            }, {
+                name: "Trắc nghiệm nhiều phương án lựa chọn",
+                isDone: 'notdone',
+                type: "ex1"
+            }, {
+                name: "Trắc nghiệm đúng – sai",
+                isDone: 'notdone',
+                type: "ex2"
+            }, {
+                name: "Trắc nghiệm trả lời ngắn",
+                isDone: 'notdone',
+                type: "ex3"
+            }, {
+                partName: "MỘT SỐ TÍNH CHẤT VÀ ỨNG DỤNG CỦA PHỨC CHẤT",
+                name: "Lí thuyết",
+                isDone: 'done',
+                type: "theory"
+            }, {
+                name: "Trắc nghiệm nhiều phương án lựa chọn",
+                isDone: 'notdone',
+                type: "ex1"
+            }, {
+                name: "Trắc nghiệm đúng – sai",
+                isDone: 'notdone',
+                type: "ex2"
+            }, {
+                name: "Trắc nghiệm trả lời ngắn",
+                isDone: 'notdone',
+                type: "ex3"
+            }, {
+                partName: "ĐỀ ÔN TẬP CHƯƠNG SỐ 01",
+                name: "Lí thuyết",
+                isDone: 'done',
+                type: "name"
+            }, {
+                name: "Trắc nghiệm nhiều phương án lựa chọn",
+                isDone: 'notdone',
+                type: "ex1"
+            }, {
+                name: "Trắc nghiệm đúng – sai",
+                isDone: 'notdone',
+                type: "ex2"
+            }, {
+                name: "Trắc nghiệm trả lời ngắn",
+                isDone: 'notdone',
+                type: "ex3"
+            }, {
+                partName: "ĐỀ ÔN TẬP CHƯƠNG SỐ 02",
+                name: "Lí thuyết",
+                isDone: 'done',
+                type: "name"
+            }, {
+                name: "Trắc nghiệm nhiều phương án lựa chọn",
+                isDone: 'notdone',
+                type: "ex1"
+            }, {
+                name: "Trắc nghiệm đúng – sai",
+                isDone: 'notdone',
+                type: "ex2"
+            }, {
+                name: "Trắc nghiệm trả lời ngắn",
+                isDone: 'notdone',
+                type: "ex3"
+            },
+        ]
     }
 ];
 
@@ -806,73 +1024,197 @@ if (mark_pr === 'true') {
     localStorage.setItem('units', JSON.stringify(units));
 }
 
+// --- RENDER MID LAYOUT ONCE ---
+// Call this once before rendering units to create columns (content + toc)
+function renderMidLayout() {
+    const mid = document.querySelector('.mid-section');
+    mid.innerHTML = `
+      <div class="mid-wrap">
+        <main class="mid-content" aria-live="polite"></main>
+        <aside class="toc sticky" aria-label="Mục lục chương học">
+          <div class="toc-title">Mục lục</div>
+          <div class="toc-list" role="list"></div>
+        </aside>
+      </div>
+    `;
+    // if mid-section should be scroll container for scroll memory, add class
+    // If mid content taller than viewport, we want mid-section to scroll
+    // (scroll memory script will auto-detect .mid-section)
+    // Optionally: mid.classList.add('has-scroll');
+}
+
+// --- DISPLAY UNITS INTO .mid-content (units array is global) ---
 function displayUnits() {
-    let html = ``;
+    // ensure layout exists
+    if (!document.querySelector('.mid-wrap')) renderMidLayout();
+
+    const content = document.querySelector('.mid-content');
+    content.innerHTML = ''; // reset
+
     units.forEach((unit, index) => {
         const { id, name, levels } = unit;
-        html += `
-            <div class="unit">
-                <div class="unit-line">
-                    <div class="unit-name">
-                        ${id}: ${name}
-                    </div>
-                </div>        
-                <div class="unit-levels">
+        // create container with id for scrolling target
+        const unitEl = document.createElement('section');
+        unitEl.className = 'unit';
+        unitEl.id = `unit-${id}`;
+        unitEl.setAttribute('data-unit-index', index);
+        unitEl.setAttribute('tabindex', '-1'); // allow focus on scroll
+
+        // unit header
+        const header = document.createElement('div');
+        header.className = 'unit-line';
+        header.innerHTML = `
+            <div class="unit-name">
+                ${id}: ${name}
+            </div>
         `;
+
+        // levels list
+        const levelsWrap = document.createElement('div');
+        levelsWrap.className = 'unit-levels';
+
         levels.forEach((level, idx) => {
-            html += `
-                <div class="level">
-                    ${level.type === "theory" || level.type === "name" ? `<div class="part-name">${level.partName ?? level.name}</div>` : ""}
-                    ${level.type !== "name" ? `
-                        <div class="level-btn ${level.isDone}-level">
-                            <img src="../assets/images/${level.type}-logo.svg" class="level-logo">
+            const levelEl = document.createElement('div');
+            levelEl.className = 'level';
+
+            // part-name (if theory/name)
+            const partHtml = (level.type === "theory" || level.type === "name") ? 
+                `<div class="part-name">${level.partName ?? level.name}</div>` : '';
+
+            levelEl.innerHTML = `
+                ${partHtml}
+                ${level.type !== "name" ? `
+                    <div class="level-row" style="display:flex;align-items:center;gap:12px;">
+                        <div class="level-btn ${level.isDone}-level" role="button" aria-pressed="false" data-unit="${id}" data-level="${idx}">
+                            <img src="../assets/images/${level.type}-logo.svg" class="level-logo" alt="${level.type}">
                         </div>
-                        <div class="intro-level">
+                        <div class="intro-level" style="display:flex;flex-direction:column;align-items:flex-start;">
                             <span class="level-name">${level.name}</span>
                             <a class="start-btn" href="lesson/lesson.html?unit=${id}&level=${idx}&type=${level.type}">Bắt đầu</a>
                         </div>
-                    ` : ""}                   
-                </div>
+                    </div>
+                ` : ''
+                }
             `;
+            levelsWrap.appendChild(levelEl);
         });
-        html += `
-                </div>
-            </div>
-        `;
+
+        unitEl.appendChild(header);
+        unitEl.appendChild(levelsWrap);
+        content.appendChild(unitEl);
     });
-    document.querySelector('.mid-section')
-        .innerHTML = html;
+
+    // after DOM built, attach existing click behaviors for .level-btn
+    attachLevelBtnEvents();
 }
 
-function addEvent() {
-    // Lấy tất cả các level-btn có trạng thái unlock
+// --- attachLevelBtnEvents : reuse existing UI behavior for level-btn click show intro ---
+function attachLevelBtnEvents() {
     const levelButtons = document.querySelectorAll('.level-btn');
 
-    levelButtons.forEach((btn, idx) => {
+    levelButtons.forEach((btn) => {
         btn.addEventListener('click', () => {
-            // Ẩn tất cả các intro-level
+            // hide other intros
             document.querySelectorAll('.intro-level').forEach(intro => {
                 intro.classList.remove('show');
                 intro.style.display = 'none';
             });
 
-            // Hiển thị intro-level tương ứng
-            console.log('show');
-            const introLevel = btn.nextElementSibling;
+            // show this intro
+            const introLevel = btn.parentElement.querySelector('.intro-level') || btn.nextElementSibling;
             if (introLevel) {
-                introLevel.style.display = 'flex'; // Hiển thị flex trước
-                requestAnimationFrame(() => {
-                    introLevel.classList.add('show'); // Thêm hiệu ứng phóng to
-                });
+                introLevel.style.display = 'flex';
+                requestAnimationFrame(() => introLevel.classList.add('show'));
             }
         });
     });
 }
 
-// Gọi hàm sau khi hiển thị nội dung
-// resetUnits();
-displayUnits();
-addEvent();
+// --- CREATE TOC ---
+// Build the TOC from units[] and insert into .toc-list
+function createTOC() {
+    const tocList = document.querySelector('.toc-list');
+    if (!tocList) return;
+
+    tocList.innerHTML = ''; // reset
+    units.forEach((unit) => {
+        const btn = document.createElement('button');
+        btn.className = 'toc-item';
+        btn.setAttribute('role', 'listitem');
+        btn.setAttribute('data-target', `unit-${unit.id}`);
+        btn.innerHTML = `<span class="index">${unit.id}</span><span class="title">${unit.name}</span>`;
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            const targetId = btn.getAttribute('data-target');
+            const targetEl = document.getElementById(targetId);
+            if (!targetEl) return;
+
+            // Determine scroll container (mid-section or window)
+            const mid = document.querySelector('.mid-section');
+            const isMidScrollable = mid && mid.scrollHeight > mid.clientHeight;
+
+            if (isMidScrollable) {
+                // compute position of targetEl relative to mid
+                const rect = targetEl.getBoundingClientRect();
+                const midRect = mid.getBoundingClientRect();
+                const offset = rect.top - midRect.top + mid.scrollTop - 24; // 24px padding offset
+                mid.scrollTo({ top: offset, behavior: 'smooth' });
+                // focus for accessibility
+                targetEl.focus({ preventScroll: true });
+            } else {
+                // use window scroll, adjust 110px for header/top-section height
+                const rect = targetEl.getBoundingClientRect();
+                const top = window.scrollY + rect.top - 110;
+                window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+                targetEl.focus({ preventScroll: true });
+            }
+        });
+        tocList.appendChild(btn);
+    });
+}
+
+// --- Highlight active TOC item on scroll using IntersectionObserver ---
+function initTocObserver() {
+    const mid = document.querySelector('.mid-section');
+    const root = (mid && mid.scrollHeight > mid.clientHeight) ? mid : null; // null -> viewport
+    const options = {
+        root: root,
+        rootMargin: '0px 0px -40% 0px', // triggers when element crosses ~60% from top
+        threshold: 0.2
+    };
+    const tocItems = document.querySelectorAll('.toc-item');
+
+    function clearActive() {
+        tocItems.forEach(it => it.classList.remove('active'));
+    }
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const id = entry.target.id;
+                clearActive();
+                const activeBtn = document.querySelector(`.toc-item[data-target="${id}"]`);
+                if (activeBtn) activeBtn.classList.add('active');
+            }
+        });
+    }, options);
+
+    // observe each .unit
+    document.querySelectorAll('.unit').forEach(unitEl => observer.observe(unitEl));
+}
+
+// --- Initialize everything: render, display, toc, observer ---
+function initUnitsWithTOC() {
+    renderMidLayout();
+    displayUnits();
+    createTOC();
+    initTocObserver();
+}
+
+// call this once (instead of previous displayUnits(); addEvent();)
+initUnitsWithTOC();
+
+
 
 /* ===== Scroll memory: lưu & khôi phục Y liên tục (dùng cho file hiện tại) ===== */
 (function () {

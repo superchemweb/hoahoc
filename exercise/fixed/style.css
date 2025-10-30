@@ -200,7 +200,7 @@ html,body{ height:100%; margin:0; background: linear-gradient(180deg,var(--bg), 
 
 /* selected state (toggle from JS by adding .selected) */
 .question-ex1 .choice.selected{
-  background: linear-gradient(180deg, rgba(99,102,241,0.12), rgba(6,182,212,0.06));
+  background: linear-gradient(180deg, rgba(8, 12, 206, 0.12), rgba(6,182,212,0.06));
   box-shadow: 0 10px 30px rgba(99,102,241,0.08);
   color: var(--text);
   transform: translateY(-2px);
@@ -313,7 +313,7 @@ html,body{ height:100%; margin:0; background: linear-gradient(180deg,var(--bg), 
 .question-ex1 .choice.selected,
 .true-choice.selected,
 .false-choice.selected {
-  background: linear-gradient(180deg, rgba(99,102,241,0.28), rgba(6,182,212,0.18));
+  background: linear-gradient(180deg, rgba(7, 11, 236, 0.28), rgba(6,182,212,0.18));
   box-shadow: 0 14px 36px rgba(99,102,241,0.14);
   color: #ffffff;
   transform: translateY(-4px);
@@ -538,7 +538,7 @@ html,body{ height:100%; margin:0; background: linear-gradient(180deg,var(--bg), 
 }
 /* placeholder for unanswered short answer */
 .ex3-answer input.unanswered::placeholder {
-  color: #b45309; /* amber/dark orange */
+  color: #00000025; /* amber/dark orange */
   font-weight: 700;
 }
 
@@ -589,7 +589,7 @@ html,body{ height:100%; margin:0; background: linear-gradient(180deg,var(--bg), 
 .question-ex1 .choice.selected,
 .true-choice.selected,
 .false-choice.selected {
-  background: linear-gradient(180deg, rgba(96,165,250,0.16), rgba(52,211,153,0.08));
+  background: linear-gradient(180deg, rgba(131, 171, 245, 0.473), rgba(127, 224, 248, 0.336));
   color: #05333a; /* dark-teal text for contrast but not pure black */
   box-shadow: 0 8px 22px rgba(2,6,23,0.06);
   transform: translateY(-3px);
@@ -649,7 +649,7 @@ html,body{ height:100%; margin:0; background: linear-gradient(180deg,var(--bg), 
   background: linear-gradient(180deg, rgba(249,115,22,0.02), rgba(255,255,255,0.01));
 }
 .ex3-answer input.unanswered::placeholder {
-  color: #92400e;
+  color: #46464600;
   font-weight:700;
 }
 
@@ -662,7 +662,7 @@ html,body{ height:100%; margin:0; background: linear-gradient(180deg,var(--bg), 
   font-weight:700;
   font-size:13px;
   background: linear-gradient(180deg, rgba(96,165,250,0.05), rgba(52,211,153,0.03));
-  color: #05333a;
+  color: #03b84f;
   border: 1px solid rgba(96,165,250,0.06);
 }
 
@@ -721,7 +721,7 @@ html,body{ height:100%; margin:0; background: linear-gradient(180deg,var(--bg), 
   width: 22px;
   height: 22px;
   border-radius: 999px;
-  background: rgba(96,165,250,0.12); /* sáng, nhẹ */
+  background: rgba(25, 112, 219, 0.12); /* sáng, nhẹ */
   z-index: -1;
 }
 
@@ -758,7 +758,7 @@ html,body{ height:100%; margin:0; background: linear-gradient(180deg,var(--bg), 
   border: 1px solid rgba(249,115,22,0.06);
 }
 .status-badge.unanswered {
-  background: rgba(15,23,42,0.04);
+  background: rgba(9, 38, 104, 0.04);
   color: var(--muted);
   border: 1px solid rgba(15,23,42,0.03);
 }
@@ -772,7 +772,7 @@ html,body{ height:100%; margin:0; background: linear-gradient(180deg,var(--bg), 
   font-weight:700;
   font-size:13px;
   background: linear-gradient(180deg, rgba(96,165,250,0.05), rgba(52,211,153,0.03));
-  color: #05333a;
+  color: #16a592;
   border: 1px solid rgba(96,165,250,0.06);
   white-space: normal;
   word-break: break-word; /* break long content so it's visible */
@@ -783,13 +783,13 @@ html,body{ height:100%; margin:0; background: linear-gradient(180deg,var(--bg), 
 .choice.selected,
 .true-choice.selected,
 .false-choice.selected {
-  background: linear-gradient(180deg, rgba(96,165,250,0.16), rgba(52,211,153,0.08));
+  background: linear-gradient(180deg, rgba(19, 114, 231, 0.16), rgba(52,211,153,0.08));
   color: #05333a;
 }
-.choice.correct { background: linear-gradient(180deg, rgba(16,185,129,0.12), rgba(16,185,129,0.04)); color:#064e3b; }
-.choice.wrong { background: linear-gradient(180deg, rgba(250,204,21,0.10), rgba(249,115,22,0.04)); color:#6b2a07; }
-.true-choice.correct, .false-choice.correct { background: linear-gradient(180deg, rgba(16,185,129,0.12), rgba(16,185,129,0.04)); color:#064e3b; }
-.true-choice.wrong, .false-choice.wrong { background: linear-gradient(180deg, rgba(250,204,21,0.10), rgba(249,115,22,0.04)); color:#6b2a07; }
+.choice.correct { background: linear-gradient(180deg, rgba(15, 212, 146, 0.74), rgba(16,185,129,0.04)); color:#064e3b; }
+.choice.wrong { background: linear-gradient(180deg, rgba(212, 10, 54, 0.63), rgba(249,115,22,0.04)); color:#6b2a07; }
+.true-choice.correct, .false-choice.correct { background: linear-gradient(180deg, rgba(15, 212, 146, 0.74), rgba(16,185,129,0.04)); color:#064e3b; }
+.true-choice.wrong, .false-choice.wrong { background: linear-gradient(180deg, rgba(212, 10, 54, 0.63), rgba(249,115,22,0.04)); color:#6b2a07; }
 
 /* ensure transitions smooth */
 .choice, .true-choice, .false-choice {

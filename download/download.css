@@ -1,0 +1,142 @@
+/* ========== RESET & BASE ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #e8f0ff, #ffffff);
+    color: #222;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* ========== TOP SECTION ========== */
+.top-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    max-width: 1100px;
+    padding: 25px 40px;
+    margin: 40px auto 20px auto;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #4fc3f7, #1976d2);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(12px);
+    transition: all 0.3s ease;
+}
+
+.top-section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* ========== LEARN LINK ========== */
+.learn-link {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.25s ease;
+}
+
+.learn-link:hover {
+    background: white;
+    transform: scale(1.05);
+}
+
+/* ========== TITLE ========== */
+h1 {
+    flex: 1;
+    text-align: center;
+    color: #fff;
+    font-size: 2.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* ========== MID SECTION ========== */
+.mid-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 60px;
+}
+
+/* ========== VERSION CONTAINER ========== */
+.version-container {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    width: 85%;
+    max-width: 1000px;
+    padding: 30px 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.version-container:hover {
+    transform: translateY(-2px);
+}
+
+/* ========== TABLE STYLE ========== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+th {
+    background: linear-gradient(135deg, #42a5f5, #1e88e5);
+    color: white;
+    padding: 15px;
+    letter-spacing: 0.05em;
+}
+
+td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+tr:nth-child(even) {
+    background-color: rgba(240, 247, 255, 0.7);
+}
+
+tr:hover {
+    background-color: rgba(223, 240, 255, 0.9);
+    transition: background-color 0.2s ease;
+}
+
+/* ========== BUTTON LINK ========== */
+td a {
+    text-decoration: none;
+    background: linear-gradient(135deg, #00c6a7, #0072ff);
+    color: white;
+    font-weight: 500;
+    padding: 8px 20px;
+    border-radius: 12px;
+    display: inline-block;
+    transition: all 0.25s ease;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+td a:hover {
+    transform: scale(1.08);
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.25);
+}
