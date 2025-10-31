@@ -458,7 +458,6 @@ if (type === 'theory') {
 } else if (type === 'ex3') {
     const screen = document.querySelector('.screen');
 
-    // Giao diện tổng thể
     screen.innerHTML = `
         <div class="header">
             <h1 class="title">Luyện tập - Tự luận trả lời ngắn</h1>
@@ -486,10 +485,16 @@ if (type === 'theory') {
     let point = 0;
     let lessonQueue = [...questions];
 
-    const checkButton = document.querySelector('.check-btn');
-    const continueButton = document.querySelector('.continue-btn');
-
+    // NOTE: don't cache these here — re-query inside displayQuestion to avoid stale refs
     function displayQuestion() {
+        // re-query buttons each time (safer)
+        const checkButton = document.querySelector('.check-btn');
+        const continueButton = document.querySelector('.continue-btn');
+        if (!checkButton || !continueButton) {
+            console.warn('Cannot find check/continue buttons');
+            return;
+        }
+
         if (lessonQueue.length === 0) {
             alert("Bạn đã hoàn thành tất cả câu hỏi!");
             document.location.href = `../learn.html?mark=true&unit=${unit}&level=${level}`;
@@ -501,13 +506,15 @@ if (type === 'theory') {
         const explain = document.querySelector('.explain');
 
         explain.innerHTML = '';
+        // đảm bảo ẩn lại mỗi lần hiện câu mới
         continueButton.classList.add('hide');
+        // as fallback (in case CSS .hide không được remove properly), reset inline display
+        continueButton.style.display = 'none';
 
         // Ảnh minh họa
         const imgHTML = q.img && q.img !== 'none' ?
             `<img src="${q.img}" alt="image" class="question-img">` : '';
 
-        // Hiển thị câu hỏi + input
         block.innerHTML = `
             <div class="question-title">${q.question}</div>
             ${imgHTML}
@@ -536,9 +543,7 @@ if (type === 'theory') {
             try {
                 const audio = new Audio(`../../assets/sounds/${isCorrect ? 'true' : 'false'}.mp3`);
                 audio.play();
-            } catch (e) {
-                // ignore
-            }
+            } catch (e) {}
 
             // Hiệu ứng màu input
             inputEl.style.backgroundColor = isCorrect ? 'rgba(76,175,80,0.2)' : 'rgba(244,67,54,0.2)';
@@ -559,20 +564,30 @@ if (type === 'theory') {
 
             animateProgressBar(maxPoint - lessonQueue.length, maxPoint);
 
-            updateProgressBar = null; // no-op (kept from older patterns)
             // Hiển thị giải thích
             explain.innerHTML = `<div class="explain-text">${q.explain}</div>`;
 
-            // Hiện nút tiếp tục
+            // Debug: kiểm tra object continueButton trước khi hiển thị
+            console.log('About to show continue button, isCorrect=', isCorrect, 'continueButton=', continueButton);
+
+            // Hiện nút tiếp tục — remove class + force inline display
             continueButton.classList.remove('hide');
+            continueButton.style.display = ''; // reset inline style (fallback)
+            // nếu CSS đặt opacity/visibility, đảm bảo visible
+            continueButton.style.opacity = 1;
         };
     }
 
-    // Nút tiếp tục
-    continueButton.onclick = displayQuestion;
+    // Nút tiếp tục: bind once (vì chúng ta vẫn re-query và remove/hide class)
+    document.addEventListener('click', (e) => {
+        if (e.target && e.target.classList && e.target.classList.contains('continue-btn')) {
+            // gọi displayQuestion để load câu kế
+            displayQuestion();
+        }
+    });
 
     // initial render
     animateProgressBar(0, maxPoint);
-    // Hiển thị câu đầu tiên
     displayQuestion();
 }
+
